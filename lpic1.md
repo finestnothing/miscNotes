@@ -1,6 +1,6 @@
 # LPIC-1 Training Notes
 
-https://learning.lpi.org/en/learning-materials/101-500/
+[Link to training](https://learning.lpi.org/en/learning-materials/101-500/)
 
 - [LPIC-1 Training Notes](#lpic-1-training-notes)
   - [101.1-Determine and Configure Hardware Settings](#1011-determine-and-configure-hardware-settings)
