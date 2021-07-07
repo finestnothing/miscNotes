@@ -1,5 +1,7 @@
 # LPIC-1 Training Notes
 
+[Jump back to list of notes](../README.md)
+
 [Link to training](https://learning.lpi.org/en/learning-materials/101-500/)
 
 - [LPIC-1 Training Notes](#lpic-1-training-notes)
