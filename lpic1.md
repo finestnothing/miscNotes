@@ -7,7 +7,7 @@ https://learning.lpi.org/en/learning-materials/101-500/
     - [Device Inspection](#device-inspection)
     - [Commands for Inspection](#commands-for-inspection)
   - [101.2 - System Boot](#1012---system-boot)
-  - [Grub Commands](#grub-commands)
+    - [Grub Commands](#grub-commands)
 
 ## 101.1-Determine and Configure Hardware Settings
 
@@ -30,7 +30,7 @@ Can use `-d [id]` to display detailed info about one device
 
 To access GRUB - Press `shift` while booting from BIOS, `esc` when booting from UEFI
 
-## Grub Commands
+### Grub Commands
 
 - `acpi`: Enables/ disables ACPI support. `acpi=off` to disable support for acpi
 - `init`: Sets an alternative initiator for the system. `init=/bin/bash` sets bash to the initiator so a shell session will start before OS
