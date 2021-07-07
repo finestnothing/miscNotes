@@ -4,7 +4,7 @@
 
 - [Table of Contents](#table-of-contents)
   - [Fall 2021 Notes](#fall-2021-notes)
-    - [CSc 133 - Object Oriented COmputer Graphics Programming](#csc-133---object-oriented-computer-graphics-programming)
+    - [CSc 133 - Object Oriented Computer Graphics Programming mainNotes](#csc-133---object-oriented-computer-graphics-programming-mainnotes)
     - [CSc 138 - Computer Networking Fundamentals](#csc-138---computer-networking-fundamentals)
     - [CSc 139 - Operating System Principles](#csc-139---operating-system-principles)
     - [CSc 180 - Intelligent Systems](#csc-180---intelligent-systems)
@@ -15,7 +15,7 @@
 
 ## Fall 2021 Notes
 
-### CSc 133 - Object Oriented COmputer Graphics Programming
+### CSc 133 - Object Oriented Computer Graphics Programming [mainNotes](fall2021/CSc133/mainNotes.md)
 
 [mainNotes](fall2021/CSc133/mainNotes.md)
 
