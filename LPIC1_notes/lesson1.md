@@ -8,7 +8,7 @@
   - [101.1-Determine and Configure Hardware Settings](#1011-determine-and-configure-hardware-settings)
     - [Device Inspection](#device-inspection)
     - [Commands for Inspection](#commands-for-inspection)
-  - [101.2 - System Boot](#1012---system-boot)
+  - [101.2-System Boot](#1012-system-boot)
     - [Grub Commands](#grub-commands)
 
 ## 101.1-Determine and Configure Hardware Settings
@@ -28,7 +28,7 @@ Can use `-s` to show less information
 
 Can use `-d [id]` to display detailed info about one device
 
-## 101.2 - System Boot
+## 101.2-System Boot
 
 To access GRUB - Press `shift` while booting from BIOS, `esc` when booting from UEFI
 

@@ -46,4 +46,4 @@
 [Notes File](LPIC1_notes/lesson1.md)
 
 - [101.1 Determine and Configure Hardware](LPIC1_notes/lesson1.md#1011-determine-and-configure-hardware-settings)
-- [101.2 System Boot](LPIC1_notes/lesson1.md##1012---system-boot)
+- [101.2 System Boot](LPIC1_notes/lesson1.md#1012-system-boot))
