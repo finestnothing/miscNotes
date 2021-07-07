@@ -1,5 +1,7 @@
 # Table of Contents
 
+[Link to Github Pages View](https://finestnothing.github.io/notesRepo/)
+
 - [Table of Contents](#table-of-contents)
   - [Fall 2021 Notes](#fall-2021-notes)
     - [CSc 133 - Object Oriented COmputer Graphics Programming](#csc-133---object-oriented-computer-graphics-programming)
