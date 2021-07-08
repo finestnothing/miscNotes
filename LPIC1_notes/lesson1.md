@@ -10,6 +10,7 @@
     - [Commands for Inspection](#commands-for-inspection)
   - [101.2-System Boot](#1012-system-boot)
     - [Grub Commands](#grub-commands)
+  - [101.3-Change runlevels, boot targets, shutdown or reboot system](#1013-change-runlevels-boot-targets-shutdown-or-reboot-system)
 
 ## 101.1-Determine and Configure Hardware Settings
 
@@ -20,11 +21,11 @@ Otherwise, the issue is probably with the operating system.
 
 ### Commands for Inspection
 
-`lspci` - Show all devices connected to the PCI bus (motherboard). Could be disk controller or expansion card (external gpu)  
+`lspci` - Show all devices connected to the PCI bus (motherboard). Could be disk controller or expansion card (external gpu)
 
-`lsusb` - Show all devices connected to the machine VIA USB port  
+`lsusb` - Show all devices connected to the machine VIA USB port
 
-Can use `-s` to show less information  
+Can use `-s` to show less information
 
 Can use `-d [id]` to display detailed info about one device
 
@@ -43,3 +44,18 @@ To access GRUB - Press `shift` while booting from BIOS, `esc` when booting from 
 - `root`: Sets root partiton. `root=/dev/sda3`
 - `ro`: makes initial mount of the root filesystem be read-only
 - `rw`: allows writing in the initial boot of root filesystem
+
+## 101.3-Change runlevels, boot targets, shutdown or reboot system
+
+There needs to be a program to control the other programs. Historically, it was called SysVInit or Sys V. In modern distributions of linux, it is now a program called Systemd or Upstart.
+SysVinit is the standard now. The standard provides states, or runlevels, and their corresponding service scripts needed to run them. They range from 0 to 6 with the following common purposes:
+
+0. System shutdown
+1. Single user mode, no network or non-essential capabilities (maintenance mode)
+2. Not used often. If it is, implemented like 3.
+3. Multi-user mode. Can log in by console or network
+4. Not used often. If it is, implemented like 3.
+5. Equivalent to 3 but with a GUI login
+6. System restart
+
+The program that manages the run levels is `/sbin/init`. When the system is initialized, the `init` program identifies the requested run level (normally 5) from the kernal of `/etc/inittab`.
