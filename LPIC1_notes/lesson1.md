@@ -109,4 +109,4 @@ When `shutdown` is run, all processed receive the signals `SIGTERM` and `SIGKILL
 - `+m`: Specifies number of minutes to wait
 - `now` or `+0`: immediate execution
 
-The `message` field is the message sent to all users
+The `message` field is the message sent to all users before shutting down.
