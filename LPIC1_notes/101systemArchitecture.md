@@ -79,7 +79,7 @@ Scripts used by `init` are stored in the `/etc/init.d` directory, with each runl
 
 ### SystemD
 
-SystemD is the most widely used ste of tools to manage system resources, referred to as units. For example, the unit for a httpd server process (such as apache) is under the unit `httpd.service`. 
+SystemD is the most widely used ste of tools to manage system resources, referred to as units. For example, the unit for a httpd server process (such as apache) is under the unit `httpd.service`.
 There are seven distinct kinds of units:
 
 - `service`: most common unit. For active system resources that can be initiated, interrupted, and reloaded

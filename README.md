@@ -43,7 +43,9 @@
 
 ### Lesson 1
 
-- [101.1 Determine and Configure Hardware](/LPIC1_notes/101systemArchitecture.md#1011-determine-and-configure-hardware-settings)
-- [101.2 System Boot](/LPIC1_notes/101systemArchitecture.md#1012-system-boot)
-- [101.3-Change runlevels, boot targets, shutdown or reboot system](/LPIC1_notes/101systemArchitecture.md#1013-change-runlevels-boot-targets-shutdown-or-reboot-system)
-- [102.1 Design and Hard Disk Layout](/LPIC1_notes/102linuxInstall.md#1021-design-had-disk-layout)
+- 101
+  - [101.1 Determine and Configure Hardware](/LPIC1_notes/101systemArchitecture.md#1011-determine-and-configure-hardware-settings)
+  - [101.2 System Boot](/LPIC1_notes/101systemArchitecture.md#1012-system-boot)
+  - [101.3-Change runlevels, boot targets, shutdown or reboot system](/LPIC1_notes/101systemArchitecture.md#1013-change-runlevels-boot-targets-shutdown-or-reboot-system)
+- 102
+  - [102.1 Design and Hard Disk Layout](/LPIC1_notes/102linuxInstall.md#1021-design-had-disk-layout)
