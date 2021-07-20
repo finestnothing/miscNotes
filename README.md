@@ -49,3 +49,4 @@
   - [101.3-Change runlevels, boot targets, shutdown or reboot system](/LPIC1_notes/101systemArchitecture.md#1013-change-runlevels-boot-targets-shutdown-or-reboot-system)
 - 102
   - [102.1 Design and Hard Disk Layout](/LPIC1_notes/102linuxInstall.md#1021-design-had-disk-layout)
+  - [102.2 Install a Boot Manager](/LPIC1_notes/102linuxInstall.md#1022-install-a-boot-manager)
