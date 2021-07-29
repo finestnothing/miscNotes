@@ -1,0 +1,1462 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>2.3 Lesson 1</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">2.3 Lesson 1</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.2/index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.2/1.2_01/index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.3/index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.3/1.3_01/index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../2.1/index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../2.1/2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../2.1/2.1_02/index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.1/index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.1/3.1_01/index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.3/index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_01/index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.3/index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_02/index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.2/index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.2/5.2_01/index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.4/index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.4/5.4_01/index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 2: Finding Your Way on a Linux System</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">2.3 Using Directories and Listing Files</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">2.3 Lesson 1</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>2.3 Lesson 1</h1>
+          <div class="sect1">
+<h2 id="sec.2.3_01-IN">Introduction</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2 Finding Your Way on a Linux System</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.3 Using Directories and Listing Files</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 of 2</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="_files_and_directories">Files and Directories</h3>
+<div class="paragraph">
+<p>The Linux filesystem is similar to other operating system&#8217;s filesystems in that it contains <em>files</em> and <em>directories</em>. Files contain data such as human-readable text, executable programs, or binary data that is used by the computer. Directories are used to create organization within the filesystem. Directories can contain files and other directories.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>tree</strong>
+
+Documents
+├── Mission-Statement.txt
+└── Reports
+    └── report2018.txt
+
+1 directory, 2 files</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In this example, <code>Documents</code> is a directory that contains one file (<code>Mission-Statement.txt</code>) and one <em>subdirectory</em> (<code>Reports</code>). The <code>Reports</code> directory in turn contains one file called <code>report2018.txt</code>. The <code>Documents</code> directory is said to be the <em>parent</em> of the <code>Reports</code> directory.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>If the command <code>tree</code> is not available on your system, install it using your Linux distribution&#8217;s package manager. Refer to the lesson on package management to learn how to do so.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_file_and_directory_names">File and Directory Names</h3>
+<div class="paragraph">
+<p>File and directory names in Linux can contain lower case and upper case letters, numbers, spaces and special characters. However, since many special characters have a special meaning in the Linux shell, it is good practice to not use spaces or special characters when naming files or directories. Spaces, for example, need the <em>escape character</em> <code>\</code> to be entered correctly:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd Mission\ Statements</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Also, refer to the filename <code>report2018.txt</code>. Filenames can contain a <em>suffix</em> which comes after the period (<code>.</code>). Unlike Windows, this suffix has no special meaning in Linux; it is there for human understanding. In our example <code>.txt</code> indicates to us that this is a plaintext file, although it could technically contain any kind of data.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_navigating_the_filesystem">Navigating the Filesystem</h3>
+<div class="sect3">
+<h4 id="_getting_current_location">Getting Current Location</h4>
+<div class="paragraph">
+<p>Since Linux shells such as Bash are text-based, it is important to remember your current location when navigating the filesystem. The <em>command prompt</em> provides this information:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>user@hostname ~/Documents/Reports $</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note that information such as <code>user</code> and <code>hostname</code> will be covered in future sections. From the prompt, we now know that our current location is in the <code>Reports</code> directory. Similarly, the command <code>pwd</code> will <em>print working directory</em>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>user@hostname ~/Documents/Reports $ <strong>pwd</strong>
+/home/user/Documents/Reports</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The relationship of directories is represented with a forward slash (<code>/</code>). We know that <code>Reports</code> is a subdirectory of <code>Documents</code>, which is a subdirectory of <code>user</code>, which is located in a directory called <code>home</code>. <code>home</code> doesn&#8217;t seem to have a parent directory, but that is not true at all. The parent of <code>home</code> is called <em>root</em>, and is represented by the first slash (<code>/</code>). We will discuss the root directory in a later section.</p>
+</div>
+<div class="paragraph">
+<p>Notice that the output of the <code>pwd</code> command differs slightly from the path given on the command prompt. Instead of <code>/home/user</code>, the command prompt contains a tilde (<code>~</code>). The tilde is a special character that represents the user&#8217;s home directory. This will be covered in more detail in the next lesson.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_listing_directory_contents">Listing Directory Contents</h4>
+<div class="paragraph">
+<p>The contents of the current directory are listed with the <code>ls</code> command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>user@hostname ~/Documents/Reports $ <strong>ls</strong>
+report2018.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note that <code>ls</code> provides no information about the parent directory. Similarly, by default <code>ls</code> does not show any information about contents of subdirectories. <code>ls</code> can only &#8220;see&#8221; what is in the current directory.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_changing_current_directory">Changing Current Directory</h4>
+<div class="paragraph">
+<p>Navigation in Linux is primarily done with the <code>cd</code> command. This <em>changes directory</em>. Using the <code>pwd</code> command from before, we know our current directory is <code>/home/user/Documents/Reports</code>. We can change our current directory by entering a new path:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>user@hostname ~ $ <strong>cd /home/user/Documents</strong>
+user@hostname ~/Documents $ <strong>pwd</strong>
+/home/user/Documents
+user@hostname ~/Documents $ <strong>ls</strong>
+Mission-Statement.txt Reports</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>From our new location, we can &#8220;see&#8221; <code>Mission-Statement.txt</code> and our subdirectory <code>Reports</code>, but not the contents of our subdirectory. We can navigate back into <code>Reports</code> like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>user@hostname ~/Documents $ <strong>cd Reports</strong>
+user@hostname ~/Documents/Reports $ <strong>pwd</strong>
+/home/user/Documents/Reports
+user@hostname ~/Documents/Reports $ <strong>ls</strong>
+report2018.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We are now back where we started.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_absolute_and_relative_paths">Absolute and Relative Paths</h3>
+<div class="paragraph">
+<p>The <code>pwd</code> command always prints an <em>absolute path</em>. This means that the path contains every step of the path, from the top of the filesystem (<code>/</code>) to the bottom (<code>Reports</code>). Absolute paths always begin with a <code>/</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>/
+└── home
+    └── user
+        └── Documents
+            └── Reports</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The absolute path contains all the information required to get to <code>Reports</code> from anywhere in the filesystem. The drawback is that it is tedious to type.</p>
+</div>
+<div class="paragraph">
+<p>The second example (<code>cd Reports</code>) was much easier to type. This is an example of a <em>relative path</em>. Relative paths are shorter but only have meaning in relation to your current location. Consider this analogy: I am visiting you at your house. You tell me that your friend lives next door. I will understand that location because it is relative to my current location. But if you tell me this over the phone, I will not be able to find your friend&#8217;s house. You will need to give me the complete street address.</p>
+</div>
+<div class="sect3">
+<h4 id="_special_relative_paths">Special Relative Paths</h4>
+<div class="paragraph">
+<p>The Linux shell gives us ways to shorten our paths when navigating. To reveal the first special paths, we enter the <code>ls</code> command with the flag <code>-a</code>. This flag modifies the <code>ls</code> command so that <em>all</em> files and directories are listed, including hidden files and directories:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>user@hostname ~/Documents/Reports $ <strong>ls -a</strong>
+.
+..
+report2018.txt</pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>You can refer to the <code>man</code> page for <code>ls</code> to understand what <code>-a</code> is doing here.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>This command has revealed two additional results: These are special paths. They do not represent new files or directories, but rather they represent directories that you already know:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>.</code></dt>
+<dd>
+<p>Indicates the <em>current location</em> (in this case, <code>Reports</code>).</p>
+</dd>
+<dt class="hdlist1"><code>..</code></dt>
+<dd>
+<p>Indicates the <em>parent directory</em> (in this case, <code>Documents</code>).</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>It is usually unnecessary to use the special relative path for the current location. It is easier and more understandable to type <code>report2018.txt</code> than it is to type <code>./report2018.txt</code>. But the <code>.</code> has uses that you will learn in future sections. For now, we will focus on the relative path for the parent directory:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>user@hostname ~/Documents/Reports $ <strong>cd ..</strong>
+user@hostname ~/Documents $ <strong>pwd</strong>
+/home/user/Documents</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The example of <code>cd</code> is much easier when using <code>..</code> instead of the absolute path. Additionally, we can combine this pattern to navigate up the file tree very quickly.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>user@hostname ~/Documents $ <strong>cd ../..</strong>
+$ <strong>pwd</strong>
+/home</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.3_01-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>For each of the following paths, identify whether it is <em>absolute</em> or <em>relative</em>:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/home/user/Downloads</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>../Reports</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>docs</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Observe the following file structure. Note: Directories end with a slash (<code>/</code>) when <code>tree</code> is invoked with the <code>-F</code> option.  You will need elevated privileges in order to run the <code>tree</code> command on the root (<code>/</code>) directory.  The following is example output and is not indicative of a full directory structure.  Use it to answer the following questions:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>sudo tree -F /</strong>
+
+/
+├── etc/
+│   ├── network/
+│   │   └── interfaces
+│   ├── systemd/
+│   │   ├── resolved.conf
+│   │   ├── system/
+│   │   ├── system.conf
+│   │   ├── user/
+│   │   └── user.conf
+│   └── udev/
+│       ├── rules.d/
+│       └── udev.conf
+└── home/
+    ├── lost+found/
+    └── user/
+        └── Documents/
+
+12 directories, 5 files</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Use this structure to answer the following questions.</p>
+</div>
+<div class="paragraph">
+<p>A user enters the following commands:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd /etc/udev</strong>
+$ <strong>ls -a</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What will be the output of the <code>ls -a</code> command?</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Enter the shortest possible command for each of the following:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Your current location is root (<code>/</code>). Enter the command to navigate to <code>lost+found</code> within the <code>home</code> directory (example):</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd home/lost+found</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Your current location is root (<code>/</code>). Enter the command to navigate to the directory named <code>/etc/network/</code>.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Your current location is <code>/home/user/Documents/</code>. Navigate to the directory named <code>/etc/</code>.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Your current location is <code>/etc/systemd/system/</code>. Navigate to the directory named <code>/home/user/</code>.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Consider the following commands:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>pwd</strong>
+/etc/udev/rules.d
+$ <strong>cd ../../systemd/user</strong>
+$ <strong>cd ..</strong>
+$ <strong>pwd</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What is the output of the final <code>pwd</code> command?</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.3_01-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Suppose a user has entered the following commands:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>mkdir "this is a test"</strong>
+$ <strong>ls</strong>
+this is a test</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What <code>cd</code> command would allow you to enter this directory?</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Try this again, but after typing in <code>cd this</code>, press the TAB key. What is now displayed on the prompt?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>This is an example of <em>autocompletion</em>, which is an invaluable tool not only for saving time, but for preventing spelling errors.</p>
+</div>
+</li>
+<li>
+<p>Try to create a directory whose name contains a <code>\</code> character. Display the directory&#8217;s name with <code>ls</code> and delete the directory.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.3_01-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this lesson, you learned:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The fundamentals of the Linux filesystem</p>
+</li>
+<li>
+<p>The difference between <em>parent</em> directories and <em>subdirectories</em></p>
+</li>
+<li>
+<p>The difference between <em>absolute</em> file paths and <em>relative</em> file paths</p>
+</li>
+<li>
+<p>The special relative paths <code>.</code> and <code>..</code></p>
+</li>
+<li>
+<p>Navigate the filesystem using <code>cd</code></p>
+</li>
+<li>
+<p>Show your current location using <code>pwd</code></p>
+</li>
+<li>
+<p>List <em>all</em> files and directories using <code>ls -a</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The following commands were discussed in this lesson:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>cd</code></dt>
+<dd>
+<p>Change the current directory.</p>
+</dd>
+<dt class="hdlist1"><code>pwd</code></dt>
+<dd>
+<p>Print the current working directory&#8217;s path</p>
+</dd>
+<dt class="hdlist1"><code>ls</code></dt>
+<dd>
+<p>List the contents of a directory and display properties of files</p>
+</dd>
+<dt class="hdlist1"><code>mkdir</code></dt>
+<dd>
+<p>Create a new directory</p>
+</dd>
+<dt class="hdlist1"><code>tree</code></dt>
+<dd>
+<p>Display a hierarchical listing of a directory tree</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.3_01-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>For each of the following paths, identify whether it is <em>absolute</em> or <em>relative</em>:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/home/user/Downloads</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">absolute</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>../Reports</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">relative</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">absolute</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>docs</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">relative</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">absolute</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Observe the following file structure. Note: Directories end with a slash (<code>/</code>) when <code>tree</code> is invoked with the <code>-F</code> option.  You will need elevated privileges in order to run the <code>tree</code> command on the root (<code>/</code>) directory.  The following is example output and is not indicative of a full directory structure.  Use it to answer the following questions:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>sudo tree -F /</strong>
+
+/
+├── etc/
+│   ├── network/
+│   │   └── interfaces
+│   ├── systemd/
+│   │   ├── resolved.conf
+│   │   ├── system/
+│   │   ├── system.conf
+│   │   ├── user/
+│   │   └── user.conf
+│   └── udev/
+│       ├── rules.d/
+│       └── udev.conf
+└── home/
+    ├── lost+found/
+    └── user/
+        └── Documents/
+
+12 directories, 4 files</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>A user enters the following commands:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd /etc/udev</strong>
+$ <strong>ls -a</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What will be the output of the <code>ls -a</code> command?</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>. .. rules.d udev.conf</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Enter the shortest possible command for each of the following:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Your current location is root (<code>/</code>). Enter the command to navigate to <code>lost+found</code> within the home directory (example):</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd home/lost+found</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Your current location is root (<code>/</code>). Enter the command to navigate to the directory named <code>network</code>:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd etc/network</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Your current location is <code>Documents</code>. Navigate to the directory named <code>etc</code>:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd /etc</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Your current location is <code>system</code>. Navigate to the directory named <code>user</code>:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd /home/user</strong></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Consider the following commands:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>pwd</strong>
+/etc/udev/rules.d
+$ <strong>cd ../../systemd/user</strong>
+$ <strong>cd ..</strong>
+$ <strong>pwd</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What is the output of the final <code>pwd</code> command?</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre><strong>/etc/systemd</strong></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.3_01-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Suppose a user has entered the following commands:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>mkdir "this is a test"</strong>
+$ <strong>ls</strong>
+this is a test</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What <code>cd</code> command would allow you to enter this directory?</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd this\ is\ a\ test</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Try this again, but after typing in <code>cd this</code>, press the TAB key. What is now displayed on the prompt?</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd this\ is\ a\ test</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This is an example of autocompletion, which is an invaluable tool not only for saving time, but for preventing spelling errors.</p>
+</div>
+</li>
+<li>
+<p>Try to create a directory whose name contains a <code>\</code> character. Display the directory&#8217;s name with <code>ls</code> and delete the directory.</p>
+<div class="paragraph">
+<p>You can either escape the backslash using another backslash (<code>\\</code>) or use single or double quotes around the whole directory name:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>mkdir my\\dir</strong>
+$ <strong>ls</strong>
+'my\dir'
+$ <strong>rmdir 'my\dir'</strong></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+    
+    <aside class="lesson__teaser teaser">
+      <div class="container teaser__container">
+        <h2 class="label">Next Lesson</h2>
+        <p class="headline teaser__headline">2.3 Using Directories and Listing Files (2.3 Lesson 2)</p>
+
+        <div class="button-group">
+            <a href="../2.3_02/index.html" class="button -primary">Read next lesson</a>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>

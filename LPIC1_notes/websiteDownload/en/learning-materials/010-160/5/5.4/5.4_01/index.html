@@ -1,0 +1,1543 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>5.4 Lesson 1</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">5.4 Lesson 1</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.2/index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.2/1.2_01/index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.3/index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.3/1.3_01/index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.1/index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_02/index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.3/index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_01/index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.1/index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.1/3.1_01/index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.3/index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_01/index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.3/index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_02/index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../5.2/index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../5.2/5.2_01/index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 5: Security and File Permissions</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">5.4 Special Directories and Files</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">5.4 Lesson 1</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>5.4 Lesson 1</h1>
+          <div id="preamble">
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5 Security and File Permissions</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.4 Special Directories and Files</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 of 1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.4_01-IN">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>On Linux, everything is treated as a file. However, some files get a special treatment, either because of the place they are stored, such as temporary files, or the way they interact with the filesystem, such as links. In this lesson, we will learn where such files are located, how they work and how to manage them.</p>
+</div>
+<div class="sect2">
+<h3 id="_temporary_files">Temporary Files</h3>
+<div class="paragraph">
+<p>Temporary files are files used by programs to store data that is only needed for a short time. These can be the data of running processes, crash logs, scratch files from an autosave, intermediary files used during a file conversion, cache files and so on.</p>
+</div>
+<div class="sect3">
+<h4 id="_location_of_temporary_files">Location of temporary files</h4>
+<div class="paragraph">
+<p>Version 3.0 of the <em>Filesystem Hierarchy Standard</em> (FHS) defines standard locations for temporary files on Linux systems. Each location has a different purpose and behavior, and it is recommended that developers follow the conventions set by the FHS when writing temporary data to disk.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>/tmp</code></dt>
+<dd>
+<p>According to the FHS, programs should not assume that files written here will be preserved between invocations of a program. The <em>recommendation</em> is that this directory be cleared (all files erased) during system boot-up, although this is <em>not mandatory</em>.</p>
+</dd>
+<dt class="hdlist1"><code>/var/tmp</code></dt>
+<dd>
+<p>Another location for temporary files, but this one <em>should not be cleared</em> during the system boot-up, i.e. files stored here will usually persist between reboots.</p>
+</dd>
+<dt class="hdlist1"><code>/run</code></dt>
+<dd>
+<p>This directory contains run-time variable data used by running processes, such as process identifier files (<code>.pid</code>). Programs that need more than one run-time file may create subdirectories here. This location <em>must be cleared</em> during system boot-up. The purpose of this directory was once served by <code>/var/run</code>, and on some systems <code>/var/run</code> may be a symbolic link to <code>/run</code>.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Note that there is nothing which prevents a program to create temporary files elsewhere on the system, but it is good practice to respect the conventions set by the FHS.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_permissions_on_temporary_files">Permissions on temporary files</h4>
+<div class="paragraph">
+<p>Having system-wide temporary directories on a multiuser system presents some challenges regarding access permissions. At first thought one may think that such directories would be &#8220;world-writable&#8221;, i.e. any user could write or delete data in it. But if this were to be true, how could we prevent a user from erasing or modifying files created by another?</p>
+</div>
+<div class="paragraph">
+<p>The solution is a special permission called the <em>sticky bit</em>, which applies both to directories and files.  However, for security reasons, the Linux kernel ignores the sticky bit when it is applied to files. When this special bit is set for a directory, it prevents users from removing or renaming a file within that directory unless they own the file.</p>
+</div>
+<div class="paragraph">
+<p>Directories with the sticky bit set show a <code>t</code> replacing the <code>x</code> on the permission for <em>others</em> in the output of <code>ls -l</code>. For example, let&#8217;s check the permissions for the <code>/tmp</code> and <code>/var/tmp</code> directories:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -ldh /tmp/ /var/tmp/</strong>
+drwxrwxrwt 25 root root 4,0K Jun  7 18:52 /tmp/
+drwxrwxrwt 16 root root 4,0K Jun  7 09:15 /var/tmp/</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As you can see by the <code>t</code> replacing the <code>x</code> on the permission for <em>others</em>, both directories have the sticky bit set.</p>
+</div>
+<div class="paragraph">
+<p>To set the sticky bit on a directory using <code>chmod</code> in numeric mode, use the four-digit notation and <code>1</code> as the first digit. For example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>chmod 1755 temp</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>will set the sticky bit for the directory named <code>temp</code> and the permissions as <code>rwxr-xr-t</code>.</p>
+</div>
+<div class="paragraph">
+<p>When using the symbolic mode, use the parameter <code>t</code>. So, <code>+t</code> to set the sticky bit, and <code>-t</code> to disable it. Like so:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>chmod +t temp</strong></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_understanding_links">Understanding Links</h3>
+<div class="paragraph">
+<p>We have already said that on Linux everything is treated as a file. But there is a <em>special</em> kind of file, called a <em>link</em>, and there are two types of links on a Linux system:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Symbolic links</dt>
+<dd>
+<p>Also called <em>soft links</em>, they point to the path of another file. If you delete the file the link points to (called <em>target</em>) the link will still exist, but it &#8220;stops working&#8221;, as it now points to &#8220;nothing&#8221;.</p>
+</dd>
+<dt class="hdlist1">Hard links</dt>
+<dd>
+<p>Think of a hard link as a second name for the original file. They are <em>not</em> duplicates, but instead are an additional entry in the file system pointing to the same place (inode) on the disk.</p>
+</dd>
+</dl>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>An <em>inode</em> is a data structure that stores attributes for an object (like a file or directory) on a filesystem. Among those attributes are the filename, permissions, ownership and on which blocks of the disk the data for the object is stored. Think of it as an entry on an index, hence the name, which comes from &#8220;index node&#8221;.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_working_with_hard_links">Working with Hard Links</h4>
+<div class="sect4">
+<h5 id="_creating_hard_links">Creating Hard Links</h5>
+<div class="paragraph">
+<p>The command to create a hard link on Linux is <code>ln</code>. The basic syntax is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ln TARGET LINK_NAME</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>TARGET</code> must exist already (this is the file the link will point to), and if the target is not on the current directory, or if you want to create the link elsewhere, you <em>must</em> specify the full path to it. For example, the command</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ln target.txt /home/carol/Documents/hardlink</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>will create a file named <code>hardlink</code> on the directory <code>/home/carol/Documents/</code>, linked to the file <code>target.txt</code> on the current directory.</p>
+</div>
+<div class="paragraph">
+<p>If you leave out the last parameter (<code>LINK_NAME</code>), a link with the same name as the target will be created in the current directory.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_managing_hard_links">Managing Hard Links</h5>
+<div class="paragraph">
+<p>Hard links are entries in the filesystem which have different names but point to the same data on disk. All such names are equal and can be used to refer to a file. If you change the contents of one of the names, the contents of all other names pointing to that file change since all these names point to the very same data. If you delete one of the names, the other names will still work.</p>
+</div>
+<div class="paragraph">
+<p>This happens because when you &#8220;delete&#8221; a file the data is not actually erased from the disk. The system simply deletes the entry on the filesystem table pointing to the inode corresponding to the data on the disk. But if you have a second entry pointing to the same inode, you can still get to the data. Think of it as two roads converging on the same point. Even if you block or redirect one of the roads, you can still reach the destination using the other.</p>
+</div>
+<div class="paragraph">
+<p>You can check this by using the <code>-i</code> parameter of <code>ls</code>. Consider the following contents of a directory:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -li</strong>
+total 224
+3806696 -r--r--r-- 2 carol carol 111702 Jun  7 10:13 hardlink
+3806696 -r--r--r-- 2 carol carol 111702 Jun  7 10:13 target.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The number before the permissions is the inode number. See that both the file <code>hardlink</code> and the file <code>target.txt</code> have the same number (<code>3806696</code>)? This is because one is a hard link of the other.</p>
+</div>
+<div class="paragraph">
+<p>But which one is the original and which one is the link? You can&#8217;t really tell, as for all practical purposes they are the same.</p>
+</div>
+<div class="paragraph">
+<p>Note that every hard link pointing to a file increases the <em>link count</em> of the file. This is the number right after the permissions on the output of <code>ls -l</code>. By default, every file has a link count of <code>1</code> (directories have a count of <code>2</code>), and  every hard link to it increases the count by one. So, that is the reason for the link count of <code>2</code> on the files in the listing above.</p>
+</div>
+<div class="paragraph">
+<p>In contrast to symbolic links, you can only create hard links to files, and both the link and target must reside in the same file system.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_moving_and_removing_hard_links">Moving and Removing Hard Links</h5>
+<div class="paragraph">
+<p>Since hard links are treated as regular files, they can be deleted with <code>rm</code> and renamed or moved around the filesystem with <code>mv</code>. And since a hard link points to the same inode of the target, it can be moved around freely, without fear of &#8220;breaking&#8221; the link.</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_symbolic_links">Symbolic links</h4>
+<div class="sect4">
+<h5 id="_creating_symbolic_links">Creating Symbolic Links</h5>
+<div class="paragraph">
+<p>The command used to create a symbolic link is also <code>ln</code>, but with the <code>-s</code> parameter added. Like so:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ln -s target.txt /home/carol/Documents/softlink</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This will create a file named <code>softlink</code> in the directory <code>/home/carol/Documents/</code>, pointing to the file <code>target.txt</code> in the current directory.</p>
+</div>
+<div class="paragraph">
+<p>As with hard links, you can omit the link name to create a link with the same name as the target in the current directory.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_managing_symbolic_links">Managing Symbolic Links</h5>
+<div class="paragraph">
+<p>Symbolic links point to another path in the filesystem. You can create soft links to files <em>and</em> directories, even on different partitions. It is pretty easy to spot a symbolic link on the output of <code>ls</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -lh</strong>
+total 112K
+-rw-r--r-- 1 carol carol 110K Jun  7 10:13 target.txt
+lrwxrwxrwx 1 carol carol   12 Jun  7 10:14 softlink -> target.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In the example above, the first character on the permissions for the file <code>softlink</code> is <code>l</code>, indicating a symbolic link. Furthermore, just after the filename we see the name of the target the link points to, the file <code>target.txt</code>.</p>
+</div>
+<div class="paragraph">
+<p>Note that on file and directory listings, soft links themselves always show the permissions <code>rwx</code> for the user, the group and others, but in practice the access permissions for them are the same as those for the target.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_moving_and_removing_symbolic_links">Moving and Removing Symbolic Links</h5>
+<div class="paragraph">
+<p>Like hard links, symbolic links can be removed using <code>rm</code> and moved around or renamed using <code>mv</code>. However, special care should be taken when creating them, to avoid &#8220;breaking&#8221; the link if it is moved from its original location.</p>
+</div>
+<div class="paragraph">
+<p>When creating symbolic links you should be aware that unless a path is fully specified the location of the target is interpreted as <em>relative</em> to the location of the link. This may create problems if the link, or the file it points to, is moved.</p>
+</div>
+<div class="paragraph">
+<p>This is easier to understand with an example. Say that we have a file named <code>original.txt</code> in the current directory, and we want to create a symbolic link to it called <code>softlink</code>. We could use:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ln -s original.txt softlink</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>And apparently all would be well. Let&#8217;s check with <code>ls</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -lh</strong>
+total 112K
+-r--r--r-- 1 carol carol 110K Jun  7 10:13 original.txt
+lrwxrwxrwx 1 carol carol   12 Jun  7 19:23 softlink -> original.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>See how the link is constructed: <code>softlink</code> points to (<code>&#8594;</code>) <code>original.txt</code>. However, let&#8217;s see what happens if we move the link to the parent directory and try to display its contents using the command <code>less</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>mv softlink ../</strong>
+$ <strong>less ../softlink</strong>
+../softlink: No such file or directory</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Since the path to <code>original.txt</code> was not specified, the system assumes that it is in the same directory as the link. When this is no longer true, the link stops working.</p>
+</div>
+<div class="paragraph">
+<p>The way to prevent this is to always specify the full path to the target when creating the link:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ln -s /home/carol/Documents/original.txt softlink</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This way, no matter where you move the link it will still work, because it points to the absolute location of the target. Check with <code>ls</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -lh</strong>
+total 112K
+lrwxrwxrwx 1 carol carol   40 Jun  7 19:34 softlink -> /home/carol/Documents/original.txt</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.4_01-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Imagine a program needs to create a one-use temporary file that will never be needed again after the program is closed. What would be the correct directory in which to to create this file?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which is the temporary directory that <em>must</em> be cleared during the boot process?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What is the parameter for <code>chmod</code> in <em>symbolic</em> mode to enable the sticky bit on a directory?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Imagine there is a file named <code>document.txt</code> on the directory <code>/home/carol/Documents</code>. What is the command to create a symbolic link to it named <code>text.txt</code> on the current directory?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Explain the difference between a hard link to a file and a copy of this file.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.4_01-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Imagine that inside a directory you create a file called <code>recipes.txt</code>. Inside this directory, you will also create a hard link to this file, called <code>receitas.txt</code>, and a symbolic (or <em>soft</em>) link to this called <code>rezepte.txt</code>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>touch recipes.txt</strong>
+$ <strong>ln recipes.txt receitas.txt</strong>
+$ <strong>ln -s recipes.txt rezepte.txt</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The contents of the directory should appear like so:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -lhi</strong>
+total 160K
+5388833 -rw-r--r-- 4 carol carol 77K jun 17 17:25 receitas.txt
+5388833 -rw-r--r-- 4 carol carol 77K jun 17 17:25 recipes.txt
+5388837 lrwxrwxrwx 1 carol carol  12 jun 24 10:12 rezepte.txt -> receitas.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Remember that, as a hard link, <code>receitas.txt</code> points to the same inode that <code>recipes.txt</code>. What would happen to the soft link <code>rezepte.txt</code> if the name <code>receitas.txt</code> is deleted? Why?</p>
+</div>
+</li>
+<li>
+<p>Imagine you have a flash drive plugged into your system, and mounted on <code>/media/youruser/FlashA</code>. You want to create in your home directory a link called <code>schematics.pdf</code>, pointing to the file <code>esquema.pdf</code> in the root directory of the flash drive. So, you type the command:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ln /media/youruser/FlashA/esquema.pdf ~/schematics.pdf</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What would happen? Why?</p>
+</div>
+</li>
+<li>
+<p>Consider the following output of <code>ls -lah</code>:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -lah</strong>
+total 3,1M
+drwxr-xr-x 2 carol carol 4,0K jun 17 17:27 .
+drwxr-xr-x 5 carol carol 4,0K jun 17 17:29 ..
+-rw-rw-r-- 1 carol carol 2,8M jun 17 15:45 compressed.zip
+-rw-r--r-- 4 carol carol  77K jun 17 17:25 document.txt
+-rw-rw-r-- 1 carol carol 216K jun 17 17:25 image.png
+-rw-r--r-- 4 carol carol  77K jun 17 17:25 text.txt</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>How many links point to the file <code>document.txt</code>?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Are they soft or hard links?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which parameter should you pass to <code>ls</code> to see which inode each file occupies?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Imagine you have in your <code>~/Documents</code> directory a file named <code>clients.txt</code> containing some client names, and a directory named <code>somedir</code>. Inside this there is a <em>different</em> file <em>also</em> named <code>clients.txt</code> with different names. To replicate this structure, use the following commands.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/Documents</strong>
+$ <strong>echo "John, Michael, Bob" > clients.txt</strong>
+$ <strong>mkdir somedir</strong>
+$ <strong>echo "Bill, Luke, Karl" > somedir/clients.txt</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You then create a link inside <code>somedir</code> named <code>partners.txt</code> pointing to this file, with the commands:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd somedir/</strong>
+$ <strong>ln -s clients.txt partners.txt</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>So, the directory structure is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Documents
+|-- clients.txt
+`-- somedir
+    |-- clients.txt
+    `-- partners.txt -> clients.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now, you move <code>partners.txt</code> from <code>somedir</code> to <code>~/Documents</code>, and list its contents.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/Documents/</strong>
+$ <strong>mv somedir/partners.txt .</strong>
+$ <strong>less partners.txt</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Will the link still work? If so, which file will have its contents listed? Why?</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Consider the following files:</p>
+<div class="listingblock">
+<div class="content">
+<pre>-rw-r--r-- 1 carol carol 19 Jun 24 11:12 clients.txt
+lrwxrwxrwx 1 carol carol 11 Jun 24 11:13 partners.txt -&gt; clients.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What are the access permissions for <code>partners.txt</code>? Why?</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.4_01-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this lesson, you learned:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Where temporary files are stored.</p>
+</li>
+<li>
+<p>What is the special permission applied to them.</p>
+</li>
+<li>
+<p>What links are.</p>
+</li>
+<li>
+<p>The difference between <em>symbolic</em> and <em>hard</em> links.</p>
+</li>
+<li>
+<p>How to create links.</p>
+</li>
+<li>
+<p>How to move, rename or remove them.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The following commands were discussed in this lesson:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>ln</code></p>
+</li>
+<li>
+<p>The <code>-i</code> parameter to <code>ls</code></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.4_01-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Imagine a program needs to create a one-use temporary file that will never be needed again after the program is closed. What would be the correct directory in which to create this file?</p>
+<div class="paragraph">
+<p>Since we don&#8217;t care about the file after the program finishes running, the correct directory is <code>/tmp</code>.</p>
+</div>
+</li>
+<li>
+<p>Which is the temporary directory that <em>must</em> be cleared during the boot process?</p>
+<div class="paragraph">
+<p>The directory is <code>/run</code> or, on some systems, <code>/var/run</code>.</p>
+</div>
+</li>
+<li>
+<p>What is the parameter for <code>chmod</code> in <em>symbolic</em> mode to enable the sticky bit on a directory?</p>
+<div class="paragraph">
+<p>The symbol for the sticky bit in symbolic mode is <code>t</code>. Since we want to enable (add) this permission to the directory, the parameter should be <code>+t</code>.</p>
+</div>
+</li>
+<li>
+<p>Imagine there is a file named <code>document.txt</code> on the directory <code>/home/carol/Documents</code>. What is the command to create a symbolic link to it named <code>text.txt</code> in the current directory?</p>
+<div class="paragraph">
+<p><code>ln -s</code> is the command to create a symbolic link. Since you should specify the full path to the file you are linking to, the command is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ln -s /home/carol/Documents/document.txt text.txt</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Explain the difference between a hard link to a file and a copy of this file.</p>
+<div class="paragraph">
+<p>A hard link is just another name for a file. Even though it looks like a duplicate of the original file, for all purposes both the link and the original are the same, as they point to the same data on disk. Changes made to the contents of the link will be reflected on the original, and vice-versa. A copy is a completely independent entity, occupying a different place on disk. Changes to the copy will not be reflected on the original, and vice-versa.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.4_01-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Imagine that inside a directory you create a file called <code>recipes.txt</code>. Inside this directory, you will also create a hard link to this file, called <code>receitas.txt</code>, and a symbolic (or <em>soft</em>) link to this called <code>rezepte.txt</code>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>touch recipes.txt</strong>
+$ <strong>ln recipes.txt receitas.txt</strong>
+$ <strong>ln -s recipes.txt rezepte.txt</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The contents of the directory should be like so:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -lhi</strong>
+total 160K
+5388833 -rw-r--r-- 4 carol carol 77K jun 17 17:25 receitas.txt
+5388833 -rw-r--r-- 4 carol carol 77K jun 17 17:25 recipes.txt
+5388837 lrwxrwxrwx 1 carol carol  12 jun 24 10:12 rezepte.txt -> recipes.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Remember that, as a hard link, <code>receitas.txt</code> points to the same inode that <code>recipes.txt</code>. What would happen to the soft link <code>rezepte.txt</code> if the name <code>receitas.txt</code> is deleted? Why?</p>
+</div>
+<div class="paragraph">
+<p>The soft link <code>rezepte.txt</code> would stop working. This is because soft links point to names, not inodes, and the name <code>receitas.txt</code> no longer exists, even if the data is still on the disk under the name <code>recipes.txt</code>.</p>
+</div>
+</li>
+<li>
+<p>Imagine you have a flash drive plugged into your system, and mounted on <code>/media/youruser/FlashA</code>. You want to create in your home directory a link called <code>schematics.pdf</code>, pointing to the file <code>esquema.pdf</code> in the root directory of the flash drive. So, you type the command:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ln /media/youruser/FlashA/esquema.pdf ~/schematics.pdf</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What would happen? Why?</p>
+</div>
+<div class="paragraph">
+<p>The command would fail. The error message would be <code>Invalid cross-device link</code>, and it makes the reason clear: hard links cannot point to a target in a different partition or device. The only way to create a link like this is to use a <em>symbolic</em> or <em>soft</em> link, adding the <code>-s</code> parameter to <code>ln</code>.</p>
+</div>
+</li>
+<li>
+<p>Consider the following output of <code>ls -lah</code>:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -lah</strong>
+total 3,1M
+drwxr-xr-x 2 carol carol 4,0K jun 17 17:27 .
+drwxr-xr-x 5 carol carol 4,0K jun 17 17:29 ..
+-rw-rw-r-- 1 carol carol 2,8M jun 17 15:45 compressed.zip
+-rw-r--r-- 4 carol carol  77K jun 17 17:25 document.txt
+-rw-rw-r-- 1 carol carol 216K jun 17 17:25 image.png
+-rw-r--r-- 4 carol carol  77K jun 17 17:25 text.txt</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>How many links point to the file <code>document.txt</code>?</p>
+<div class="paragraph">
+<p>Every file starts with a link count of <code>1</code>. Since the link count for the file is <code>4</code>, there are three links pointing to that file.</p>
+</div>
+</li>
+<li>
+<p>Are they soft or hard links?</p>
+<div class="paragraph">
+<p>They are hard links, since soft links do not increase the link count of a file.</p>
+</div>
+</li>
+<li>
+<p>Which parameter should you pass to <code>ls</code> to see which inode each file occupies?</p>
+<div class="paragraph">
+<p>The parameter is <code>-i</code>. The inode will be shown as the first column in the output of <code>ls</code>, like below:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -lahi</strong>
+total 3,1M
+5388773 drwxr-xr-x 2 rigues rigues 4,0K jun 17 17:27 .
+5245554 drwxr-xr-x 5 rigues rigues 4,0K jun 17 17:29 ..
+5388840 -rw-rw-r-- 1 rigues rigues 2,8M jun 17 15:45 compressed.zip
+5388833 -rw-r--r-- 4 rigues rigues  77K jun 17 17:25 document.txt
+5388837 -rw-rw-r-- 1 rigues rigues 216K jun 17 17:25 image.png
+5388833 -rw-r--r-- 4 rigues rigues  77K jun 17 17:25 text.txt</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Imagine you have in your <code>~/Documents</code> directory a file named <code>clients.txt</code> containing some client names, and a directory named <code>somedir</code>. Inside this there is a <em>different</em> file <em>also</em> named <code>clients.txt</code> with different names. To replicate this structure, use the following commands.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/Documents</strong>
+$ <strong>echo "John, Michael, Bob" > clients.txt</strong>
+$ <strong>mkdir somedir</strong>
+$ <strong>echo "Bill, Luke, Karl" > somedir/clients.txt</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You then create a link inside <code>somedir</code> named <code>partners.txt</code> pointing to this file, with the commands:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd somedir/</strong>
+$ <strong>ln -s clients.txt partners.txt</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>So, the directory structure is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Documents
+|-- clients.txt
+`-- somedir
+    |-- clients.txt
+    `-- partners.txt -> clients.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now, you move <code>partners.txt</code> from <code>somedir</code> to <code>~/Documents</code>, and list its contents.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/Documents/</strong>
+$ <strong>mv somedir/partners.txt .</strong>
+$ <strong>less partners.txt</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Will the link still work? If so, which file will have its contents listed? Why?</p>
+</div>
+<div class="paragraph">
+<p>This is a &#8220;tricky&#8221; one, but the link will work, and the file listed will be the one in <code>~/Documents</code>, containing the names <code>John</code>, <code>Michael</code>, <code>Bob</code>.</p>
+</div>
+<div class="paragraph">
+<p>Remember that since you did not specify the full path to the target <code>clients.txt</code> when creating the soft link <code>partners.txt</code>, the target location will be interpreted as being relative to the location of the link, which in this case is the current directory.</p>
+</div>
+<div class="paragraph">
+<p>When the link was moved from <code>~/Documents/somedir</code> to <code>~/Documents</code>, it should stop working, since the target was no longer in the same directory as the link. However, it just so happens that there is a file named <code>clients.txt</code> on <code>~/Documents</code>, so the link will point to this file, instead of the original target inside <code>~/somedir</code>.</p>
+</div>
+<div class="paragraph">
+<p>To avoid this, always specify the full path to the target when creating a symbolic link.</p>
+</div>
+</li>
+<li>
+<p>Consider the following files:</p>
+<div class="listingblock">
+<div class="content">
+<pre>-rw-r--r-- 1 rigues rigues 19 Jun 24 11:12 clients.txt
+lrwxrwxrwx 1 rigues rigues 11 Jun 24 11:13 partners.txt -&gt; clients.txt</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What are the access permissions for <code>partners.txt</code>? Why?</p>
+</div>
+<div class="paragraph">
+<p>The access permissions for <code>partners.txt</code> are <code>rw-r&#8212;&#8203;r--</code>, as links always inherit the same access permissions as the target.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>

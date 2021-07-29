@@ -1,0 +1,1757 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>3.3 Lesson 1</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">3.3 Lesson 1</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.2/index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.2/1.2_01/index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.3/index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.3/1.3_01/index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.1/index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_02/index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.3/index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_01/index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../3.1/index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../3.1/3.1_01/index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.3/index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_02/index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.2/index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.2/5.2_01/index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.4/index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.4/5.4_01/index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 3: The Power of the Command Line</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">3.3 Turning Commands into a Script</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">3.3 Lesson 1</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>3.3 Lesson 1</h1>
+          <div id="preamble">
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3 The Power of the Command Line</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.3 Turning Commands into a Script</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 of 2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.3_01-IN">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We have been learning to execute commands from the shell thus far, but we can also enter commands into a file, and then set that file to be executable. When the file is executed, those commands are run one after the other. These executable files are called <em>scripts</em>, and they are an absolutely crucial tool for any Linux system administrator. Essentially, we can consider Bash to be a programming language as well as a shell.</p>
+</div>
+<div class="sect2">
+<h3 id="_printing_output">Printing Output</h3>
+<div class="paragraph">
+<p>Let&#8217;s begin by demonstrating a command that you may have seen in previous lessons: <code>echo</code> will print an argument to standard output.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo "Hello World!"</strong>
+Hello World!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now, we will use file redirection to send this command to a new file called <code>new_script</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo 'echo "Hello World!"' &gt; new_script</strong>
+$ <strong>cat new_script</strong>
+echo "Hello World!"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The file <code>new_script</code> now contains the same command as before.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_making_a_script_executable">Making a Script Executable</h3>
+<div class="paragraph">
+<p>Let&#8217;s demonstrate some of the steps required to make this file execute the way we expect it to. A user&#8217;s first thought might be to simply type the name of the script, the way they might type in the name of any other command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>new_script</strong>
+/bin/bash: new_script: command not found</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We can safely assume that <code>new_script</code> exists in our current location, but notice that the error message isn&#8217;t telling us that the <em>file</em> doesn&#8217;t exist, it is telling us that the <em>command</em> doesn&#8217;t exist. It would be useful to discuss how Linux handles commands and executables.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_commands_and_path">Commands and <code>PATH</code></h3>
+<div class="paragraph">
+<p>When we type the <code>ls</code> command into the shell, for example, we are executing a file called <code>ls</code> that exists in our filesystem. You can prove this by using <code>which</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>which ls</strong>
+/bin/ls</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>It would quickly become tiresome to type in the absolute path of <code>ls</code> every time we wish to look at the contents of a directory, so Bash has an <em>environment variable</em> which contains all the directories where we might find the commands we wish to run. You can view the contents of this variable by using <code>echo</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $PATH</strong>
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Each of these locations is where the shell expects to find a command, delimited with colons (<code>:</code>). You will notice that <code>/bin</code> is present, but it is safe to assume that our current location is not. The shell will search for <code>new_script</code> in each of these directories, but it will not find it and therefore will throw the error we saw above.</p>
+</div>
+<div class="paragraph">
+<p>There are three solutions to this issue: we can move <code>new_script</code> into one of the <code>PATH</code> directories, we can add our current directory to <code>PATH</code>, or we can change the way we attempt to call the script. The latter solution is easiest, it simply requires us to specify the <em>current location</em> when calling the script using dot slash (<code>./</code>).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script</strong>
+/bin/bash: ./new_script: Permission denied</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The error message has changed, which indicates that we have made some progress.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_execute_permissions">Execute Permissions</h3>
+<div class="paragraph">
+<p>The first investigation a user should do in this case is to use <code>ls -l</code> to look at the file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls -l new_script</strong>
+-rw-rw-r-- 1 user user 20 Apr 30 12:12 new_script</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We can see that the permissions for this file are set to <code>664</code> by default. We have not set this file to have <em>execute permissions</em> yet.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>chmod +x new_script</strong>
+$ <strong>ls -l new_script</strong>
+-rwxrwxr-x 1 user user 20 Apr 30 12:12 new_script</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This command has given execute permissions to <em>all</em> users. Be aware that this might be a security risk, but for now this is an acceptable level of permission.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script</strong>
+Hello World!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We are now able to execute our script.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_defining_the_interpreter">Defining the Interpreter</h3>
+<div class="paragraph">
+<p>As we have demonstrated, we were able to simply enter text into a file, set it as an executable, and run it. <code>new_script</code> is functionally still a normal text file, but we managed to have it be interpreted by Bash. But what if it is written in Perl, or Python?</p>
+</div>
+<div class="paragraph">
+<p>It is very good practice to specify the type of interpreter we want to use in the first line of a script. This line is called a <em>bang line</em> or more commonly a <em>shebang</em>. It indicates to the system how we want this file to be executed. Since we are learning Bash, we will be using the absolute path to our Bash executable, once again using <code>which</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>which bash</strong>
+/bin/bash</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Our shebang starts with a hash sign and exclamation mark, followed by the absolute path above. Let&#8217;s open <code>new_script</code> in a text editor and insert the shebang. Let&#8217;s also take the opportunity to insert a <em>comment</em> into our script. Comments are ignored by the interpreter. They are written for the benefit of other users wishing to understand your script.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to document all scripts.
+
+echo "Hello World!"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>We will make one additional change to the filename as well: we will save this file as <code>new_script.sh</code>. The file suffix ".sh" does not change the execution of the file in any way. It is a convention that bash scripts be labelled with <code>.sh</code> or <code>.bash</code> in order to identify them more easily, the same way that Python scripts are usually identified with the suffix <code>.py</code>.</p>
+</div>
+<div class="sect3">
+<h4 id="_common_text_editors">Common Text Editors</h4>
+<div class="paragraph">
+<p>Linux users often have to work in an environment where graphical text editors are not available. It is therefore highly recommended to develop at least some familiarity with editing text files from the command line. Two of the most common text editors are <code>vi</code> and <code>nano</code>.</p>
+</div>
+<div class="sect4">
+<h5 id="_vi">vi</h5>
+<div class="paragraph">
+<p><code>vi</code> is a venerable text editor and is installed by default on almost every Linux system in existence. <code>vi</code> spawned a clone called <em>vi IMproved</em> or <code>vim</code> which adds some functionality but maintains the interface of <code>vi</code>. While working with <code>vi</code> is daunting for a new user, the editor is popular and well-loved by users who learn its many features.</p>
+</div>
+<div class="paragraph">
+<p>The most important difference between <code>vi</code> and applications such as Notepad is that <code>vi</code> has three different modes. On startup, the keys <kbd>H</kbd>, <kbd>J</kbd>, <kbd>K</kbd> and <kbd>L</kbd> are used to navigate, not to type. In this <em>navigation mode</em>, you can press <kbd>I</kbd> to enter <em>insert mode</em>. At this point, you may type normally. To exit <em>insert mode</em>, you press <kbd>Esc</kbd> to return to <em>navigation mode</em>. From <em>navigation mode</em>, you can press <kbd>:</kbd> to enter <em>command mode</em>. From this mode, you can save, delete, quit or change options.</p>
+</div>
+<div class="paragraph">
+<p>While <code>vi</code> has a learning curve, the different modes can in time allow a savvy user to become more efficient than with other editors.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_nano">nano</h5>
+<div class="paragraph">
+<p><code>nano</code> is a newer tool, built to be simple and easier to use than <code>vi</code>. <code>nano</code> does not have different modes. Instead, a user on startup can begin typing, and uses <kbd>Ctrl</kbd> to access the tools printed at the bottom of the screen.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>                         [ Welcome to nano.  For basic help, type Ctrl+G. ]
+^G Get Help   ^O Write Out  ^W Where Is   ^K Cut Text   ^J Justify    ^C Cur Pos    M-U Undo
+^X Exit       ^R Read File  ^\ Replace    ^U Uncut Text ^T To Spell   ^_ Go To Line M-E Redo</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Text editors are a matter of personal preference, and the editor that you choose to use will have no bearing on this lesson. But becoming familiar and comfortable with one or more text editors will pay off in the future.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_variables">Variables</h3>
+<div class="paragraph">
+<p>Variables are an important part of any programming language, and Bash is no different. When you start a new session from the terminal, the shell already sets some variables for you. The <code>PATH</code> variable is an example of this. We call these <em>environment variables</em>, because they usually define characteristics of our shell environment. You can modify and add environment variables, but for now let&#8217;s focus on setting variables inside our script.</p>
+</div>
+<div class="paragraph">
+<p>We will modify our script to look like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to comment all scripts.
+
+username=Carol
+
+echo "Hello $username!"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In this case, we have created a <em>variable</em> called <code>username</code> and we have assigned it the <em>value</em> of <code>Carol</code>. Please note that there are no spaces between the variable name, the equals sign, or the assigned value.</p>
+</div>
+<div class="paragraph">
+<p>In the next line, we have used the <code>echo</code> command with the variable, but there is a dollar sign (<code>$</code>) in front of the variable name. This is important, since it indicates to the shell that we wish to treat <code>username</code> as a variable, and not just a normal word. By entering <code>$username</code> in our command, we indicate that we want to perform a <em>substitution</em>, replacing the <em>name</em> of a variable with the <em>value</em> assigned to that variable.</p>
+</div>
+<div class="paragraph">
+<p>Executing the new script, we get this output:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh</strong>
+Hello Carol!</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Variables must contain only alphanumeric characters or underscores, and are case sensitive. <code>Username</code> and <code>username</code> will be treated as separate variables.</p>
+</li>
+<li>
+<p>Variable substitution may also have the format <code>${username}</code>, with the addition of the <code>{ }</code>. This is also acceptable.</p>
+</li>
+<li>
+<p>Variables in Bash have an <em>implicit type</em>, and are considered strings. This means that performing math functions in Bash is more complicated than it would be in other programming languages such as C/C++:</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to comment all scripts.
+
+username=Carol
+x=2
+y=4
+z=$x+$y
+echo "Hello $username!"
+echo "$x + $y"
+echo "$z"</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh</strong>
+Hello Carol!
+2 + 4
+2+4</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_using_quotes_with_variables">Using Quotes with Variables</h3>
+<div class="paragraph">
+<p>Let&#8217;s make the following change to the value of our variable <code>username</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to comment all scripts.
+
+username=Carol Smith
+
+echo "Hello $username!"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Running this script will give us an error:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh</strong>
+./new_script.sh: line 5: Smith: command not found
+Hello !</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Keep in mind that Bash is an interpreter, and as such it <em>interprets</em> our script line-by-line. In this case, it correctly interprets <code>username=Carol</code> to be setting a variable <code>username</code> with the value <code>Carol</code>. But it then interprets the space as indicating the end of that assignment, and <code>Smith</code> as being the name of a command. In order to have the space and the name <code>Smith</code> be included as the new value of our variable, we will put double quotes (<code>"</code>) around the name.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to comment all scripts.
+
+username="Carol Smith"
+
+echo "Hello $username!"</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh</strong>
+Hello Carol Smith!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>One important thing to note in Bash is that double quotes and single quotes (<code>'</code>) behave very differently. Double quotes are considered &#8220;weak&#8221;, because they allow the interpreter to perform substitution inside the quotes. Single quotes are considered &#8220;strong&#8221;, because they prevent any substitution from occurring. Consider the following example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to comment all scripts.
+
+username="Carol Smith"
+
+echo "Hello $username!"
+echo 'Hello $username!'</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh</strong>
+Hello Carol Smith!
+Hello $username!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In the second <code>echo</code> command, the interpreter has been prevented from substituting <code>$username</code> with <code>Carol Smith</code>, and so the output is taken literally.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_arguments">Arguments</h3>
+<div class="paragraph">
+<p>You are already familiar with using arguments in the Linux core utilities. For example, <code>rm testfile</code> contains both the executable <code>rm</code> and one argument <code>testfile</code>. Arguments can be passed to the script upon execution, and will modify how the script behaves. They are easily implemented.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to comment all scripts.
+
+username=$1
+
+echo "Hello $username!"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Instead of assigning a value to <code>username</code> directly inside the script, we are assigning it the value of a new variable <code>$1</code>. This refers to the value of the <em>first argument</em>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh Carol</strong>
+Hello Carol!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The first nine arguments are handled in this way. There are ways to handle more than nine arguments, but that is outside the scope of this lesson. We will demonstrate an example using just two arguments:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to comment all scripts.
+
+username1=$1
+username2=$2
+echo "Hello $username1 and $username2!"</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh Carol Dave</strong>
+Hello Carol and Dave!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>There is an important consideration when using arguments: In the example above, there are two arguments <code>Carol</code> and <code>Dave</code>, assigned to <code>$1</code> and <code>$2</code> respectively. If the second argument is missing, for example, the shell will not throw an error. The value of <code>$2</code> will simply be <em>null</em>, or nothing at all.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh Carol</strong>
+Hello Carol and !</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In our case, it would be a good idea to introduce some logic to our script so that different <em>conditions</em> will affect the <em>output</em> that we wish to print. We will start by introducing another helpful variable and then move on to creating <em>if statements</em>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_returning_the_number_of_arguments">Returning the Number of Arguments</h3>
+<div class="paragraph">
+<p>While variables such as <code>$1</code> and <code>$2</code> contain the value of positional arguments, another variable <code>$#</code> contains the <em>number of arguments</em>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# This is our first comment. It is also good practice to comment all scripts.
+
+username=$1
+
+echo "Hello $username!"
+echo "Number of arguments: $#."</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh Carol Dave</strong>
+Hello Carol!
+Number of arguments: 2.</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_conditional_logic">Conditional Logic</h3>
+<div class="paragraph">
+<p>The use of conditional logic in programming is a vast topic, and won&#8217;t be covered deeply in this lesson. We will focus on the <em>syntax</em> of conditionals in Bash, which differs from most other programming languages.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s begin by reviewing what we hope to achieve. We have a simple script which should be able to print a greeting to a single user. If there is anything other than one user, we should print an error message.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The <em>condition</em> we are testing is the number of users, which is contained in the variable <code>$#</code>. We would like to know if the value of <code>$#</code> is <code>1</code>.</p>
+</li>
+<li>
+<p>If the condition is <em>true</em>, the <em>action</em> we will take is to greet the user.</p>
+</li>
+<li>
+<p>If the condition is <em>false</em>, we will print an error message.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Now that the logic is clear, we will focus on the <em>syntax</em> required to implement this logic.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+# A simple script to greet a single user.
+
+if [ $# -eq 1 ]
+then
+  username=$1
+
+  echo "Hello $username!"
+else
+  echo "Please enter only one argument."
+fi
+echo "Number of arguments: $#."</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The conditional logic is contained between <code>if</code> and <code>fi</code>. The condition to test is located between square brackets <code>[ ]</code>, and the action to take should the condition be true is indicated after <code>then</code>. Note the spaces between the square brackets and the logic contained. Omitting this space will cause errors.</p>
+</div>
+<div class="paragraph">
+<p>This script will output either our greeting, <em>or</em> the error message. But it will always print the <code>Number of arguments</code> line.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./new_script.sh</strong>
+Please enter only one argument.
+Number of arguments: 0.
+$ <strong>./new_script.sh Carol</strong>
+Hello Carol!
+Number of arguments: 1.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Take note of the <code>if</code> statement. We have used <code>-eq</code> to do a <em>numerical comparison</em>. In this case, we are testing that the value of <code>$#</code> is <em>equal</em> to one. The other comparisons we can perform are:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>-ne</code></dt>
+<dd>
+<p>Not equal to</p>
+</dd>
+<dt class="hdlist1"><code>-gt</code></dt>
+<dd>
+<p>Greater than</p>
+</dd>
+<dt class="hdlist1"><code>-ge</code></dt>
+<dd>
+<p>Greater than or equal to</p>
+</dd>
+<dt class="hdlist1"><code>-lt</code></dt>
+<dd>
+<p>Less than</p>
+</dd>
+<dt class="hdlist1"><code>-le</code></dt>
+<dd>
+<p>Less than or equal to</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.3_01-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The user types the following to their shell:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>PATH=~/scripts</strong>
+$ <strong>ls</strong>
+Command 'ls' is available in '/bin/ls'
+The command could not be located because '/bin' is not included in the PATH environment variable.
+ls: command not found</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>What has the user done?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What command will combine the current value of <code>PATH</code> with the new directory <code>~/scripts</code>?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Consider the following script. Notice that it is using <code>elif</code> to check for a second condition:</p>
+<div class="listingblock">
+<div class="content">
+<pre>&gt;  /!bin/bash
+
+&gt; fruit1 = Apples
+&gt; fruit2 = Oranges
+
+  if [ $1 -lt $# ]
+  then
+    echo "This is like comparing $fruit1 and $fruit2!"
+&gt; elif [$1 -gt $2 ]
+  then
+&gt;   echo '$fruit1 win!'
+  else
+&gt;   echo "Fruit2 win!"
+&gt; done</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The lines marked with a <code>&gt;</code> contain errors. Fix the errors.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>What will the output be in the following situations?</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./guided1.sh 3 0</strong></pre>
+</div>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./guided1.sh 2 4</strong></pre>
+</div>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./guided1.sh 0 1</strong></pre>
+</div>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.3_01-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Write a simple script that will check if exactly two arguments are passed. If so, print the arguments in reverse order.
+Consider this example (note: your code may look different than this, but should lead to the same output):</p>
+<div class="listingblock">
+<div class="content">
+<pre>if [ $1 == $number ]
+then
+  echo "True!"
+fi</pre>
+</div>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>This code is correct, but it is not a number comparison. Use an internet search to discover how this code is different from using <code>-eq</code>.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>There is an environment variable that will print the current directory. Use <code>env</code> to discover the name of this variable.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Using what you have learned in questions 2 and 3, write a short script that accepts an argument. If an argument is passed, check if that argument matches the name of the current directory. If so, print <code>yes</code>. Otherwise, print <code>no</code>.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.3_01-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this section, you learned:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>How to create and execute simple scripts</p>
+</li>
+<li>
+<p>How to use a shebang to specify an interpreter</p>
+</li>
+<li>
+<p>How to set and use variables inside scripts</p>
+</li>
+<li>
+<p>How to handle arguments in scripts</p>
+</li>
+<li>
+<p>How to construct <code>if</code> statements</p>
+</li>
+<li>
+<p>How to compare numbers using numerical operators</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Commands used in the exercises:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>echo</code></dt>
+<dd>
+<p>Print a string to standard output.</p>
+</dd>
+<dt class="hdlist1"><code>env</code></dt>
+<dd>
+<p>Prints all environment variables to standard output.</p>
+</dd>
+<dt class="hdlist1"><code>which</code></dt>
+<dd>
+<p>Prints the absolute path of a command.</p>
+</dd>
+<dt class="hdlist1"><code>chmod</code></dt>
+<dd>
+<p>Changes permissions of a file.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Special variables used in the exercises:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>$1, $2, &#8230;&#8203; $9</code></dt>
+<dd>
+<p>Contain positional arguments passed to the script.</p>
+</dd>
+<dt class="hdlist1"><code>$#</code></dt>
+<dd>
+<p>Contains the number of arguments passed to the script.</p>
+</dd>
+<dt class="hdlist1"><code>$PATH</code></dt>
+<dd>
+<p>Contains the directories that have executables used by the system.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Operators used in the exercises:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>-ne</code></dt>
+<dd>
+<p>Not equal to</p>
+</dd>
+<dt class="hdlist1"><code>-gt</code></dt>
+<dd>
+<p>Greater than</p>
+</dd>
+<dt class="hdlist1"><code>-ge</code></dt>
+<dd>
+<p>Greater than or equal to</p>
+</dd>
+<dt class="hdlist1"><code>-lt</code></dt>
+<dd>
+<p>Less than</p>
+</dd>
+<dt class="hdlist1"><code>-le</code></dt>
+<dd>
+<p>Less than or equal to</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.3_01-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The user types the following into their shell:</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>PATH=~/scripts</strong>
+$ <strong>ls</strong>
+Command 'ls' is available in '/bin/ls'
+The command could not be located because '/bin' is not included in the PATH environment variable.
+ls: command not found</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>What has the user done?</p>
+<div class="paragraph">
+<p>The user has overwritten the contents of PATH with the directory <code>~/scripts</code>. The <code>ls</code> command can no longer be found, since it isn&#8217;t contained in PATH. Note that this change only affects the current session, logging out and back in with revert the change.</p>
+</div>
+</li>
+<li>
+<p>What command will combine the current value of <code>PATH</code> with the new directory <code>~/scripts</code>?</p>
+<div class="paragraph">
+<p><code>PATH=$PATH:~/scripts</code></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Consider the following script. Notice that it is using <code>elif</code> to check for a second condition:</p>
+<div class="listingblock">
+<div class="content">
+<pre>&gt;  /!bin/bash
+
+&gt; fruit1 = Apples
+&gt; fruit2 = Oranges
+
+  if [ $1 -lt $# ]
+  then
+    echo "This is like comparing $fruit1 and $fruit2!"
+&gt; elif [$1 -gt $2 ]
+  then
+&gt;   echo '$fruit1 win!'
+  else
+&gt;   echo "Fruit2 win!"
+&gt; done</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The lines marked with a <code>&gt;</code> contain errors. Fix the errors.</p>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+fruit1=Apples
+fruit2=Oranges
+
+if [ $1 -lt $# ]
+then
+  echo "This is like comparing $fruit1 and $fruit2!"
+elif [ $1 -gt $2 ]
+then
+  echo "$fruit1 win!"
+else
+  echo "$fruit2 win!"
+fi</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>What will the output be in the following situations?</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./guided1.sh 3 0</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>Apples win!</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./guided1.sh 2 4</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>Oranges win!</code></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>./guided1.sh 0 1</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>This is like comparing Apples and Oranges!</code></p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.3_01-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Write a simple script that will check if exactly two arguments are passed. If so, print the arguments in reverse order.
+Consider this example (note: your code may look different than this, but should lead to the same output):</p>
+<div class="listingblock">
+<div class="content">
+<pre>if [ $1 == $number ]
+then
+  echo "True!"
+fi</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+if [ $# -ne 2 ]
+then
+  echo "Error"
+else
+  echo "$2 $1"
+fi</pre>
+</div>
+</div>
+</li>
+<li>
+<p>This code is correct, but it is not a number comparison. Use an internet search to discover how this code is different from using <code>-eq</code>.</p>
+<div class="paragraph">
+<p>Using <code>==</code> will compare <em>strings</em>. That is, if the characters of both variables match up exactly, then the condition is true.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>abc == abc</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>true</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>abc == ABC</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>false</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>1 == 1</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>true</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>1+1 == 2</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>false</em></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>String comparisons lead to unexpected behavior if you are testing for numbers.</p>
+</div>
+</li>
+<li>
+<p>There is an environment variable that will print the current directory. Use <code>env</code> to discover the name of this variable.</p>
+<div class="paragraph">
+<p><code>PWD</code></p>
+</div>
+</li>
+<li>
+<p>Using what you have learned in questions 2 and 3, write a short script that accepts an argument. If an argument is passed, check if that argument matches the name of the current directory. If so, print <code>yes</code>. Otherwise, print <code>no</code>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>#!/bin/bash
+
+if [ "$1" == "$PWD" ]
+then
+  echo "yes"
+else
+  echo "no"
+fi</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+    
+    <aside class="lesson__teaser teaser">
+      <div class="container teaser__container">
+        <h2 class="label">Next Lesson</h2>
+        <p class="headline teaser__headline">3.3 Turning Commands into a Script (3.3 Lesson 2)</p>
+
+        <div class="button-group">
+            <a href="../3.3_02/index.html" class="button -primary">Read next lesson</a>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>

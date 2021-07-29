@@ -1,0 +1,1394 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>2.1 Lesson 2</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">2.1 Lesson 2</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.2/index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.2/1.2_01/index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.3/index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.3/1.3_01/index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../2.3/index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../2.3/2.3_01/index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../2.3/2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.1/index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.1/3.1_01/index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.3/index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_01/index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.3/index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_02/index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.2/index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.2/5.2_01/index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.4/index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.4/5.4_01/index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 2: Finding Your Way on a Linux System</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">2.1 Command Line Basics</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">2.1 Lesson 2</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>2.1 Lesson 2</h1>
+          <div id="preamble">
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2 Finding Your Way on a Linux System</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.1 Command Line Basics</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2 of 2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.01_02-IN">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>All shells manage a set of status information throughout the shell sessions. This runtime information may change during the session and influences how the shell behaves. This data is also used by programs to determinate aspects of the system’s configuration. Most of this data is stored in so-called <em>variables</em>, which we will cover in this lesson.</p>
+</div>
+<div class="sect2">
+<h3 id="_variables">Variables</h3>
+<div class="paragraph">
+<p>Variables are pieces of storage for data, such as text or numbers. Once set, a variable&#8217;s value be accessed at a later time. Variables have a name which allows accessing a specific variable, even when the variable&#8217;s content changes. They are a very common tool in most programming languages.</p>
+</div>
+<div class="paragraph">
+<p>In most Linux shells, there are two types of variables:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Local variables</dt>
+<dd>
+<p>These variables are available to the current shell process only. If you create a local variable and then start another program from this shell, the variable is not accessible to that program anymore. Because they are not inherited by sub processes, these variables are called <em>local variables</em>.</p>
+</dd>
+<dt class="hdlist1">Environment variables</dt>
+<dd>
+<p>These variables are available both in a specific shell session and in sub processes spawned from that shell session. Theses variables can be used to pass configuration data to commands which are run. Because these programs can access these variables, they are called <em>environment variables</em>. The majority of the environment variables are in capital letters (e.g. <code>PATH</code>, <code>DATE</code>, <code>USER</code>). A set of default environment variables provide, for example, information about the user’s home directory or terminal type. Sometimes the complete set of all environment variables is referred to as the <em>environment</em>.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>These types of variables are also known as <em>variable scope</em>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Variables are not persistent. When the shell in which they were set is closed, all variables and their contents are lost. Most shells provide configuration files that contain variables which are set whenever a new shell is started. Variables that should be set permanently must be added to one of these configuration files.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_manipulating_variables">Manipulating Variables</h3>
+<div class="paragraph">
+<p>As a system administrator, you will need to create, modify or remove both local and environment variables.</p>
+</div>
+<div class="sect3">
+<h4 id="_working_with_local_variables">Working with Local Variables</h4>
+<div class="paragraph">
+<p>You can set up a local variable by using the <code>=</code> (equal) operator. A simple assignment will create a local variable:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>greeting=hello</strong></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Don&#8217;t put any space before or after the <code>=</code> operator.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>You can display any variable using the <code>echo</code> command. The command usually displays the text in the argument section:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo greeting</strong>
+greeting</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In order to access the value of the variable you will need to use <code>$</code> (dollar sign) in front of the variable’s name.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $greeting</strong>
+hello</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As it can be seen, the variable has been created. Now open another shell and try to display the contents of the variable created.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $greeting</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Nothing is displayed. This illustrates, that variables always exist in a specific shell only.</p>
+</div>
+<div class="paragraph">
+<p>To verify that the variable is actually a local variable, try to spawn a new process and check if this process can access the variable. We can do so by starting another shell and let this shell run the <code>echo</code> command. As the new shell is run in a new process, it won&#8217;t inherit local variables from its parent process:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $greeting world</strong>
+hello world
+$ <strong>bash -c 'echo $greeting world'</strong>
+world</pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Make sure to use single quotes in the example above.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>In order to remove a variable, you will need to use the command <code>unset</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $greeting</strong>
+hey
+$ <strong>unset greeting</strong>
+$ <strong>echo $greeting</strong></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><code>unset</code> requires the name of the variable as an argument. Therefore you may not add <code>$</code> to the name, as this would resolve the variable and pass the variable&#8217;s value to <code>unset</code> instead of the variable&#8217;s name.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_working_with_global_variables">Working with Global Variables</h4>
+<div class="paragraph">
+<p>To make a variable available to subprocesses, turn it from a local into an environment variable. This is done by the command <code>export</code>. When it is invoked with the variable name, this variable is added to the shell&#8217;s environment:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>greeting=hello</strong>
+$ <strong>export greeting</strong></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Again, make sure to not use <code>$</code> when running <code>export</code> as you want to pass the name of the variable instead of its contents.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>An easier way to create the environment variable is to combine both of the above methods, by assigning the variable value in the argument part of the command.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>export greeting=hey</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s check again if the variable is accessible to subprocesses:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>export greeting=hey</strong>
+$ <strong>echo $greeting world</strong>
+hey world
+$ <strong>bash -c 'echo $greeting world'</strong>
+hey world</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Another way to use environment variables is to use them in front of commands. We can test this with the environment variable <code>TZ</code> which holds the timezone. This variable is used by the command <code>date</code> to determine which timezone&#8217;s time to display:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>TZ=EST date</strong>
+Thu 31 Jan 10:07:35 EST 2019
+$ <strong>TZ=GMT date</strong>
+Thu 31 Jan 15:07:35 GMT 2019</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You can display all environment variables using the <code>env</code> command.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_the_path_variable">The <code>PATH</code> Variable</h4>
+<div class="paragraph">
+<p>The <code>PATH</code> variable is one of the most important environment variables in a Linux system. It stores a list of directories, separated by a colon, that contain executable programs eligible as commands from the Linux shell.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $PATH</strong>
+/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To append a new directory to the variable, you will need to use the colon sign (<code>:</code>).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>PATH=$PATH:new_directory</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Here an example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $PATH</strong>
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+$ <strong>PATH=$PATH:/home/user/bin</strong>
+$ <strong>echo $PATH</strong>
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/bin</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As you see, <code>$PATH</code> is used in the new value assigned to <code>PATH</code>. This variable is resolved during the command execution and makes sure that the original content of the variable is preserved. Of course, you can use other variables in the assignment as well:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>mybin=/opt/bin</strong>
+$ <strong>PATH=$PATH:$mybin</strong>
+$ <strong>echo $PATH</strong>
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/bin:/opt/bin</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>PATH</code> variable needs to be handled with caution, as it is crucial for working on the command line. Let&#8217;s consider the following <code>PATH</code> variable:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $PATH</strong>
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To find out how the shell invokes a specific command, <code>which</code> can be run with the command&#8217;s name as argument. We can, for example, try to find out where <code>nano</code> is stored:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>which nano</strong>
+/usr/bin/nano</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As it can be seen, the <code>nano</code> executable is located within the <code>/usr/bin</code> directory. Let’s remove the directory from the variable and check to see if the command still works:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games</strong>
+$ <strong>echo $PATH</strong>
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s look up the <code>nano</code> command again:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>which nano</strong>
+which: no nano in (/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As it can be seen, the command is not found, therefore not executed. The error message also explains the reason why the command was not found and in what locations it was searched.</p>
+</div>
+<div class="paragraph">
+<p>Let’s add back the directories and try running the command again.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</strong>
+$ <strong>which nano</strong>
+/usr/bin/nano</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now our command works again.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>The order of elements in <code>PATH</code> also defines the lookup order. The first matching executable found while going through the paths if executed.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.01_02-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create a local variable <code>number</code>.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Create an environment variable <code>ORDER</code>, using one of the two above methods.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Display both the variable names and their contents.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What are the scopes of the previously created variables?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.01_02-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create a local variable <code>nr_files</code> and assign the number of lines found in the <code>/etc/passwd</code> file. Hint: Look into the command <code>wc</code> and command substitution and don&#8217;t forget about quotation marks.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Create an environment variable <code>ME</code>. Assign the <code>USER</code> variable’s value to it.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Append the <code>HOME</code> variable&#8217;s value to <code>ME</code>, having the <code>:</code> delimiter. Display the contents of the <code>ME</code> variable.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Using the date example above, create a variable called <code>today</code> and assign the date for one of the time zones.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Create another variable called <code>today1</code> and assign the system’s date to it.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.01_02-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this lab you learned:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Types of variables</p>
+</li>
+<li>
+<p>How to create variables</p>
+</li>
+<li>
+<p>How to manipulate variables</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Commands used in the exercises:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>env</code></dt>
+<dd>
+<p>Display the current environment.</p>
+</dd>
+<dt class="hdlist1"><code>echo</code></dt>
+<dd>
+<p>Output text.</p>
+</dd>
+<dt class="hdlist1"><code>export</code></dt>
+<dd>
+<p>Make local variables available to subprocesses.</p>
+</dd>
+<dt class="hdlist1"><code>unset</code></dt>
+<dd>
+<p>Remove a variable.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.01_02-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create a local variable <code>number</code>.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>number=5</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Create an environment variable <code>ORDER</code>, using one of the two above methods.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>export ORDER=desc</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Display both the variable names and their contents.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo number</strong>
+number
+$ <strong>echo ORDER</strong>
+ORDER
+$ <strong>echo $number</strong>
+5
+$ <strong>echo $ORDER</strong>
+desc</pre>
+</div>
+</div>
+</li>
+<li>
+<p>What are the scopes of the previously created variables?</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The scope of the variable <code>number</code> is the current subshell.</p>
+</li>
+<li>
+<p>The scope of the variable <code>ORDER</code> is the current system.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.2.01_02-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create a local variable <code>nr_files</code> and assign the number of lines found in the <code>/etc/passwd</code> file. Hint: Look into the command <code>wc</code> and command substitution and don&#8217;t forget about quotation marks.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>nr_files=`wc -l /etc/passwd`</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Create an environment variable <code>ME</code>. Assign the <code>USER</code> variable’s value.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>export ME=$USER</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Append the <code>HOME</code> variable value to <code>ME</code>, having the <code>:</code> delimiter. Display the contents of the <code>ME</code> variable.</p>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ME=$ME:$HOME</strong>
+$ <strong>echo $ME</strong>
+user:/home/user</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Using the date example above, create a variable called <code>today</code> and assign the date for one of the time zones.</p>
+<div class="paragraph">
+<p>The following use the GMT and EST time zones as an example, but any time zone selection is valid.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>today=$(TZ=GMT date)</strong>
+$ <strong>echo $today</strong>
+Thu 31 Jan 15:07:35 GMT 2019</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>or</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>today=$(TZ=EST date)</strong>
+$ <strong>echo $today</strong>
+Thu 31 Jan 10:07:35 EST 2019</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Create another variable called <code>today1</code> and assign the system’s date to it.</p>
+<div class="paragraph">
+<p>Assuming that you are in GMT:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>today1=$(date)</strong>
+$ <strong>echo $today1</strong>
+Thu 31 Jan 10:07:35 EST 2019</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+    
+    <aside class="lesson__teaser teaser">
+      <div class="container teaser__container">
+        <h2 class="label">Next Lesson</h2>
+        <p class="headline teaser__headline">2.2 Using the Command Line to Get Help (2.2 Lesson 1)</p>
+
+        <div class="button-group">
+            <a href="../../2.2/2.2_01/index.html" class="button -primary">Read next lesson</a>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>

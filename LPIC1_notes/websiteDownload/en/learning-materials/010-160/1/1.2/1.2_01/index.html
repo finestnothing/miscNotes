@@ -1,0 +1,1567 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>1.2 Lesson 1</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">1.2 Lesson 1</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../1.3/index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../1.3/1.3_01/index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.1/index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_02/index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.3/index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_01/index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.1/index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.1/3.1_01/index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.3/index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_01/index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.3/index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_02/index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.2/index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.2/5.2_01/index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.4/index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.4/5.4_01/index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 1: The Linux Community and a Career in Open Source</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">1.2 Major Open Source Applications</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">1.2 Lesson 1</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>1.2 Lesson 1</h1>
+          <div id="preamble">
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 The Linux Community and a Career in Open Source</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2 Major Open Source Applications</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 of 1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.2_01-IN">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>An application is a computer program whose purpose is not directly tied to the inner workings of the computer, but with tasks performed by the user. Linux distributions offer many application options to perform a variety of tasks, such as office applications, web browsers, multimedia players and editors, etc. There is often more than one application or tool to perform a particular job. It is up to the user to choose the application which best fits their needs.</p>
+</div>
+<div class="sect2">
+<h3 id="_software_packages">Software Packages</h3>
+<div class="paragraph">
+<p>Almost every Linux distribution offers a pre-installed set of default applications. Besides those pre-installed applications, a distribution has a package repository with a vast collection of applications available to install through its <em>package manager</em>. Although the various distributions offer roughly the same applications, several different package management systems exist for various distributions. For instance, Debian, Ubuntu and Linux Mint use the <code>dpkg</code>, <code>apt-get</code> and <code>apt</code> tools to install software packages, generally referred as <em>DEB packages</em>. Distributions such as Red Hat, Fedora and CentOS use the <code>rpm</code>, <code>yum</code> and <code>dnf</code> commands instead, which in turn install <em>RPM packages</em>. As the application packaging is different for each distribution family, it is very important to install packages from the correct repository designed to the particular distribution. The end user usually doesn&#8217;t have to worry about those details, as the distribution&#8217;s package manager will choose the right packages, the required dependencies and future updates. Dependencies are auxiliary packages needed by programs. For example, if a library provides functions for dealing with JPEG images which are used by multiple programs, this library is likely packaged in its own package on which all applications using the library depend.</p>
+</div>
+<div class="paragraph">
+<p>The commands <code>dpkg</code> and <code>rpm</code> operate on individual package files. In practice, almost all package management tasks are performed by the commands <code>apt-get</code> or <code>apt</code> on systems that use DEB packages or by <code>yum</code> or <code>dnf</code> on systems that use RPM packages. These commands work with catalogues of packages, can download new packages and their dependencies, and check for newer versions of the installed packages.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_package_installation">Package Installation</h3>
+<div class="paragraph">
+<p>Suppose you have heard about a command called <code>figlet</code> which prints enlarged text on the terminal and you want to try it. However, you get the following message after executing the command <code>figlet</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>figlet</strong>
+-bash: figlet: command not found</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>That probably means the package is not installed on your system. If your distribution works with DEB packages, you can search its repositories using <code>apt-cache search package_name</code> or <code>apt search package_name</code>. The <code>apt-cache</code> command is used to search for packages and to list information about available packages. The following command looks for any occurrences of the term &#8220;figlet&#8221; in the package&#8217;s names and descriptions:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>apt-cache search figlet</strong>
+figlet - Make large character ASCII banners out of ordinary text</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The search identified a package called <em>figlet</em> that corresponds to the missing command. The installation and removal of a package require special permissions granted only to the system&#8217;s administrator: the user named <code>root</code>. On desktop systems, ordinary users can install or remove packages by prepending the command <code>sudo</code> to the installation/removal commands. That will require you to type your password to proceed. For DEB packages, the installation is performed with the command <code>apt-get install package_name</code> or <code>apt install package_name</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>sudo apt-get install figlet</strong>
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  figlet
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>At this point the package will be downloaded and installed on the system. Any dependencies that the package eventually needs will also be downloaded and installed:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Need to get 184 kB of archives.
+After this operation, 741 kB of additional disk space will be used.
+Get:1 http://archive.raspbian.org/raspbian stretch/main armhf figlet armhf 2.2.5-2 [184 kB]
+Fetched 184 kB in 0s (213 kB/s)
+Selecting previously unselected package figlet.
+(Reading database ... 115701 files and directories currently installed.)
+Preparing to unpack .../figlet_2.2.5-2_armhf.deb ...
+Unpacking figlet (2.2.5-2) ...
+Setting up figlet (2.2.5-2) ...
+update-alternatives: using /usr/bin/figlet-figlet to provide /usr/bin/figlet (figlet) in auto mode
+Processing triggers for man-db (2.7.6.1-2) ...</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After the download is finished, all files are copied to the proper locations, any additional configuration will be performed and the command will become available:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ figlet Awesome!
+    _                                         _
+   / \__      _____  ___  ___  _ __ ___   ___| |
+  / _ \ \ /\ / / _ \/ __|/ _ \| '_ ` _ \ / _ \ |
+ / ___ \ V  V /  __/\__ \ (_) | | | | | |  __/_|
+/_/   \_\_/\_/ \___||___/\___/|_| |_| |_|\___(_)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In distributions based on RPM packages, searches are performed using <code>yum search package_name</code> or <code>dnf search package_name</code>. Let&#8217;s say you want to display some text in a more irreverent way, followed by a cartoonish cow, but you are not sure about the package that can perform that task. As with the DEB packages, the RPM search commands accept descriptive terms:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>yum search speaking cow</strong>
+Last metadata expiration check: 1:30:49 ago on Tue 23 Apr 2019 11:02:33 PM -03.
+==================== Name &amp; Summary Matched: speaking, cow ====================
+cowsay.noarch : Configurable speaking/thinking cow</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After finding a suitable package at the repository, it can be installed with <code>yum install package_name</code> or <code>dnf install package_name</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>sudo yum install cowsay</strong>
+Last metadata expiration check: 2:41:02 ago on Tue 23 Apr 2019 11:02:33 PM -03.
+Dependencies resolved.
+==============================================================================
+ Package         Arch           Version               Repository         Size
+==============================================================================
+Installing:
+ cowsay          noarch         3.04-10.fc28          fedora             46 k
+
+Transaction Summary
+==============================================================================
+Install  1 Package
+
+Total download size: 46 k
+Installed size: 76 k
+Is this ok [y/N]: <strong>y</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Once again, the desired package and all its possible dependencies will be downloaded and installed:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Downloading Packages:
+cowsay-3.04-10.fc28.noarch.rpm                    490 kB/s |  46 kB     00:00
+==============================================================================
+Total                                              53 kB/s |  46 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+Preparing        :                                                          1/1
+Installing       : cowsay-3.04-10.fc28.noarch                               1/1
+Running scriptlet: cowsay-3.04-10.fc28.noarch                               1/1
+Verifying        : cowsay-3.04-10.fc28.noarch                               1/1
+
+Installed:
+cowsay.noarch 3.04-10.fc28
+
+Complete!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The command <code>cowsay</code> does exactly what its name implies:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ cowsay "Brought to you by yum"
+ _______________________
+&lt; Brought to you by yum &gt;
+ -----------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Although they may seem useless, commands <code>figlet</code> and <code>cowsay</code> provide a way to draw the attention of other users to relevant information.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_package_removal">Package Removal</h3>
+<div class="paragraph">
+<p>The same commands used to install packages are used to remove them. All the commands accept the <code>remove</code> keyword to uninstall an installed package: <code>apt-get remove package_name</code> or <code>apt remove package_name</code> for DEB packages and <code>yum remove package_name</code> or <code>dnf remove package_name</code> for RPM packages. The <code>sudo</code> command is also needed to perform the removal. For example, to remove the previously installed package <em>figlet</em> from a DEB-based distribution:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>sudo apt-get remove figlet</strong>
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages will be REMOVED:
+  figlet
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 741 kB disk space will be freed.
+Do you want to continue? [Y/n] <strong>Y</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After confirming the operation, the package is erased from the system:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>(Reading database ... 115775 files and directories currently installed.)
+Removing figlet (2.2.5-2) ...
+Processing triggers for man-db (2.7.6.1-2) ...</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>A similar procedure is performed on an RPM-based system. For example, to remove the previously installed package <em>cowsay</em> from an RPM-based distribution:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>sudo yum remove cowsay</strong>
+Dependencies resolved.
+==================================================================================
+ Package          Arch             Version                Repository         Size
+==================================================================================
+Removing:
+ cowsay           noarch           3.04-10.fc28           @fedora            76 k
+
+Transaction Summary
+==================================================================================
+Remove  1 Package
+
+Freed space: 76 k
+Is this ok [y/N]: <strong>y</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Likewise, a confirmation is requested and the package is erased from the system:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                          1/1
+  Erasing          : cowsay-3.04-10.fc28.noarch                               1/1
+  Running scriptlet: cowsay-3.04-10.fc28.noarch                               1/1
+  Verifying        : cowsay-3.04-10.fc28.noarch                               1/1
+
+Removed:
+  cowsay.noarch 3.04-10.fc28
+
+Complete!</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The configuration files of the removed packages are kept on the system, so they can be used again if the package is reinstalled in the future.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_office_applications">Office Applications</h3>
+<div class="paragraph">
+<p>Office applications are used for editing files such as texts, presentations, spreadsheets and other formats commonly used in an office environment. These applications are usually organised in collections called <em>office suites</em>.</p>
+</div>
+<div class="paragraph">
+<p>For a long time, the most used office suite in Linux was the <em>OpenOffice.org</em> suite. OpenOffice.org was an open source version of the <em>StarOffice suite</em> released by <em>Sun Microsystems</em>. A few years later Sun was acquired by <em>Oracle Corporation</em>, which in turn transferred the project to the <em>Apache Foundation</em> and OpenOffice.org was renamed to <em>Apache OpenOffice</em>. Meanwhile, another office suite based on the same source code was released by the <em>Document Foundation</em>, which named it <em>LibreOffice</em>.</p>
+</div>
+<div class="paragraph">
+<p>The two projects have the same basic features and are compatible with the document formats from <em>Microsoft Office</em>. However, the preferred document format is the <em>Open Document Format</em>, a fully open and ISO standardized file format. The use of ODF files ensures that documents can be transferred between operating systems and applications from different vendors, such as Microsoft Office. The main applications offered by OpenOffice/LibreOffice are:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Writer</dt>
+<dd>
+<p>Text editor</p>
+</dd>
+<dt class="hdlist1">Calc</dt>
+<dd>
+<p>Spreadsheets</p>
+</dd>
+<dt class="hdlist1">Impress</dt>
+<dd>
+<p>Presentations</p>
+</dd>
+<dt class="hdlist1">Draw</dt>
+<dd>
+<p>Vector drawing</p>
+</dd>
+<dt class="hdlist1">Math</dt>
+<dd>
+<p>Math formulas</p>
+</dd>
+<dt class="hdlist1">Base</dt>
+<dd>
+<p>Database</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Both LibreOffice and Apache OpenOffice are open source software, but LibreOffice is licensed under LGPLv3 and Apache OpenOffice is licensed under Apache License 2.0. The licensing distinction implies that LibreOffice can incorporate improvements made by Apache OpenOffice, but Apache OpenOffice cannot incorporate improvements made by LibreOffice. That, and a more active community of developers, are the reason most distributions adopt LibreOffice as their default office suite.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_web_browsers">Web Browsers</h3>
+<div class="paragraph">
+<p>For most users, the main purpose of a computer is to provide access to the Internet. Nowadays, web pages can act as a full featured app, with the advantage of being accessible from anywhere, without the need of installing extra software. That makes the web browser the most important application of the operating system, at least for the average user.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>One of the best sources for learning about web development is the MDN Web Docs, available at <a href="https://developer.mozilla.org/" class="bare">https://developer.mozilla.org/</a>. Maintained by Mozilla, the site is full of tutorials for beginners and reference materials on most modern web technologies.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The main web browsers in the Linux environment are <em>Google Chrome</em> and <em>Mozilla Firefox</em>. Chrome is a web browser maintained by Google but is based on the open source browser named <em>Chromium</em>, which can be installed using the distribution&#8217;s package manager and is fully compatible with Chrome. Maintained by Mozilla, a non-profit organization, Firefox is a browser whose origins are linked to Netscape, the first popular web browser to adopt the open source model. The Mozilla Foundation is deeply involved with the development of the open standards underlying the modern web.</p>
+</div>
+<div class="paragraph">
+<p>Mozilla also develops other applications, like the e-mail client <em>Thunderbird</em>. Many users opt to use webmail instead of a dedicated email application, but a client like Thunderbird offers extra features and integrates best with other applications on the desktop.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_multimedia">Multimedia</h3>
+<div class="paragraph">
+<p>Compared to the available web applications, desktop applications are still the best option for the creation of multimedia content. Multimedia related activities like video rendering often require high amounts of system resources, which are best managed by a local desktop application. Some of the most popular multimedia applications for the Linux environment and their uses are listed below.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Blender</dt>
+<dd>
+<p>A 3D renderer to create animations. Blender can also be used to export 3D objects to be printed by a 3D printer.</p>
+</dd>
+<dt class="hdlist1">GIMP</dt>
+<dd>
+<p>A full-featured image editor, which can be compared with <em>Adobe Photoshop</em>, but has its own concepts and tools to work with images. GIMP can be used to create, edit and save most bitmap files, like JPEG, PNG, GIF, TIFF and many others.</p>
+</dd>
+<dt class="hdlist1">Inkscape</dt>
+<dd>
+<p>A vector graphics editor, similar to <em>Corel Draw</em> or <em>Adobe Illustrator</em>. Inkscape&#8217;s default format is SVG, which is an open standard for vector graphics. SVG files can be opened by any web browser and, due to its nature as a vector graphic, it can be used in flexible layouts of web pages.</p>
+</dd>
+<dt class="hdlist1">Audacity</dt>
+<dd>
+<p>An audio editor. Audacity can be used to filter, to apply effects and to convert between many different audio formats, like MP3, WAV, OGG, FLAC, etc.</p>
+</dd>
+<dt class="hdlist1">ImageMagick</dt>
+<dd>
+<p>ImageMagick is a command line tool to convert and edit most image file types. It can also be used to create PDF documents from image files and vice versa.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>There are also many applications dedicated to multimedia playback. The most popular application for video playback is <em>VLC</em>, but some users prefer other alternatives, like <em>smplayer</em>. Local music playback also has many options, like <em>Audacious</em>, <em>Banshee</em> and <em>Amarok</em>, which can also manage a collection of local sound files.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_server_programs">Server Programs</h3>
+<div class="paragraph">
+<p>When a web browser loads a page from a website, it actually connects to a remote computer and asks for a specific piece of information. In that scenario, the computer running the web browser is called the <em>client</em> and the remote computer is called the <em>server</em>.</p>
+</div>
+<div class="paragraph">
+<p>The server computer, which can be an ordinary desktop computer or specialized hardware, needs a specific program to manage each type of information it will provide. Regarding serving web pages, most servers around the world deploy open source server programs. This particular server program is called an <em>HTTP server</em> (HTTP stands for <em>Hyper Text Transfer Protocol</em>) and the most popular ones are <em>Apache</em>, <em>Nginx</em> and <em>lighttpd</em>.</p>
+</div>
+<div class="paragraph">
+<p>Even simple web pages may require many requests, which can be ordinary files&#8201;&#8212;&#8201;called static content&#8201;&#8212;&#8201;or dynamic content rendered from various sources. The role of an HTTP server is to collect and send all the requested data back to the browser, which then arranges the content as defined by the received HTML document (HTML stands for <em>Hyper Text Markup Language</em>) and other supporting files. Therefore, the rendering of a web page involves operations performed on the server side and operations performed on the client side. Both sides can use custom scripts to accomplish specific tasks. On the HTTP server side, it is quite common to use the PHP scripting language. JavaScript is the scripting language used on the client side (the web browser).</p>
+</div>
+<div class="paragraph">
+<p>Server programs can provide all kinds of information. It&#8217;s not uncommon to have a server program requesting information provided by other server programs. That is the case when an HTTP server requires information provided by a database server.</p>
+</div>
+<div class="paragraph">
+<p>For instance, when a dynamic page is requested, the HTTP server usually queries a database to collect all the required pieces of information and sends the dynamic content back to the client. In a similar way, when a user registers on a website, the HTTP server gathers the data sent by the client and stores it in a database.</p>
+</div>
+<div class="paragraph">
+<p>A database is an organized set of information. A database server stores contents in a formatted fashion, making it possible to read, write and link large amounts of data reliably and at great speed. Open source database servers are used in many applications, not only on the Internet. Even local applications can store data by connecting to a local database server. The most common type of database is the <em>relational database</em>, where the data is organized in predefined tables. The most popular open source relational databases are <em>MariaDB</em> (originated from <em>MySQL</em>) and <em>PostgreSQL</em>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_data_sharing">Data Sharing</h3>
+<div class="paragraph">
+<p>In local networks, like the ones found in offices and homes, it is desirable that computers not only should be able to access the Internet, but also should be able to communicate with each other. Sometimes a computer acts as a server, sometimes the same computer acts as a client. That is necessary when one wants to access files on another computer in the network&#8201;&#8212;&#8201;for instance, access a file stored on a desktop computer from a portable device&#8201;&#8212;&#8201;without the hassle of copying it to a USB drive or the like.</p>
+</div>
+<div class="paragraph">
+<p>Between Linux machines, <em>NFS</em> (<em>Network File System</em>) is often used. The NFS protocol is the standard way to share file systems in networks equipped only with Unix/Linux machines. With NFS, a computer can share one or more of its directories with specific computers on the network, so they can read and write files in these directories. NFS can even be used to share an entire operating system&#8217;s directory tree with clients that will use it to boot from. These computers, called <em>thin clients</em>, are mostly often used in large networks to avoid the maintenance of each individual operating system on each machine.</p>
+</div>
+<div class="paragraph">
+<p>If there are other types of operating systems attached to the network, it is recommended to use a data sharing protocol that can be understood by all of them. This requirement is fulfilled by <em>Samba</em>. Samba implements a protocol for sharing files over the network originally made for the Windows operating system, but today is compatible with all major operating systems. With Samba, computers in the local network not only can share files, but also printers.</p>
+</div>
+<div class="paragraph">
+<p>On some local networks, the authorization given upon login on a workstation is granted by a central server, called the <em>domain controller</em>, which manages the access to various local and remote resources. The domain controller is a service provided by Microsoft&#8217;s <em>Active Directory</em>. Linux workstations can associate with a domain controller by using Samba or an authentication subsystem called <em>SSSD</em>. As of version 4, Samba can also work as a domain controller on heterogeneous networks.</p>
+</div>
+<div class="paragraph">
+<p>If the goal is to implement a cloud computing solution able to provide various methods of web based data sharing, two alternatives should be considered: <em>ownCloud</em> and <em>Nextcloud</em>. The two projects are very similar because Nextcloud is a spin-off of ownCloud, which is not unusual among open source projects. Such spin-offs are usually called a <em>fork</em>. Both provide the same basic features: file sharing and sync, collaborative workspaces, calendar, contacts and mail, all through desktop, mobile and web interfaces. Nextcloud also provides private audio/video conferencing, whilst ownCloud is more focused on file sharing and integration with third-party software. Many more features are provided as plugins which can be activated later as needed.</p>
+</div>
+<div class="paragraph">
+<p>Both ownCloud and Nextcloud offer a paid version with extra features and extended support. What makes them different from other commercial solutions is the ability to install Nextcloud or ownCloud on a private server, free of charge, avoiding keeping sensitive data on an unknown server. As all the services depend on HTTP communication and are written in PHP, the installation must be performed on a previous configured web server, like Apache. If you consider installing ownCloud or Nextcloud on your own server, make sure to also enable HTTPS to encrypt all connections to your cloud.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_network_administration">Network Administration</h3>
+<div class="paragraph">
+<p>Communication between computers is only possible if the network is working correctly. Normally, the network configuration is done by a set of programs running on the router, responsible for setting up and checking the network availability. In order to achieve this, two basic network services are used: <em>DHCP</em> (<em>Dynamic Host Configuration Protocol</em>) and <em>DNS</em> (<em>Domain Name System</em>).</p>
+</div>
+<div class="paragraph">
+<p>DHCP is responsible for assigning an IP address to the host when a network cable is connected or when the device enters a wireless network. When connecting to the Internet, the ISP&#8217;s DHCP server will provide an IP address to the requesting device. A DHCP server is very useful in local area networks also, to automatically provide IP addresses to all connected devices. If DHCP is not configured or if it&#8217;s not working properly, it would be necessary to manually configure the IP address of each device connected to the network. It is not practical to manually set the IP addresses on large networks or even in small networks, that&#8217;s why most network routers come with a DHCP server pre-configured by default.</p>
+</div>
+<div class="paragraph">
+<p>The IP address is required to communicate with another device on an IP network, but domain names like <code>www.lpi.org</code> are much more likely to be remembered than an IP number like <code>203.0.113.165</code>. The domain name by itself, however, is not enough to establish the communication through the network. That is why the domain name needs to be translated to an IP address by a DNS server. The IP address of the DNS server is provided by the ISP&#8217;s DHCP server and it&#8217;s used by all connected systems to translate domain names to IP addresses.</p>
+</div>
+<div class="paragraph">
+<p>Both DHCP and DNS settings can be modified by entering the web interface provided by the router. For instance, it is possible to restrict the IP assignment only to known devices or associate a fixed IP address to specific machines. It&#8217;s also possible to change the default DNS server provided by the ISP. Some third-party DNS servers, like the ones provided by Google or OpenDNS, can sometimes provide faster responses and extra features.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_programming_languages">Programming Languages</h3>
+<div class="paragraph">
+<p>All computer programs (client and server programs, desktop applications and the operating system itself) are made using one or more programming languages. Programs can be a single file or a complex system of hundreds of files, which the operating system treats as an instruction sequence to be interpreted and performed by the processor and other devices.</p>
+</div>
+<div class="paragraph">
+<p>There are numerous programming languages for very different purposes and Linux systems provide a lot of them. Since open source software also includes the sources of the programs, Linux systems offer developers perfect conditions to understand, modify or create software according to their own needs.</p>
+</div>
+<div class="paragraph">
+<p>Every program begins as a text file, called <em>source code</em>. This source code is written in a more or less human-friendly language that describes what the program is doing. A computer processor can not directly execute this code. In <em>compiled languages</em>, the source code is therefore be converted to a <em>binary file</em> which can then be executed by the computer. A program called <em>compiler</em> is responsible for doing the conversion from source code to executable form. Since the compiled binary is specific to one kind of processor, the program might have to be re-compiled to run on another type of computer.</p>
+</div>
+<div class="paragraph">
+<p>In <em>interpreted languages</em>, the program does not need to be previously compiled. Instead, an <em>interpreter</em> reads the source code and executes its instruction every time the program is run. This makes the development easier and faster, but at the same time interpreted programs tend to be slower than compiled programs.</p>
+</div>
+<div class="paragraph">
+<p>Here some of the most popular programming languages:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">JavaScript</dt>
+<dd>
+<p>JavaScript is a programming language mostly used in web pages. In its origins, JavaScript applications were very simple, like form validation routines. As for today, JavaScript is considered a first class language and it is used to create very complex applications not only on the web, but on servers and mobile devices.</p>
+</dd>
+<dt class="hdlist1">C</dt>
+<dd>
+<p>The C programming language is closely related with operating systems, particularly Unix, but it is used to write any kind of program to almost any kind of device. The great advantages of C are flexibility and speed. The same source code written in C can be compiled to run in different platforms and operating systems, with little or no modification. After being compiled, however, the program will run only in the targeted system.</p>
+</dd>
+<dt class="hdlist1">Java</dt>
+<dd>
+<p>The main aspect of Java is that programs written in this language are portable, which means that the same program can be executed in different operating systems. Despite the name, Java is not related to JavaScript.</p>
+</dd>
+<dt class="hdlist1">Perl</dt>
+<dd>
+<p>Perl is a programming language most used to process text content. It has a strong regular expressions emphasis, which makes Perl a language suited for text filtering and parsing.</p>
+</dd>
+<dt class="hdlist1">Shell</dt>
+<dd>
+<p>The shell, particularly the Bash shell, is not just a programming language, but an interactive interface to run other programs. Shell programs, known as <em>shell scripts</em>, can automate complex or repetitive tasks on the command line environment.</p>
+</dd>
+<dt class="hdlist1">Python</dt>
+<dd>
+<p>Python is a very popular programming language among students and professionals not directly involved with computer science. Whilst having advanced features, Python is a good way to start learning programming for its easy to use approach.</p>
+</dd>
+<dt class="hdlist1">PHP</dt>
+<dd>
+<p>PHP is most used as a server side scripting language for generating content for the web. Most online HTML pages are not static files, but dynamic content generated by the server from various sources, like databases. PHP programs&#8201;&#8212;&#8201;sometimes just called PHP pages or PHP scripts&#8201;&#8212;&#8201;are often used to generate this kind of content. The term LAMP comes from the combination of a Linux operating system, an Apache HTTP server, a MySQL (or MariaDB) database and PHP programming. LAMP servers are a very popular solution for running web servers. Besides PHP, all of the programming languages described before can be used to implement such applications too.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>C and Java are compiled languages. In order to be executed by the system, source code written in C is converted to binary machine code, whereas Java source code is converted to <em>bytecode</em> executed in a special software environment called <em>Java Virtual Machine</em>. JavaScript, Perl, Shell script, Python and PHP are all interpreted languages, which are also called <em>scripting languages</em>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.2_01-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>For each of the following commands, identify whether it is associated with the <em>Debian packaging system</em> or the <em>Red Hat packaging system</em>:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dpkg</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>rpm</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>apt-get</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>yum</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dnf</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which command could be used to install Blender on Ubuntu? After installation, how can the program be executed?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which application from the LibreOffice suite can be used to work with electronic spreadsheets?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which open-source web browser is used as the basis for the development of Google Chrome?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>SVG is an open standard for vector graphics. Which is the most popular application for editing SVG files in Linux systems?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>For each of the following file formats, write the name of an application able to open and edit the corresponding file:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>png</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>doc</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>xls</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>ppt</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>wav</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which software package allows file sharing between Linux and Windows machines over the local network?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.2_01-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>You know that configuration files are kept even if the associated package is removed from the system. How could you automatically remove the package named <em>cups</em> and its configuration files from a DEB based system?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Suppose you have many TIFF image files and want to convert them to JPEG. Which software package could be used to convert those files directly at the command line?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which software package do you need to install in order to be able to open Microsoft Word documents sent to you by a Windows user?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Every year, linuxquestions.org promotes a survey about the most popular Linux applications. Visit <a href="https://www.linuxquestions.org/questions/2018-linuxquestions-org-members-choice-awards-128/" class="bare">https://www.linuxquestions.org/questions/2018-linuxquestions-org-members-choice-awards-128/</a> and find out which desktop applications are most popular among experienced Linux users.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.2_01-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this lesson, you learned:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The package management systems used in major Linux distributions</p>
+</li>
+<li>
+<p>Open source applications that can edit popular file formats</p>
+</li>
+<li>
+<p>The server programs underlying many important Internet and local network services</p>
+</li>
+<li>
+<p>Common programming languages and their uses</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.2_01-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>For each of the following commands, identify whether it is associated with the <em>Debian packaging system</em> or the <em>Red Hat packaging system</em>:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dpkg</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Debian packaging system</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>rpm</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat packaging system</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>apt-get</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Debian packaging system</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>yum</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat packaging system</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>dnf</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Red Hat packaging system</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which command could be used to install Blender on Ubuntu? After installation, how can the program be executed?</p>
+<div class="paragraph">
+<p>The command <code>apt-get install blender</code>. The package name should be specified in lowercase. The program can be executed directly from the terminal with the command <code>blender</code> or by choosing it on the applications menu.</p>
+</div>
+</li>
+<li>
+<p>Which application from the LibreOffice suite can be used to work with electronic spreadsheets?</p>
+<div class="paragraph">
+<p>Calc</p>
+</div>
+</li>
+<li>
+<p>Which open-source web browser is used as the basis for the development of Google Chrome?</p>
+<div class="paragraph">
+<p>Chromium</p>
+</div>
+</li>
+<li>
+<p>SVG is an open standard for vector graphics. Which is the most popular application for editing SVG files in Linux systems?</p>
+<div class="paragraph">
+<p>Inkscape</p>
+</div>
+</li>
+<li>
+<p>For each of the following file formats, write the name of an application able to open and edit the corresponding file:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>png</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gimp</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>doc</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LibreOffice Writer</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>xls</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LibreOffice Calc</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>ppt</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LibreOffice Impress</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>wav</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Audacity</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which software package allows file sharing between Linux and Windows machines over the local network?</p>
+<div class="paragraph">
+<p>Samba</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.2_01-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>You know that configuration files are kept even if the associated package is removed from the system. How could you automatically remove the package named <em>cups</em> and its configuration files from a DEB based system?</p>
+<div class="paragraph">
+<p><code>apt-get purge cups</code></p>
+</div>
+</li>
+<li>
+<p>Suppose you have many TIFF image files and want to convert them to JPEG. Which software package could be used to convert those files directly at the command line?</p>
+<div class="paragraph">
+<p>ImageMagick</p>
+</div>
+</li>
+<li>
+<p>Which software package do you need to install in order to be able to open Microsoft Word documents sent to you by a Windows user?</p>
+<div class="paragraph">
+<p>LibreOffice or OpenOffice</p>
+</div>
+</li>
+<li>
+<p>Every year, linuxquestions.org promotes a survey about the most popular Linux applications. Visit <a href="https://www.linuxquestions.org/questions/2018-linuxquestions-org-members-choice-awards-128/" class="bare">https://www.linuxquestions.org/questions/2018-linuxquestions-org-members-choice-awards-128/</a> and find out which desktop applications are most popular among experienced Linux users.</p>
+<div class="paragraph">
+<p>Browser: Firefox. Email client: Thunderbird. Media player: VLC. Raster graphics editor: GIMP.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+    
+    <aside class="lesson__teaser teaser">
+      <div class="container teaser__container">
+        <h2 class="label">Next Lesson</h2>
+        <p class="headline teaser__headline">1.3 Open Source Software and Licensing (1.3 Lesson 1)</p>
+
+        <div class="button-group">
+            <a href="../../1.3/1.3_01/index.html" class="button -primary">Read next lesson</a>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>

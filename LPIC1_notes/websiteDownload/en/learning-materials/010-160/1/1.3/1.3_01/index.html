@@ -1,0 +1,1437 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>1.3 Lesson 1</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">1.3 Lesson 1</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../1.2/index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../1.2/1.2_01/index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.1/index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_02/index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.3/index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_01/index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.1/index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.1/3.1_01/index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.3/index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_01/index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.3/index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_02/index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.2/index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.2/5.2_01/index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.4/index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.4/5.4_01/index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 1: The Linux Community and a Career in Open Source</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">1.3 Open Source Software and Licensing</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">1.3 Lesson 1</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>1.3 Lesson 1</h1>
+          <div id="preamble">
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 The Linux Community and a Career in Open Source</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.3 Open Source Software and Licensing</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 of 1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.3_01-IN">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>While the terms <em>free software</em> and <em>open source software</em> are widely used, there are still some misconceptions about their meaning. In particular, the concept of &#8220;freedom&#8221; needs closer examination. Let&#8217;s start with the definition of the two terms.</p>
+</div>
+<div class="sect2">
+<h3 id="_definition_of_free_and_open_source_software">Definition of Free and Open Source Software</h3>
+<div class="sect3">
+<h4 id="_criteria_of_free_software">Criteria of Free Software</h4>
+<div class="paragraph">
+<p>First of all, &#8220;free&#8221; in the context of free software has nothing to do with &#8220;free of charge&#8221;, or as the founder of the <em>Free Software Foundation</em> (FSF), Richard Stallman, succinctly puts it:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+To understand the concept, you should think of &#8220;free&#8221; as in &#8220;free speech,&#8221; not as in &#8220;free beer&#8221;.
+</blockquote>
+<div class="attribution">
+&#8212; Richard Stallman<br>
+<cite>What is free software?</cite>
+</div>
+</div>
+<div class="paragraph">
+<p>Regardless of whether you have to pay for the software or not, there are four criteria which constitute free software. Richard Stallman describes these criteria as &#8220;the four essential freedoms&#8221;, the counting of which he starts from zero:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>&#8220;The freedom to run the program as you wish, for any purpose (freedom 0).&#8221;</p>
+<div class="paragraph">
+<p>Where, how and for what purpose the software is used can neither be prescribed nor restricted.</p>
+</div>
+</li>
+<li>
+<p>&#8220;The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.&#8221;</p>
+<div class="paragraph">
+<p>Everyone may change the software according to their ideas and needs. This in turn presupposes that the so-called <em>source code</em>, i.e. all files of which a software consists, must be available in a form readable by programmers. And, of course, this right applies to a single user who may want to add a single feature, as well as to software companies that build complex systems such as smartphone operating systems or router firmware.</p>
+</div>
+</li>
+<li>
+<p>&#8220;The freedom to redistribute copies so you can help others (freedom 2).&#8221;</p>
+<div class="paragraph">
+<p>This freedom explicitly encourages each user to share the software with others. It is therefore a matter of the widest possible distribution and thus the widest possible community of users and developers who, on the basis of these freedoms, further develop and improve the software for the benefit of all.</p>
+</div>
+</li>
+<li>
+<p>&#8220;The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.&#8221;</p>
+<div class="paragraph">
+<p>This is not only about the distribution of free software, but about the distribution of <em>modified</em> free software. Anyone who makes changes to free software has the right to make the changes available to others. If they do so, they are obliged to do so freely as well, i.e. they must not restrict the original freedoms when distributing the software, even if they modified or extended it. For example, if a group of developers has different ideas about the direction of a specific software than the original authors, it can split off its own development branch (called a <em>fork</em>) and continue it as a new project. But, of course, all obligations associated with these freedoms remain.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The emphasis on the idea of freedom is also consistent insofar as every freedom movement is directed <em>against</em> something, namely an opponent who suppresses the postulated freedoms, who regards software as property and wants to keep it under lock and key. In contrast to free software, such software is called <em>proprietary</em>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_open_source_software_vs_free_software">Open Source Software vs. Free Software</h4>
+<div class="paragraph">
+<p>For many, <em>free software</em> and <em>open source software</em> are synonyms. The frequently used abbreviation <em>FOSS</em> for <em>Free and Open Source Software</em> emphasizes this commonality. FLOSS for <em>Free/Libre and Open Source Software</em> is another popular term, which unmistakably emphasizes the idea of freedom also for other languages other than English. However, if one considers the origin and development of both terms, a differentiation is worthwhile.</p>
+</div>
+<div class="paragraph">
+<p>The term <em>free software</em> with the definition of the described four freedoms goes back to Richard Stallman and the GNU project founded by him in 1985&#8201;&#8212;&#8201;almost 10 years before the emergence of Linux. The name &#8220;GNU is not Unix&#8221; describes the intention with a wink of the eye: GNU started as an initiative to develop a technically convincing solution&#8201;&#8212;&#8201;namely the operating system Unix&#8201;&#8212;&#8201;from scratch, to make it available to the general public and to improve it continuously with the general public. The openness of the source code was merely a technical and organizational necessity for this, but in its self-image the free software movement is still a <em>social</em> and <em>political</em>&#8201;&#8212;&#8201;some also say ideological&#8201;&#8212;&#8201;movement.</p>
+</div>
+<div class="paragraph">
+<p>With the success of Linux, the collaborative possibilities of the Internet, and the thousands of projects and companies that emerged in this new software cosmos, the social aspect increasingly receded into the background. The openness of the source code itself changed from a technical requirement to a defining feature: as soon as the source code was visible, the software was considered &#8220;open source&#8221;. The social motives gave way to a more pragmatic approach to software development.</p>
+</div>
+<div class="paragraph">
+<p>Free software and open source software work on the same thing, with the same methods and in a worldwide community of individuals, projects and companies. But since they have come together from different directions&#8201;&#8212;&#8201;one social and one pragmatic-technical&#8201;&#8212;&#8201;there are sometimes conflicts. These conflicts arise when the results of the joint work do not correspond to the original goals of both movements. This happens especially when software reveals its sources but does not respect the four freedoms of free software at the same time, for example when there are restrictions on disclosure, change, or connections with other software components.</p>
+</div>
+<div class="paragraph">
+<p>The <em>license</em> under which the software is available determines which conditions a software is subject to with regard to use, distribution and modification. And because requirements and motives can be very different, countless different licenses have been created in the FOSS area. Due to the much more fundamental approach of the free software movement, it is not surprising that it does not recognize many open source licenses as &#8220;free&#8221; and therefore rejects them. Conversely, this is hardly the case due to the much more pragmatic open source approach.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s take a brief look at the actually very complex area of licenses below.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_licenses">Licenses</h3>
+<div class="paragraph">
+<p>Unlike a refrigerator or a car, software is not a <em>physical</em> product, but a <em>digital</em> product. Thus, a company cannot actually transfer ownership of such a product by selling it and changing the physical possession&#8201;&#8212;&#8201;rather, it transfers the rights of use to that product, and the user contractually agrees to those rights of use. Which rights of use these are and above all are <em>not</em> is recorded in the software license, and thus it becomes understandable how important the regulations contained therein are.</p>
+</div>
+<div class="paragraph">
+<p>While large vendors of proprietary software, such as Microsoft or SAP, have their own licenses that are precisely tailored to their products, the advocates of free and open source software have from the outset striven for clarity and general validity of their licenses, because after all, every user should understand them and, if necessary, use them himself for his own developments.</p>
+</div>
+<div class="paragraph">
+<p>However, it should not be concealed that this ideal of simplicity can hardly be achieved because too many specific requirements and internationally not always compatible legal understandings stand in the way of this. To give just one example: German and American copyright law are fundamentally different. According to German law there is one <em>person</em> as <em>author</em> (more precisely: <em>Urheber</em>), whose work is his <em>intellectual property</em>. While the author can grant permission to use his work, he can not assign or give up his authorship. The latter is alien to American law. Here, too, there is an author (who, however, can also be a company or an institution), but he only has exploitation rights which he can transfer in part or in full and thus completely detach himself from his work. An internationally valid licence must be interpreted with respect of different legislation.</p>
+</div>
+<div class="paragraph">
+<p>The consequences are numerous and sometimes very different FOSS licenses. Worse, still, are different versions of a license, or a mix of licenses (within a project, or even when connecting multiple projects) which can cause confusion or even legal disputes.</p>
+</div>
+<div class="paragraph">
+<p>Both the representatives of free software and the advocates of the clearly economically oriented open source movement created their own organizations, which today are decisively responsible for the formulation of software licenses according to their principles and support their members in their enforcement.</p>
+</div>
+<div class="sect3">
+<h4 id="_copyleft">Copyleft</h4>
+<div class="paragraph">
+<p>The already mentioned <em>Free Software Foundation</em> (FSF) has formulated the <em>GNU General Public License</em> (GPL) as one of the most important licenses for free software, which is used by many projects, e.g. the Linux kernel. In addition, it has released licenses with case-specific customizations, such as the <em>GNU Lesser General Public License</em> (LGPL), which governs the combination of free software with modifications made to code where the source code for the modifications do not have to be released to the public, the <em>GNU Affero General Public License</em> (AGPL), which covers selling access to hosted software, or the <em>GNU Free Documentation License</em> (FDL), which extends freedom principles to software documentation. In addition, the FSF makes recommendations for or against third-party licenses, and affiliated projects such as GPL-Violations.org investigate suspected violations of free licenses.</p>
+</div>
+<div class="paragraph">
+<p>The FSF calls the principle according to which a free license also applies to modified variants of the software <em>copyleft</em>&#8201;&#8212;&#8201;in contrast to the principle of restrictive copyright which it rejects. The idea, therefore, is to transfer the liberal principles of a software license as unrestrictedly as possible to future variants of the software in order to prevent subsequent restrictions.</p>
+</div>
+<div class="paragraph">
+<p>What sounds obvious and simple, however, leads to considerable complications in practice, which is why critics often call the copyleft principle &#8220;viral&#8221;, since it is transmitted to subsequent versions.</p>
+</div>
+<div class="paragraph">
+<p>From what has been said it follows, for example, that two software components that are licensed under different copyleft licenses might not be combinable with each other, since both licenses cannot be transferred to the subsequent product at the same time. This can even apply to different versions of the same license!</p>
+</div>
+<div class="paragraph">
+<p>For this reason, newer licenses or license versions often no longer grasp the copyleft so rigorously. Already the mentioned <em>GNU Lesser General Public License</em> (LGPL) is in this sense a concession to be able to connect free software with &#8220;non-free&#8221; components, as it is frequently done with so-called <em>libraries</em>. Libraries contain subroutines or routines, which in turn are used by various other programs. This leads to the common situation where proprietary software calls such a subroutine from a free library.</p>
+</div>
+<div class="paragraph">
+<p>Another way to avoid license conflicts is <em>dual licensing</em>, where one software is licensed under different licenses, e.g. a free license and a proprietary license. A typical use case is a free version of a software which might only be used when respecting the copyleft restrictions and the alternative offering to obtain the software under a different license which frees the licensee from certain restriction in return for a fee which could be used to fund the development of the software.</p>
+</div>
+<div class="paragraph">
+<p>It should therefore become clear that the choice of license for software projects should be made with much caution, since the cooperation with other projects, the combinability with other components and also the future design of the own product depend on it.  The copyleft presents developers with special challenges in this respect.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_open_source_definition_and_permissive_licenses">Open Source Definition and Permissive Licenses</h4>
+<div class="paragraph">
+<p>On the open source side, it is the <em>Open Source Initiative</em> (OSI), founded in 1998 by Eric S. Raymond and Bruce Perens, which is mainly concerned with licensing issues. It has also developed a standardized procedure for checking software licenses for compliance with its <em>Open Source Definition</em>. More than 80 recognized open source licenses can currently be found on the OSI website.</p>
+</div>
+<div class="paragraph">
+<p>Here they also list licenses as &#8220;OSI-approved&#8221; that explicitly contradict the copyleft principle, especially the <em>BSD licenses</em> group. The <em>Berkeley Software Distribution</em> (BSD) is a variant of the Unix operating system originally developed at the University of Berkeley, which later gave rise to free projects such as <em>NetBSD</em>, <em>FreeBSD</em> and <em>OpenBSD</em>. The licenses underlying these projects are often referred to as <em>permissive</em>. In contrast to copyleft licenses, they do not have the aim of establishing the terms of use of modified variants. Rather, the maximum freedom should help the software to be as widely distributed as possible by leaving the editors of the software alone to decide how to proceed with the edits&#8201;&#8212;&#8201;whether, for example, they also release them or treat them as closed source and distribute them commercially.</p>
+</div>
+<div class="paragraph">
+<p>The <em>2-Clause BSD License</em>, also called <em>Simplified BSD License</em> or <em>FreeBSD License</em>, proves how reduced such a permissive license can be. In addition to the standardized liability clause, which protects developers from liability claims arising from damage caused by the software, the license consists of only the following two rules:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</p>
+</li>
+<li>
+<p>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</p>
+</li>
+</ol>
+</div>
+</blockquote>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_creative_commons">Creative Commons</h4>
+<div class="paragraph">
+<p>The successful development concept of FLOSS and the associated technological progress led to attempts to transfer the open source principle to other, non-technical areas. The preparation and provision of knowledge, as well as the creative cooperation in solving complex tasks, are now regarded as evidence of the extended, content-related open source principle.</p>
+</div>
+<div class="paragraph">
+<p>This led to the need to create reliable foundations in these areas as well, according to which work results can be shared and processed. Since the available software licenses were hardly suitable for this, there were numerous attempts to convert the specific requirements from scientific work to digitized works of art &#8220;in the spirit of open source&#8221; into similarly handy licenses.</p>
+</div>
+<div class="paragraph">
+<p>By far the most important initiative of this kind today is <em>Creative Commons</em> (CC), which summarizes its concerns as follows:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+Creative Commons is a global nonprofit organization that enables sharing and reuse of creativity and knowledge through the provision of free legal tools.
+</blockquote>
+<div class="attribution">
+&#8212; <a href="https://creativecommons.org/faq/#what-is-creative-commons-and-what-do-you-do" class="bare">https://creativecommons.org/faq/#what-is-creative-commons-and-what-do-you-do</a>
+</div>
+</div>
+<div class="paragraph">
+<p>With Creative Commons, the focus of rights assignment goes back from the distributor to the author. An example: In traditional publishing, an author usually transfers all publishing rights (printing, translation, etc.) to a publisher, who in turn ensures the best possible distribution of the work. The significantly changed distribution channels of the Internet now put the author in a position to exercise many of these publishing rights herself and to decide for herself how her work may be used. Creative Commons gives the opportunity to determine this simply and legally reliably, but Creative Commons wants more: authors are encouraged to make their works available as a contribution to a general process of exchange and cooperation. Unlike traditional copyright, which gives the author all the rights that they can transfer to others as needed, the Creative Commons approach takes the opposite approach: the author makes her work available to the community, but can choose from a set of features those that need to be considered when using the work&#8201;&#8212;&#8201;the more features she chooses, the more restrictive the license.</p>
+</div>
+<div class="paragraph">
+<p>And so the &#8220;Choose a License&#8221; principle of CC asks an author step by step for the individual properties and generates the recommended license, which the author can last assign to the work as text and icon.</p>
+</div>
+<div class="paragraph">
+<p>For a better understanding, here is an overview of the six possible combinations and licenses offered by CC:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">CC BY (&#8220;Attribution&#8221;)</dt>
+<dd>
+<p>The free license that allows anyone to edit and distribute the work as long as they name the author.</p>
+</dd>
+<dt class="hdlist1">CC BY-SA (&#8220;Attribution-ShareAlike&#8221;)</dt>
+<dd>
+<p>As CC BY, except that the modified work may only be distributed under the same license. The principle reminds of the copyleft, because the license is &#8220;inherited&#8221; here as well.</p>
+</dd>
+<dt class="hdlist1">CC BY-ND (&#8220;Attribution-NoDerivatives&#8221;)</dt>
+<dd>
+<p>Like CC BY, except that the work may only be passed on unmodified.</p>
+</dd>
+<dt class="hdlist1">CC BY-NC (&#8220;Attribution-NonCommercial&#8221;)</dt>
+<dd>
+<p>The work may be edited and distributed by naming the author, but only under non-commercial conditions.</p>
+</dd>
+<dt class="hdlist1">CC BY-NC-SA (&#8220;Attribution-NonCommercial-ShareAlike&#8221;)</dt>
+<dd>
+<p>As BY-NC, except that the work may only be shared under the same conditions (i.e. a copyleft-like license).</p>
+</dd>
+<dt class="hdlist1">CC BY-NC-ND (&#8220;Attribution-NonCommercial-NoDerivatives&#8221;)</dt>
+<dd>
+<p>The most restrictive license: the distribution is allowed with attribution of the author, but only unchanged and under non-commercial conditions.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_business_models_in_open_source">Business Models in Open Source</h3>
+<div class="paragraph">
+<p>In retrospect, the triumph of FLOSS acts like a grassroots movement of technophile idealists who, independent of economic constraints and free of monetary dependencies, put their work at the service of the general public. At the same time, companies worth billions have been created in the FLOSS environment; to name just one, the US company <em>Red Hat</em> founded in 1993 with annual sales of over 3 billion USD (2018), which was taken over by the IT giant IBM in 2018.</p>
+</div>
+<div class="paragraph">
+<p>So let&#8217;s take a look at the tension between the free and mostly free-of-charge distribution of high-quality software and the business models for its creators, because one thing should be clear: The countless highly qualified developers of free software must also earn money, and the originally purely non-commercial FLOSS environment must therefore develop sustainable business models in order to preserve its own cosmos.</p>
+</div>
+<div class="paragraph">
+<p>A common approach, especially for larger projects in the initial phase, is the so-called <em>crowdfunding</em>, i.e. the collection of money donations via a platform like <em>Kickstarter</em>. In return, the donors receive a pre-defined bonus from the developers in the event of success, i.e. if previously defined goals are achieved, be it unlimited access to the product or special features.</p>
+</div>
+<div class="paragraph">
+<p>Another approach is <em>dual licensing</em>: free software is offered in parallel under a more restrictive or even proprietary license, which in turn guarantees the customer more extensive services (response times in the event of errors, updates, versions for certain platforms, etc.). One example among many is <em>ownCloud</em>, which is being developed under the GPL and offers business customers a &#8220;Business Edition&#8221; under a proprietary license.</p>
+</div>
+<div class="paragraph">
+<p>Let us also take ownCloud as an example of another widespread FLOSS business model: professional services. Many companies lack the necessary in-house technical knowledge to set up and operate complex and critical software reliably and, above all, securely. That&#8217;s why they buy professional services such as consulting, maintenance or helpdesk directly from the manufacturer. Liability issues also play a role in this decision, as the company transfers the risks of operation to the manufacturer.</p>
+</div>
+<div class="paragraph">
+<p>If a software manages to become successful and popular in its field, it is peripheral monetization possibilities such as merchandising or certificates that customers acquire and thus point out its special status when using this software. The learning platform <em>Moodle</em> offers the certification of trainers, who document their knowledge to potential clients, for example, and this is just one example among countless others.</p>
+</div>
+<div class="paragraph">
+<p><em>Software as a Service</em> (SaaS) is another business model, especially for web-based technologies. Here, a cloud provider runs a software like a Customer Relationship Management (CRM) or a Content Management System (CMS) on their servers and grant their customers access to the installed application. This saves the customer installation and maintenance of the software. In return, the customer pays for the use of the software according to various parameters, for example the number of users. Availability and security play an important role as business-critical factors.</p>
+</div>
+<div class="paragraph">
+<p>Last but not least, the model of developing customer-specific extensions into free software by order is particularly common in smaller projects. It is then usually up to the customer to decide how to proceed with these extensions, i.e. whether he also releases them or keeps them under lock and key as part of his own business model.</p>
+</div>
+<div class="paragraph">
+<p>One thing should have become clear: Although free software is usually available free of charge, numerous business models have been created in their environment, which are constantly modified and extended by countless freelancers and companies worldwide in a very creative form, which ultimately also ensures the continued existence of the entire FLOSS movement.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.3_01-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>What are&#8201;&#8212;&#8201;in a nutshell&#8201;&#8212;&#8201;the &#8220;four freedoms&#8221; as defined by Richard Stallman and the Free Software Foundation?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freedom 0</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freedom 1</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freedom 2</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freedom 3</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What does the abbreviation FLOSS stand for?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>You have developed free software and want to ensure that the software itself, but also all future works based on it, remain free as well. Which license do you choose?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CC BY</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GPL version 3</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2-Clause BSD License</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LGPL</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which of the following licenses would you call permissive, which would you call copyleft?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Simplified BSD License</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GPL version 3</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CC BY</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CC BY-SA</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>You have written a web application and published it under a free license. How can you earn money with your product? Name three possibilities.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.3_01-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Under which license (including version) are the following applications available?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Apache HTTP Server</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MySQL Community Server</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wikipedia articles</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mozilla Firefox</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GIMP</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>You want to release your software under the GNU GPL v3. What steps should you follow?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>You have written proprietary software and would like to combine it with free software under the GPL version 3. Are you allowed to do this or what do you have to consider?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Why did the Free Software Foundation release the <em>GNU Affero General Public License</em> (GNU AGPL) as a supplement to the GNU GPL?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Name three examples of free software, which are also offered as &#8220;Business Edition&#8221;, i.e. in a chargeable version.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.3_01-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this lesson you have learned:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Similarities and differences between free and open source software (FLOSS)</p>
+</li>
+<li>
+<p>FLOSS licenses, their importance and problems</p>
+</li>
+<li>
+<p>Copyleft vs. permissive licences</p>
+</li>
+<li>
+<p>FLOSS business models</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.3_01-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>What are&#8201;&#8212;&#8201;in a nutshell&#8201;&#8212;&#8201;the &#8220;four freedoms&#8221; as defined by Richard Stallman and the Free Software Foundation?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freedom 0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">run the software</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freedom 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">study and modify the software (source code)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freedom 2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">distribute the software</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freedom 3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">distribute the modified software</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What does the abbreviation FLOSS stand for?</p>
+<div class="paragraph">
+<p>Free/Libre Open Source Software</p>
+</div>
+</li>
+<li>
+<p>You have developed free software and want to ensure that the software itself, but also all future results based on it, remain free as well. Which license do you choose?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CC BY</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GPL version 3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2-Clause BSD License</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LGPL</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which of the following licenses would you call permissive, which would you call copyleft?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Simplified BSD License</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">permissive</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GPL version 3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">copyleft</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CC BY</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">permissive</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CC BY-SA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">copyleft</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>You have written a web application and published it under a free license. How can you earn money with your product? Name three possibilities.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Dual licensing, e.g. by offering a chargeable &#8220;Business Edition&#8221;</p>
+</li>
+<li>
+<p>Offering hosting, service, and support</p>
+</li>
+<li>
+<p>Developing proprietary extensions for customers</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.1.3_01-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Under which license (including version) are the following applications available?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Apache HTTP Server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Apache License 2.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MySQL Community Server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GPL 2.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wikipedia articles (English)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Creative Commons Attribution Share-Alike license (CC-BY-SA)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mozilla Firefox</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mozilla Public License 2.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GIMP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LGPL 3</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>You want to release your software under the GNU GPL v3. What steps should you follow?</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If necessary, secure yourself against the employer with a copyright waiver, for example, so that you can specify the license.</p>
+</li>
+<li>
+<p>Add a copyright notice to each file.</p>
+</li>
+<li>
+<p>Add a file called <code>COPYING</code> with the full license text to your software.</p>
+</li>
+<li>
+<p>Add a reference to the license in each file.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>You have written proprietary software and would like to combine it with free software under the GPL version 3. Are you allowed to do this or what do you have to consider?</p>
+<div class="paragraph">
+<p>The FAQs of the Free Software Foundation provide information here: Provided that your proprietary software and the free software remain separate from each other, the combination is possible. However, you have to make sure that this separation is technically guaranteed and recognizable for the users. If you integrate the free software in such a way that it becomes part of your product, you must also publish the product under the GPL according to the copyleft principle.</p>
+</div>
+</li>
+<li>
+<p>Why did the Free Software Foundation release the <em>GNU Affero General Public License</em> (GNU AGPL) as a supplement to the GNU GPL?</p>
+<div class="paragraph">
+<p>The GNU AGPL closes a license gap that arises especially with free software hosted on a server: If a developer makes changes to the software, he is not obliged under the GPL to make these changes accessible, since he allows access to the program, but does not &#8220;redistribute&#8221; on the program in the GPL sense. The GNU AGPL, on the other hand, stipulates that the software must be made available for download with all changes.</p>
+</div>
+</li>
+<li>
+<p>Name three examples of free software, which are also offered as &#8220;Business Edition&#8221;, e.g. in a chargeable version.</p>
+<div class="paragraph">
+<p>MySQL, Zammad, Nextcloud</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+    
+    <aside class="lesson__teaser teaser">
+      <div class="container teaser__container">
+        <h2 class="label">Next Lesson</h2>
+        <p class="headline teaser__headline">1.4 ICT Skills and Working in Linux (1.4 Lesson 1)</p>
+
+        <div class="button-group">
+            <a href="../../1.4/1.4_01/index.html" class="button -primary">Read next lesson</a>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,2279 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>4.3 Lesson 2</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">4.3 Lesson 2</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.2/index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.2/1.2_01/index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.3/index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.3/1.3_01/index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.1/index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_02/index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.3/index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_01/index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.1/index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.1/3.1_01/index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.3/index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_01/index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.2/index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.2/5.2_01/index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.4/index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.4/5.4_01/index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 4: The Linux Operating System</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">4.3 Where Data is Stored</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">4.3 Lesson 2</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>4.3 Lesson 2</h1>
+          <div id="preamble">
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4 The Linux Operating System</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.3 Where Data is Stored</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2 of 2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.4.3_02-IN">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After exploring programs and their configuration files, in this lesson we will learn how commands are executed as processes. Likewise, we will be commenting on the system messaging, the use of the kernel ring buffer and how the arrival of <code>systemd</code> and its journal daemon&#8201;&#8212;&#8201;<code>journald</code>&#8201;&#8212;&#8201;changed the ways things had been done so far regarding system logging.</p>
+</div>
+<div class="sect2">
+<h3 id="_processes">Processes</h3>
+<div class="paragraph">
+<p>Every time a user issues a command, a program is run and one or more processes are generated.</p>
+</div>
+<div class="paragraph">
+<p>Processes exist in a hierarchy. After the kernel is loaded in memory on boot, the first process is initiated which&#8201;&#8212;&#8201;in turn&#8201;&#8212;&#8201;starts other processes, which, again, can start other processes. Every process has a unique identifier (<code>PID</code>) and parent process identifier (<code>PPID</code>). These are positive integers that are assigned in sequential order.</p>
+</div>
+<div class="sect3">
+<h4 id="_exploring_processes_dynamically_top">Exploring Processes Dynamically: <code>top</code></h4>
+<div class="paragraph">
+<p>You can get a dynamic listing of all running processes with the <code>top</code> command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>top</strong>
+
+top - 11:10:29 up  2:21,  1 user,  load average: 0,11, 0,20, 0,14
+Tasks:  73 total,   1 running,  72 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0,0 us,  0,3 sy,  0,0 ni, 99,7 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  1020332 total,   909492 free,    38796 used,    72044 buff/cache
+KiB Swap:  1046524 total,  1046524 free,        0 used.   873264 avail Mem
+
+   PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+   436 carol     20   0   42696   3624   3060 R  0,7  0,4   0:00.30 top
+     4 root      20   0       0      0      0 S  0,3  0,0   0:00.12 kworker/0:0
+   399 root      20   0   95204   6748   5780 S  0,3  0,7   0:00.22 sshd
+     1 root      20   0   56872   6596   5208 S  0,0  0,6   0:01.29 systemd
+     2 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kthreadd
+     3 root      20   0       0      0      0 S  0,0  0,0   0:00.02 ksoftirqd/0
+     5 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 kworker/0:0H
+     6 root      20   0       0      0      0 S  0,0  0,0   0:00.00 kworker/u2:0
+     7 root      20   0       0      0      0 S  0,0  0,0   0:00.08 rcu_sched
+     8 root      20   0       0      0      0 S  0,0  0,0   0:00.00 rcu_bh
+     9 root      rt   0       0      0      0 S  0,0  0,0   0:00.00 migration/0
+    10 root       0 -20       0      0      0 S  0,0  0,0   0:00.00 lru-add-drain
+    (...)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As we saw above, <code>top</code> can also give us information about memory and CPU consumption of the overall system as well as for each process.</p>
+</div>
+<div class="paragraph">
+<p><code>top</code> allows the user some interaction.</p>
+</div>
+<div class="paragraph">
+<p>By default, the output is sorted by the percentage of CPU time used by each process in descending order. This behavior can be modified by pressing the following keys from within <code>top</code>:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>M</code></dt>
+<dd>
+<p>Sort by memory usage.</p>
+</dd>
+<dt class="hdlist1"><code>N</code></dt>
+<dd>
+<p>Sort by process ID number.</p>
+</dd>
+<dt class="hdlist1"><code>T</code></dt>
+<dd>
+<p>Sort by running time.</p>
+</dd>
+<dt class="hdlist1"><code>P</code></dt>
+<dd>
+<p>Sort by percentage of CPU usage.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>To switch between descending/ascending order just press <code>R</code>.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>A fancier and more user-friendly version of <code>top</code> is <code>htop</code>. Another&#8201;&#8212;&#8201;perhaps more exhaustive&#8201;&#8212;&#8201;alternative is <code>atop</code>. If not already installed in your system, I encourage you to use your package manager to install them and give them a try.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_a_snapshot_of_processes_ps">A Snapshot of Processes: <code>ps</code></h4>
+<div class="paragraph">
+<p>Another very useful command to get information about processes is <code>ps</code>. Whereas <code>top</code> provides dynamic information, that of <code>ps</code> is static.</p>
+</div>
+<div class="paragraph">
+<p>If invoked without options, the output of <code>ps</code> is quite discrete and relates only to the processes attached to the current shell:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ps</strong>
+  PID TTY          TIME CMD
+ 2318 pts/0    00:00:00 bash
+ 2443 pts/0    00:00:00 ps</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The displayed information has to do with the process identifier (<code>PID</code>), the terminal in which the process is run (<code>TTY</code>), the CPU time taken by the process (<code>TIME</code>) and the command which started the process (<code>CMD</code>).</p>
+</div>
+<div class="paragraph">
+<p>A useful switch for <code>ps</code> is <code>-f</code> which shows the full-format listing:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ps -f</strong>
+UID        PID  PPID  C STIME TTY          TIME CMD
+carol     2318  1682  0 08:38 pts/1    00:00:00 bash
+carol     2443  2318  0 08:46 pts/1    00:00:00 ps -f</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In combination with other switches, <code>-f</code> shows the relationship between parent and child processes:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ps -uf</strong>
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+carol       2318  0.0  0.1  21336  5140 pts/1    Ss   08:38   0:00 bash
+carol       2492  0.0  0.0  38304  3332 pts/1    R+   08:51   0:00  \_ ps -uf
+carol       1780  0.0  0.1  21440  5412 pts/0    Ss   08:28   0:00 bash
+carol       2291  0.0  0.7 305352 28736 pts/0    Sl+  08:35   0:00  \_ emacs index.en.adoc -nw
+(...)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Likewise, <code>ps</code> can show the percentage of memory used when invoked with the <code>-v</code> switch:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ps -v</strong>
+  PID TTY      STAT   TIME  MAJFL   TRS   DRS   RSS %MEM COMMAND
+ 1163 tty2     Ssl+   0:00      1    67 201224 5576  0.1 /usr/lib/gdm3/gdm-x-session (...)
+ (...)</pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Another visually attractive command that shows the hierarchy of processes is <code>pstree</code>. It ships with all major distributions.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_process_information_in_the_proc_directory">Process Information in the <code>/proc</code> Directory</h4>
+<div class="paragraph">
+<p>We have already seen the <code>/proc</code> filesystem. <code>/proc</code> includes a numbered subdirectory for every running process in the system (the number is the <code>PID</code> of the process):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>carol@debian:~# <strong>ls /proc</strong>
+1    108  13   17   21   27   354  41   665  8    9
+10   109  14   173  22   28   355  42   7    804  915
+103  11   140  18   23   29   356  428  749  810  918
+104  111  148  181  24   3    367  432  75   811
+105  112  149  19   244  349  370  433  768  83
+106  115  15   195  25   350  371  5    797  838
+107  12   16   2    26   353  404  507  798  899
+(...)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Thus, all the information about a particular process is included within its directory. Let us list the contents of the first process&#8201;&#8212;&#8201;that whose <code>PID</code> is <code>1</code> (the output has been truncated for readability):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>ls /proc/1/</strong>
+attr        cmdline          environ  io        mem	      ns
+autogroup   comm             exe      limits    mountinfo numa_maps
+auxv        coredump_filter  fd       loginuid  mounts    oom_adj
+...</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You can check&#8201;&#8212;&#8201;for instance&#8201;&#8212;&#8201;the process executable:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>cat /proc/1/cmdline; echo</strong>
+/sbin/init</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As you can see, the binary that started the hierarchy of processes was <code>/sbin/init</code>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Commands can be concatenated with the semicolon (<code>;</code>). The point in using the <code>echo</code> command above is to provide a newline. Try and run simply <code>cat /proc/1/cmdline</code> to see the difference.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_the_system_load">The System Load</h4>
+<div class="paragraph">
+<p>Each process on a system can potentially consume system resources. The so-called system load tries to aggregate the overall load of the system into a single numeric indicator. You can see the current load with the command <code>uptime</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>uptime</strong>
+ 22:12:54 up 13 days, 20:26,  1 user,  load average: 2.91, 1.59, 0.39</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The three last digits indicate the system&#8217;s load average for the last minute (<code>2.91</code>), the last five minutes (<code>1.59</code>) and the last fifteen minutes (<code>0.39</code>), respectively.</p>
+</div>
+<div class="paragraph">
+<p>Each of these numbers indicates how many processes were waiting either for CPU resources or for input/output operations to complete. This means that these processes were ready to run if they had received the respective resources.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_system_logging_and_system_messaging">System Logging and System Messaging</h3>
+<div class="paragraph">
+<p>As soon as the kernel and the processes start executing and communicating with each other, a lot of information is produced. Most of it is sent to files&#8201;&#8212;&#8201;the so-called log files or, simply, <em>logs</em>.</p>
+</div>
+<div class="paragraph">
+<p>Without logging, searching for an event that happened on a server would give sysadmins many a headache, hence the importance of having a standardized and centralized way of keeping track of any system events. Besides, logs are determinant and telling when it comes to troubleshooting and security as well as reliable data sources for understanding system statistics and making trend predictions.</p>
+</div>
+<div class="sect3">
+<h4 id="_logging_with_the_syslog_daemon">Logging with the syslog Daemon</h4>
+<div class="paragraph">
+<p>Traditionally, system messages have been managed by the standard logging facility&#8201;&#8212;&#8201;syslog&#8201;&#8212;&#8201;or any of its derivatives&#8201;&#8212;&#8201;syslog-ng or rsyslog. The logging daemon collects messages from other services and programs and stores them in log files, typically under <code>/var/log</code>. However, some services take care of their own logs (take&#8201;&#8212;&#8201;for example&#8201;&#8212;&#8201;the Apache HTTPD web server). Likewise, the Linux kernel uses an in-memory ring buffer for storing its log messages.</p>
+</div>
+<div class="sect4">
+<h5 id="_log_files_in_varlog">Log Files in <code>/var/log</code></h5>
+<div class="paragraph">
+<p>Because logs are data that varies over time, they are normally found in <code>/var/log</code>.</p>
+</div>
+<div class="paragraph">
+<p>If you explore <code>/var/log</code>, you will realize that the names of logs are&#8201;&#8212;&#8201;to a certain degree&#8201;&#8212;&#8201;quite self-explanatory. Some examples include:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>/var/log/auth.log</code></dt>
+<dd>
+<p>It stores information about authentication.</p>
+</dd>
+<dt class="hdlist1"><code>/var/log/kern.log</code></dt>
+<dd>
+<p>It stores kernel information.</p>
+</dd>
+<dt class="hdlist1"><code>/var/log/syslog</code></dt>
+<dd>
+<p>It stores system information.</p>
+</dd>
+<dt class="hdlist1"><code>/var/log/messages</code></dt>
+<dd>
+<p>It stores system and application data.</p>
+</dd>
+</dl>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>The exact name and contents of log files may vary across Linux distributions.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_accessing_log_files">Accessing Log Files</h4>
+<div class="paragraph">
+<p>When exploring log files, remember to be root (if you do not have reading permissions) and use a pager such as <code>less</code>;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>less /var/log/messages</strong>
+Jun  4 18:22:48 debian liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="285" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jun 29 16:57:10 debian kernel: [    0.000000] Linux version 4.9.0-8-amd64 (debian-kernel@lists.debian.org) (gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ) #1 SMP Debian 4.9.130-2 (2018-10-27)
+Jun 29 16:57:10 debian kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.9.0-8-amd64 root=/dev/sda1 ro quiet</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Alternatively, you can use <code>tail</code> with the <code>-f</code> switch to read the most recent messages of the file and dynamically show new lines as they are appended:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>tail -f /var/log/messages</strong>
+Jul  9 18:39:37 debian kernel: [    2.350572] RAPL PMU: hw unit of domain psys 2^-0 Joules
+Jul  9 18:39:37 debian kernel: [    2.512802] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input7
+Jul  9 18:39:37 debian kernel: [    2.513861] Adding 1046524k swap on /dev/sda5.  Priority:-1 extents:1 across:1046524k FS
+Jul  9 18:39:37 debian kernel: [    2.519301] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Jul  9 18:39:37 debian kernel: [    2.623947] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Jul  9 18:39:37 debian kernel: [    2.914805] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Jul  9 18:39:39 debian kernel: [    4.937283] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jul  9 18:39:39 debian kernel: [    4.938493] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Jul  9 18:39:40 debian kernel: [    5.315603] random: crng init done
+Jul  9 18:39:40 debian kernel: [    5.315608] random: 7 urandom warning(s) missed due to ratelimiting</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>You will find the output into the following format:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Timestamp</p>
+</li>
+<li>
+<p>Hostname from which the message came from</p>
+</li>
+<li>
+<p>Name of program/service that generated the message</p>
+</li>
+<li>
+<p>The PID of the program that generated the message</p>
+</li>
+<li>
+<p>Description of the action that took place</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Most log files are written in plain text; however, a few can contain binary data as is the case with <code>/var/log/wtmp</code>&#8201;&#8212;&#8201;which stores data relevant to successful logins. You can use the <code>file</code> command to determine which is the case:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>file /var/log/wtmp</strong>
+/var/log/wtmp: dBase III DBT, version number 0, next free block index 8</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>These files are normally read using special commands. <code>last</code> is used to interpret the data in <code>/var/log/wtmp</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>last</strong>
+carol    tty2         :0               Thu May 30 10:53   still logged in
+reboot   system boot  4.9.0-9-amd64    Thu May 30 10:52   still running
+carol    tty2         :0               Thu May 30 10:47 - crash  (00:05)
+reboot   system boot  4.9.0-9-amd64    Thu May 30 09:11   still running
+carol    tty2         :0               Tue May 28 08:28 - 14:11  (05:42)
+reboot   system boot  4.9.0-9-amd64    Tue May 28 08:27 - 14:11  (05:43)
+carol    tty2         :0               Mon May 27 19:40 - 19:52  (00:11)
+reboot   system boot  4.9.0-9-amd64    Mon May 27 19:38 - 19:52  (00:13)
+carol    tty2         :0               Mon May 27 19:35 - down   (00:03)
+reboot   system boot  4.9.0-9-amd64    Mon May 27 19:34 - 19:38  (00:04)</pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Similar to <code>/var/log/wtmp</code>, <code>/var/log/btmp</code> stores information about failed login attempts and the special command to read its contents is <code>lastb</code>.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect4">
+<h5 id="_log_rotation">Log Rotation</h5>
+<div class="paragraph">
+<p>Log files can grow a lot over a few weeks or months and take up all free disk space. To tackle this, the utility <code>logrotate</code> is used. It implements log rotation or cycling which implies actions such as moving log files to a new name, archiving and/or compressing them, sometimes emailing them to the sysadmin and eventually deleting them as they grow old. The conventions used for naming these rotated log files are diverse (adding a suffix with the date, for example); however, simply adding a suffix with an integer is commonplace:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>ls /var/log/apache2/</strong>
+access.log  error.log  error.log.1  error.log.2.gz  other_vhosts_access.log</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note how <code>error.log.2.gz</code> has already been compressed with gunzip (hence the <code>.gz</code> suffix).</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_the_kernel_ring_buffer">The Kernel Ring Buffer</h4>
+<div class="paragraph">
+<p>The kernel ring buffer is a fixed-size data structure that records kernel boot messages as well as any live kernel messages. The function of this buffer&#8201;&#8212;&#8201;a very important one&#8201;&#8212;&#8201;is that of logging all the kernel messages produced on boot&#8201;&#8212;&#8201;when <code>syslog</code> is not yet available. The <code>dmesg</code> command prints the kernel ring buffer (which used to be also stored in <code>/var/log/dmesg</code>). Because of the extension of the ring buffer, this command is normally used in combination with the text filtering utility <code>grep</code> or a pager such as <code>less</code>. For instance, to search for boot messages:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>dmesg | grep boot</strong>
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.9.0-9-amd64 root=UUID=5216e1e4-ae0e-441f-b8f5-8061c0034c74 ro quiet
+[    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+[    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.9.0-9-amd64 root=UUID=5216e1e4-ae0e-441f-b8f5-8061c0034c74 ro quiet
+[    0.144986] AppArmor: AppArmor disabled by boot time parameter
+(...)</pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>As the kernel ring buffer grows with new messages over time, the oldest ones will fade away.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_the_system_journal_systemd_journald">The System Journal: systemd-journald</h4>
+<div class="paragraph">
+<p>As of 2015, systemd replaced SysV Init as a <em>de facto</em> system and service manager in most major Linux distributions. As a consequence, the journal daemon&#8201;&#8212;&#8201;journald&#8201;&#8212;&#8201;has become the standard logging component, superseding syslog in most aspects. The data is no longer stored in plain text but in binary form. Thus, the <code>journalctl</code> utility is necessary to read the logs. On top of that, journald is syslog compatible and can be integrated with syslog.</p>
+</div>
+<div class="paragraph">
+<p><code>journalctl</code> is the utility that is used to read and query systemd&#8217;s journal database. If invoked without options, it prints the entire journal:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>journalctl</strong>
+-- Logs begin at Tue 2019-06-04 17:49:40 CEST, end at Tue 2019-06-04 18:13:10 CEST. --
+jun 04 17:49:40 debian systemd-journald[339]: Runtime journal (/run/log/journal/) is 8.0M, max 159.6M, 151.6M free.
+jun 04 17:49:40 debian kernel: microcode: microcode updated early to revision 0xcc, date = 2019-04-01
+Jun 04 17:49:40 debian kernel: Linux version 4.9.0-8-amd64 (debian-kernel@lists.debian.org) (gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) )
+Jun 04 17:49:40 debian kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-4.9.0-8-amd64 root=/dev/sda1 ro quiet
+(...)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>However, if invoked with the <code>-k</code> or <code>--dmesg</code> switches, it will be equivalent to using the <code>dmesg</code> command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>journalctl -k</strong>
+[    0.000000] Linux version 4.9.0-9-amd64 (debian-kernel@lists.debian.org) (gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ) #1 SMP Debian 4.9.168-1+deb9u2 (2019-05-13)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.9.0-9-amd64 root=UUID=5216e1e4-ae0e-441f-b8f5-8061c0034c74 ro quiet
+(...)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Other interesting options for <code>journalctl</code> include:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>-b</code>, <code>--boot</code></dt>
+<dd>
+<p>It shows boot information.</p>
+</dd>
+<dt class="hdlist1"><code>-u</code></dt>
+<dd>
+<p>It shows messages about a specified unit. Roughly, a unit can be defined as any resource handled by systemd. For example <code>journalctl -u apache2.service</code> is used to read messages about the <code>apache2</code> web server.</p>
+</dd>
+<dt class="hdlist1"><code>-f</code></dt>
+<dd>
+<p>It shows most recent journal messages and keeps printing new entries as they are appended to the journal&#8201;&#8212;&#8201;much like <code>tail -f</code>.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.4.3_02-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Have a look at the following listing of <code>top</code> and answer the following questions:</p>
+<div class="listingblock">
+<div class="content">
+<pre>carol@debian:~$ <strong>top</strong>
+
+top - 13:39:16 up 31 min,  1 user,  load average: 0.12, 0.15, 0.10
+Tasks:  73 total,   2 running,  71 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  0.4 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1020332 total,   698700 free,   170664 used,   150968 buff/cache
+KiB Swap:  1046524 total,  1046524 free,        0 used.   710956 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+  605 nobody    20   0 1137620 132424  34256 S  6.3 13.0   1:47.24 ntopng
+  444 www-data  20   0  364780   4132   2572 S  0.3  0.4   0:00.44 apache2
+  734 root      20   0   95212   7004   6036 S  0.3  0.7   0:00.36 sshd
+  887 carol     20   0   46608   3680   3104 R  0.3  0.4   0:00.03 top
+    1 root      20   0   56988   6688   5240 S  0.0  0.7   0:00.42 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.09 ksoftirqd/0
+    4 root      20   0       0      0      0 S  0.0  0.0   0:00.87 kworker/0:0
+(...)</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Which processes have been started by the user <code>carol</code>?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What virtual directory of <code>/proc</code> should you visit to search for data regarding the <code>top</code> command?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What process was run first? How can you tell?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Complete the table specifying in what area of <code>top</code> output the following information is found:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Information about &#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">Summary Area</th>
+<th class="tableblock halign-left valign-top">Task Area</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Memory</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Swap</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PID</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CPU time</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Commands</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>What command is used to read the following binary logs?</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>/var/log/wtmp</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>/var/log/btmp</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>/run/log/journal/2a7d9730cd3142f4b15e20d6be631836/system.journal</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>In combination with <code>grep</code>, what commands would you use to find out the following information about your Linux system?</p>
+<div class="ulist">
+<ul>
+<li>
+<p>When the system was last rebooted (<code>wtmp</code>)</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which hard disks are installed (<code>kern.log</code>)</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>When the last login occurred (<code>auth.log</code>)</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>What two commands would you use to have the kernel ring buffer displayed?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Indicate where the following log messages belong:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>Jul 10 13:37:39 debian dbus[303]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/auth.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/kern.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/syslog</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/messages</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>Jul 10 11:23:58 debian kernel: [    1.923349] usbhid: USB HID core driver</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/auth.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/kern.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/syslog</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/messages</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>Jul 10 14:02:53 debian sudo: pam_unix(sudo:session): session opened for user root by carol(uid=0)</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/auth.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/kern.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/syslog</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/messages</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>Jul 10 11:23:58 debian NetworkManager[322]: &lt;info&gt;  [1562750638.8672] NetworkManager (version 1.6.2) is starting&#8230;&#8203;</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/auth.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/kern.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/syslog</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/messages</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Have <code>journalctl</code> query information about the following units?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Unit</th>
+<th class="tableblock halign-left valign-top">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>ssh</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>networking</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>rsyslog</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>cron</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.4.3_02-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Reconsider the <code>top</code> output from the guided exercises and answer the following questions:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>What two steps would you follow to kill the <em>apache</em> web server?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>In the summary area, how could you display the information about physical memory and swap using progress bars?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Now, sort the processes by memory usage:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Now that you have memory information displayed in progress bars and processes sorted by memory usage, save these configurations so that you get them as default next time you use <code>top</code>:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What file stores <code>top&#8217;s</code> configuration settings? Where does it live? How can you check for its existence?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Learn about the command <code>exec</code> in Bash. Try to demonstrate its functionality by starting a Bash session, finding the Bash process with <code>ps</code>, then run <code>exec /bin/sh</code> and search for the process with the same PID again.</p>
+</li>
+<li>
+<p>Follow these steps to explore kernel events and udev&#8217;s dynamic management of devices:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Hotplug a USB drive into your computer. Run <code>dmesg</code> and pay attention to the last lines. What is the most recent line?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Bearing in mind the output from the previous command, run <code>ls /dev/sd*</code> and make sure your USB drive appears in the listing. What is the output?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Now remove the USB drive and run <code>dmesg</code> again. How does the most recent line read?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Run <code>ls /dev/sd*</code> again and make sure your device disappeared from the listing. What is the output?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.4.3_02-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In the context of data storage, the following topics have been discussed in this lesson: process management and system logging and messaging.</p>
+</div>
+<div class="paragraph">
+<p>Regarding process management, we have learned the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Programs generate processes and processes exist in a hierarchy.</p>
+</li>
+<li>
+<p>Every process has a unique identifier (<code>PID</code>) and a parent process identifier (<code>PPID</code>).</p>
+</li>
+<li>
+<p><code>top</code> is a very useful command to dynamically and interactively explore the running processes of the system.</p>
+</li>
+<li>
+<p><code>ps</code> can be used to obtain a snapshot of the current running processes in the system.</p>
+</li>
+<li>
+<p>The <code>/proc</code> directory includes directories for every running process in the system named after their PIDs.</p>
+</li>
+<li>
+<p>The concept of system load average&#8201;&#8212;&#8201;which is very useful to check on CPU utilization/overloading.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Concerning system logging, we must remember that:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>A log is a file where system events are recorded. Logs are invaluable when it comes to troubleshooting.</p>
+</li>
+<li>
+<p>Logging has traditionally been handled by special services such as syslog, syslog-ng or rsyslog. Nevertheless, some programs use their own logging daemons.</p>
+</li>
+<li>
+<p>Because logs are variable data, they are kept in <code>/var</code> and&#8201;&#8212;&#8201;sometimes&#8201;&#8212;&#8201;their names can give you a clue about their content (<code>kern.log</code>, <code>auth.log</code>, etc.)</p>
+</li>
+<li>
+<p>Most logs are written in plain text and can be read with any text editor as long as you have the right permissions. However, a few of them are binary and must be read using special commands.</p>
+</li>
+<li>
+<p>To avoid problems with disk space, <em>log rotation</em> is carried out by the logrotate utility.</p>
+</li>
+<li>
+<p>As for the kernel, it uses a circular data structure&#8201;&#8212;&#8201;the ring buffer&#8201;&#8212;&#8201;where boot messages are kept (old messages fade away over time).</p>
+</li>
+<li>
+<p>The system and service manager systemd replaced System V init in virtually all distros with journald becoming the standard logging service.</p>
+</li>
+<li>
+<p>To read systemd&#8217;s journal, the <code>journalctl</code> utility is needed.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Commands used in this lesson:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>cat</code></dt>
+<dd>
+<p>Concatenate/print file content.</p>
+</dd>
+<dt class="hdlist1"><code>dmesg</code></dt>
+<dd>
+<p>Print the kernel ring buffer.</p>
+</dd>
+<dt class="hdlist1"><code>echo</code></dt>
+<dd>
+<p>Display a line of text or a newline.</p>
+</dd>
+<dt class="hdlist1"><code>file</code></dt>
+<dd>
+<p>Determine file type.</p>
+</dd>
+<dt class="hdlist1"><code>grep</code></dt>
+<dd>
+<p>Print lines matching a pattern.</p>
+</dd>
+<dt class="hdlist1"><code>last</code></dt>
+<dd>
+<p>Show a listing of last logged in users.</p>
+</dd>
+<dt class="hdlist1"><code>less</code></dt>
+<dd>
+<p>Display contents of file one page at a time.</p>
+</dd>
+<dt class="hdlist1"><code>ls</code></dt>
+<dd>
+<p>List directory contents.</p>
+</dd>
+<dt class="hdlist1"><code>journalctl</code></dt>
+<dd>
+<p>Query the <code>systemd</code> journal.</p>
+</dd>
+<dt class="hdlist1"><code>tail</code></dt>
+<dd>
+<p>Display the last lines of a file.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.4.3_02-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Have a look the following listing of <code>top</code> and answer the following questions:</p>
+<div class="listingblock">
+<div class="content">
+<pre>carol@debian:~$ <strong>top</strong>
+
+top - 13:39:16 up 31 min,  1 user,  load average: 0.12, 0.15, 0.10
+Tasks:  73 total,   2 running,  71 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  0.4 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1020332 total,   698700 free,   170664 used,   150968 buff/cache
+KiB Swap:  1046524 total,  1046524 free,        0 used.   710956 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+  605 nobody    20   0 1137620 132424  34256 S  6.3 13.0   1:47.24 ntopng
+  444 www-data  20   0  364780   4132   2572 S  0.3  0.4   0:00.44 apache2
+  734 root      20   0   95212   7004   6036 S  0.3  0.7   0:00.36 sshd
+  887 carol     20   0   46608   3680   3104 R  0.3  0.4   0:00.03 top
+    1 root      20   0   56988   6688   5240 S  0.0  0.7   0:00.42 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.09 ksoftirqd/0
+    4 root      20   0       0      0      0 S  0.0  0.0   0:00.87 kworker/0:0
+(...)</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Which processes have been started by the user <code>carol</code>?</p>
+<div class="paragraph">
+<p>Answer: Only one: <code>top</code>.</p>
+</div>
+</li>
+<li>
+<p>What virtual directory of <code>/proc</code> should you visit to search for data regarding the <code>top</code> command?</p>
+<div class="paragraph">
+<p>Answer: <code>/proc/887</code></p>
+</div>
+</li>
+<li>
+<p>What process was run first? How can you tell?</p>
+<div class="paragraph">
+<p>Answer: <code>systemd</code>. Because it is the one with <code>PID</code> #1.</p>
+</div>
+</li>
+<li>
+<p>Complete the table specifying in what area of <code>top</code> output the following information is found:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Information about &#8230;&#8203;</th>
+<th class="tableblock halign-left valign-top">Summary Area</th>
+<th class="tableblock halign-left valign-top">Task Area</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Memory</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Swap</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>PID</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CPU time</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Commands</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>What command is used to read the following binary logs?</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>/var/log/wtmp</code></p>
+<div class="paragraph">
+<p>Answer: <code>last</code></p>
+</div>
+</li>
+<li>
+<p><code>/var/log/btmp</code></p>
+<div class="paragraph">
+<p>Answer: <code>lastb</code></p>
+</div>
+</li>
+<li>
+<p><code>/run/log/journal/2a7d9730cd3142f4b15e20d6be631836/system.journal</code></p>
+<div class="paragraph">
+<p>Answer: <code>journalctl</code></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>In combination with <code>grep</code>, what commands would you use to find out the following information about your Linux system?</p>
+<div class="ulist">
+<ul>
+<li>
+<p>When the system was last rebooted (<code>wtmp</code>)</p>
+<div class="paragraph">
+<p>Answer: <code>last</code></p>
+</div>
+</li>
+<li>
+<p>Which hard disk are installed (<code>kern.log</code>)</p>
+<div class="paragraph">
+<p>Answer: <code>less /var/log/kern.log</code></p>
+</div>
+</li>
+<li>
+<p>When the last login occurred (<code>auth.log</code>)</p>
+<div class="paragraph">
+<p>Answer: <code>less /var/log/auth.log</code></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>What two commands would you use to have the kernel ring buffer displayed?</p>
+<div class="paragraph">
+<p><code>dmesg</code> and <code>journalctl -k</code> (also <code>journalctl --dmesg</code>).</p>
+</div>
+</li>
+<li>
+<p>Indicate where the following log messages belong:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>Jul 10 13:37:39 debian dbus[303]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/auth.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/kern.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/syslog</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/messages</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>Jul 10 11:23:58 debian kernel: [    1.923349] usbhid: USB HID core driver</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/auth.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/kern.log</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/syslog</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/messages</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><code>Jul 10 14:02:53 debian sudo: pam_unix(sudo:session): session opened for user root by carol(uid=0)</code></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/auth.log</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/kern.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/syslog</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/messages</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>Jul 10 11:23:58 debian NetworkManager[322]: &lt;info&gt;  [1562750638.8672] NetworkManager (version 1.6.2) is starting&#8230;&#8203;</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/auth.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/kern.log</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/syslog</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/var/log/messages</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Have <code>journalctl</code> query information about the following units:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Unit</th>
+<th class="tableblock halign-left valign-top">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>ssh</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>journalctl -u ssh.service</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>networking</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>journalctl -u networking.service</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>rsyslog</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>journalctl -u rsyslog.service</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>cron</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>journalctl -u cron.service</code></p></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.4.3_02-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Reconsider the <code>top</code> output from the guided exercises and answer the following questions:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>What two steps would you follow to kill the <em>apache</em> web server?</p>
+<div class="paragraph">
+<p>First, press <code>k</code>; then provide a <code>kill</code> value.</p>
+</div>
+</li>
+<li>
+<p>In the summary area, how could you display the information about physical memory and swap using progress bars?</p>
+<div class="paragraph">
+<p>By pressing <code>m</code> once or twice.</p>
+</div>
+</li>
+<li>
+<p>Now, sort the processes by memory usage:</p>
+<div class="paragraph">
+<p><code>M</code></p>
+</div>
+</li>
+<li>
+<p>Now that you have memory information displayed in progress bars and processes sorted by memory usage, save these configurations so that you get them as default next time you use <code>top</code>:</p>
+<div class="paragraph">
+<p><code>W</code></p>
+</div>
+</li>
+<li>
+<p>What file stores <code>top&#8217;s</code> configuration settings? Where does it live? How can you check for its existence?</p>
+<div class="paragraph">
+<p>The file is <code>~/.config/procps/toprc</code> and lives in the user&#8217;s home directory (<code>~</code>). Since it is a hidden file (it resides in a directory whose name starts with a dot), we can check for its existence with <code>ls -a</code> (list all files).  This file can be generated by pressing kbd:[Shift+W] while in <code>top</code>.</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Learn about the command <code>exec</code> in Bash. Try to demonstrate its functionality by starting a Bash session, finding the Bash process with <code>ps</code>, then run <code>exec /bin/sh</code> and search for the process with the same PID again.</p>
+<div class="paragraph">
+<p><code>exec</code> replaces a process with another command. In the following example we can see that the Bash process is replaced by <code>/bin/sh</code> (instead of <code>/bin/sh</code> becoming a child process):</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>echo $$</strong>
+19877
+$ <strong>ps auxf | grep 19877 | head -1</strong>
+carol  19877  0.0  0.0   7448  3984 pts/25   Ss   21:17   0:00  \_ bash
+$ <strong>exec /bin/sh</strong>
+sh-5.0$ <strong>ps auxf | grep 19877 | head -1</strong>
+carol  19877  0.0  0.0   7448  3896 pts/25   Ss   21:17   0:00  \_ /bin/sh</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Follow these steps to explore kernel events and udev&#8217;s dynamic management of devices:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Hotplug a USB drive into your computer. Run <code>dmesg</code> and pay attention to the last lines. What is the most recent line?</p>
+<div class="paragraph">
+<p>You should get something along the lines of <code>[ 1967.700468] sd 6:0:0:0: [sdb] Attached SCSI removable disk</code>.</p>
+</div>
+</li>
+<li>
+<p>Bearing in mind the output from the previous command, run <code>ls /dev/sd*</code> and make sure your USB drive appears in the listing. What is the output?</p>
+<div class="paragraph">
+<p>Depending on the number of devices connected to your system, you should get something like <code>/dev/sda  /dev/sda1  /dev/sdb  /dev/sdb1  /dev/sdb2</code>. In our case, we find our USB drive (<code>/dev/sdb</code>) and its two partitions (<code>/dev/sdb1</code> and <code>/dev/sdb2</code>).</p>
+</div>
+</li>
+<li>
+<p>Now remove the USB drive and run <code>dmesg</code> again. How does the most recent line read?</p>
+<div class="paragraph">
+<p>You should get something along the lines of <code>[ 2458.881695] usb 1-9: USB disconnect, device number 6</code>.</p>
+</div>
+</li>
+<li>
+<p>Run <code>ls /dev/sd*</code> again and make sure your device disappeared from the listing. What is the output?</p>
+<div class="paragraph">
+<p>In our case, <code>/dev/sda  /dev/sda1</code>.</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+    
+    <aside class="lesson__teaser teaser">
+      <div class="container teaser__container">
+        <h2 class="label">Next Lesson</h2>
+        <p class="headline teaser__headline">4.4 Your Computer on the Network (4.4 Lesson 1)</p>
+
+        <div class="button-group">
+            <a href="../../4.4/4.4_01/index.html" class="button -primary">Read next lesson</a>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>

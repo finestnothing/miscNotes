@@ -1,0 +1,1573 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>3.1 Lesson 1</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">3.1 Lesson 1</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.2/index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.2/1.2_01/index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.3/index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.3/1.3_01/index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.1/index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_02/index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.3/index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_01/index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../3.3/index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../3.3/3.3_01/index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../3.3/3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.3/index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_02/index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.2/index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.2/5.2_01/index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../5/5.4/index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../5/5.4/5.4_01/index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 3: The Power of the Command Line</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">3.1 Archiving Files on the Command Line</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">3.1 Lesson 1</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>3.1 Lesson 1</h1>
+          <div id="preamble">
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3 The Power of the Command Line</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.1 Archiving Files on the Command Line</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 of 1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.1_01-IN">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Compression is used to reduce the amount of space a specific set of data consumes. Compression is commonly used for reducing the amount of space that is needed to store a file. Another common use is to reduce the amount of data sent over a network connection.</p>
+</div>
+<div class="paragraph">
+<p>Compression works by replacing repetitive patterns in data. Suppose you have a novel. Some words are extremely common but have multiple characters, such as the word &#8220;the&#8221;. You could reduce the size of the novel significantly if you were to replace these common multi character words and patterns with single character replacements. E.g., replace &#8220;the&#8221; with a greek letter that is not used elsewhere in the text. Data compression algorithms are similar to this but more complex.</p>
+</div>
+<div class="paragraph">
+<p>Compression comes in two varieties, <em>lossless</em> and <em>lossy</em>. Things compressed with a lossless algorithm can be decompressed back into their original form. Data compressed with a lossy algorithm cannot be recovered. Lossy algorithms are often used for images, video, and audio where the quality loss is imperceptible to humans, irrelevant to the context, or the loss is worth the saved space or network throughput.</p>
+</div>
+<div class="paragraph">
+<p>Archiving tools are used to bundle up files and directories into a single file. Some common uses are backups, bundling software source code, and data retention.</p>
+</div>
+<div class="paragraph">
+<p>Archive and compression are commonly used together. Some archiving tools even compress their contents by default. Others can optionally compress their contents. A few archive tools must be used in conjunction with stand-alone compression tools if you wish to compress the contents.</p>
+</div>
+<div class="paragraph">
+<p>The most common tool for archiving files on Linux systems is <code>tar</code>. Most Linux distributions ship with the GNU version of <code>tar</code>, so it is the one that will be covered in this lesson. <code>tar</code> on its own only manages the archiving of files but does not compress them.</p>
+</div>
+<div class="paragraph">
+<p>There are lots of compression tools available on Linux. Some common lossless ones are <code>bzip2</code>, <code>gzip</code>, and <code>xz</code>. You will find all three on most systems. You may encounter an old or very minimal system where <code>xz</code> or <code>bzip</code> is not installed. If you become a regular Linux user, you will likely encounter files compressed with all three of these. All three of them use different algorithms, so a file compressed with one tool can&#8217;t be decompressed by another. Compression tools have a trade off. If you want a high compression ratio, it will take longer to compress and decompress the file. This is because higher compression requires more work finding more complex patterns. All of these tools compress data but can not create archives containing multiple files.</p>
+</div>
+<div class="paragraph">
+<p>Stand-alone compression tools aren&#8217;t typically available on Windows systems. Windows archiving and compression tools are usually bundled together. Keep this in mind if you have Linux and Windows systems that need to share files.</p>
+</div>
+<div class="paragraph">
+<p>Linux systems also have tools for handling <code>.zip</code> files commonly used on Windows system. They are called <code>zip</code> and <code>unzip</code>. These tools are not installed by default on all systems, so if you need to use them you may have to install them. Fortunately, they are typically found in distributions' package repositories.</p>
+</div>
+<div class="sect2">
+<h3 id="_compression_tools">Compression Tools</h3>
+<div class="paragraph">
+<p>How much disk space is saved by compressing files depends on a few factors. The nature of the data you are compressing, the algorithm used to compress the data, and the compression level. Not all algorithms support different compression levels.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s start with setting up some test files to compress:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>mkdir ~/linux_essentials-3.1</strong>
+$ <strong>cd ~/linux_essentials-3.1</strong>
+$ <strong>mkdir compression archiving</strong>
+$ <strong>cd compression</strong>
+$ <strong>cat /etc/</strong>* <strong>&gt; bigfile 2&gt; /dev/null</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now we create three copies of this file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cp bigfile bigfile2</strong>
+$ <strong>cp bigfile bigfile3</strong>
+$ <strong>cp bigfile bigfile4</strong>
+$ <strong>ls -lh</strong>
+total 2.8M
+-rw-r--r-- 1 emma emma 712K Jun 23 08:08 bigfile
+-rw-r--r-- 1 emma emma 712K Jun 23 08:08 bigfile2
+-rw-r--r-- 1 emma emma 712K Jun 23 08:08 bigfile3
+-rw-r--r-- 1 emma emma 712K Jun 23 08:08 bigfile4</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now we are going to compress the files with each aforementioned compression tool:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>bzip2 bigfile2</strong>
+$ <strong>gzip bigfile3</strong>
+$ <strong>xz bigfile4</strong>
+$ <strong>ls -lh</strong>
+total 1.2M
+-rw-r--r-- 1 emma emma 712K Jun 23 08:08 bigfile
+-rw-r--r-- 1 emma emma 170K Jun 23 08:08 bigfile2.bz2
+-rw-r--r-- 1 emma emma 179K Jun 23 08:08 bigfile3.gz
+-rw-r--r-- 1 emma emma 144K Jun 23 08:08 bigfile4.xz</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Compare the sizes of the compressed files to the uncompressed file named <code>bigfile</code>. Also notice how the compression tools added extensions to the file names and removed the uncompressed files.</p>
+</div>
+<div class="paragraph">
+<p>Use <code>bunzip2</code>, <code>gunzip</code>, or <code>unxz</code> to decompress the files:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>bunzip2 bigfile2.bz2</strong>
+$ <strong>gunzip bigfile3.gz</strong>
+$ <strong>unxz bigfile4.xz</strong>
+$ <strong>ls -lh</strong>
+total 2.8M
+-rw-r--r-- 1 emma emma 712K Jun 23 08:20 bigfile
+-rw-r--r-- 1 emma emma 712K Jun 23 08:20 bigfile2
+-rw-r--r-- 1 emma emma 712K Jun 23 08:20 bigfile3
+-rw-r--r-- 1 emma emma 712K Jun 23 08:20 bigfile4</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Notice again that now the compressed file is deleted once it is decompressed.</p>
+</div>
+<div class="paragraph">
+<p>Some compression tools support different compression levels. A higher compression level usually requires more memory and CPU cycles, but results in a smaller compressed file. The opposite is true for a lower level. Below is a demonstration with <code>xz</code> and <code>gzip</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cp bigfile bigfile-gz1</strong>
+$ <strong>cp bigfile bigfile-gz9</strong>
+$ <strong>gzip -1 bigfile-gz1</strong>
+$ <strong>gzip -9 bigfile-gz9</strong>
+$ <strong>cp bigfile bigfile-xz1</strong>
+$ <strong>cp bigfile bigfile-xz9</strong>
+$ <strong>xz -1 bigfile bigfile-xz1</strong>
+$ <strong>xz -9 bigfile bigfile-xz9</strong>
+$ <strong>ls -lh bigfile bigfile-</strong>* *
+total 3.5M
+-rw-r--r-- 1 emma emma 712K Jun 23 08:08 bigfile
+-rw-r--r-- 1 emma emma 205K Jun 23 13:14 bigfile-gz1.gz
+-rw-r--r-- 1 emma emma 178K Jun 23 13:14 bigfile-gz9.gz
+-rw-r--r-- 1 emma emma 156K Jun 23 08:08 bigfile-xz1.xz
+-rw-r--r-- 1 emma emma 143K Jun 23 08:08 bigfile-xz9.xz</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>It is not necessary to decompress a file every time you use it. Compression tools typically come with special versions of common tools used to read text files. For example, <code>gzip</code> has a version of <code>cat</code>, <code>grep</code>, <code>diff</code>, <code>less</code>, <code>more</code>, and a few others. For <code>gzip</code>, the tools are prefixed with a <code>z</code>, while the prefix <code>bz</code> exists for <code>bzip2</code> and <code>xz</code> exists for <code>xz</code>. Below is an example of using <code>zcat</code> to read display a file compressed with <code>gzip</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cp /etc/hosts ./</strong>
+$ <strong>gzip hosts</strong>
+$ <strong>zcat hosts.gz</strong>
+127.0.0.1	localhost
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_archiving_tools">Archiving Tools</h3>
+<div class="paragraph">
+<p>The <code>tar</code> program is probably the most widely used archiving tool on Linux systems. In case you are wondering why it is named how it is, it as an abbreviation for &#8220;tape archive&#8221;. Files created with <code>tar</code> are often called <em>tar balls</em>. It is very common for applications distributed as source code to be in tar balls.</p>
+</div>
+<div class="paragraph">
+<p>The GNU version of <code>tar</code> that Linux distributions ship with has a lot of options. This lesson is going to cover the most commonly used subset.</p>
+</div>
+<div class="paragraph">
+<p>Let&#8217;s start off by creating an archive of the files used for compression:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/linux_essentials-3.1</strong>
+$ <strong>tar cf archiving/3.1.tar compression</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>c</code> option instructs <code>tar</code> to create a new archive file and the <code>f</code> option is the name of the file to create. The argument immediately following the options is always going to be the name of the file to work on. The rest of the arguments are the paths to any files or directories you wish to add to, list, or extract from the file. In the example, we are adding the directory <code>compression</code> and all of its contents to the archive.</p>
+</div>
+<div class="paragraph">
+<p>To view the contents of a tar ball, use the <code>t</code> option of <code>tar</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>tar -tf 3.1.tar</strong>
+compression/
+compression/bigfile-xz1.xz
+compression/bigfile-gz9.gz
+compression/hosts.gz
+compression/bigfile2
+compression/bigfile
+compression/bigfile-gz1.gz
+compression/bigfile-xz9.xz
+compression/bigfile3
+compression/bigfile4</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Notice how the options are preceded with <code>-</code>. Unlike most programs, with <code>tar</code>, the <code>-</code> isn&#8217;t required when specifying options, although it doesn&#8217;t cause any harm if it is used.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>You can use the <code>-v</code> option to let <code>tar</code> output the names of files it operates on when creating or extracting an archive.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Now let&#8217;s extract the file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/linux_essentials-3.1/archiving</strong>
+$ <strong>ls</strong>
+3.1.tar
+$ <strong>tar xf 3.1.tar</strong>
+$ <strong>ls</strong>
+3.1.tar  compression</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Suppose you only need one file out of the archive. If this is the case, you can specify it after the archive&#8217;s file name. You can specify multiple files if necessary:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/linux_essentials-3.1/archiving</strong>
+$ <strong>rm -rf compression</strong>
+$ <strong>ls</strong>
+3.1.tar
+$ <strong>tar xvf 3.1.tar compression/hosts.gz</strong>
+compression/
+compression/bigfile-xz1.xz
+compression/bigfile-gz9.gz
+compression/hosts.gz
+compression/bigfile2
+compression/bigfile
+compression/bigfile-gz1.gz
+compression/bigfile-xz9.xz
+compression/bigfile3
+compression/bigfile4
+$ <strong>ls</strong>
+3.1.tar  compression
+$ <strong>ls compression</strong>
+hosts.gz</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>With the exception of absolute paths (paths beginning with <code>/</code>), <code>tar</code> files preserve the entire path to files when they are created. Since the file <code>3.1.tar</code> was created with a single directory, that directory will be created relative to your current working directory when extracted. Another example should clarify this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/linux_essentials-3.1/archiving</strong>
+$ <strong>rm -rf compression</strong>
+$ <strong>cd ../compression</strong>
+$ <strong>tar cf ../tar/3.1-nodir.tar *</strong>
+$ <strong>cd ../archiving</strong>
+$ <strong>mkdir untar</strong>
+$ <strong>cd untar</strong>
+$ <strong>tar -xf ../3.1-nodir.tar</strong>
+$ <strong>ls</strong>
+bigfile   bigfile3  bigfile-gz1.gz  bigfile-xz1.xz  hosts.gz
+bigfile2  bigfile4  bigfile-gz9.gz  bigfile-xz9.xz</pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>If you wish to use the absolute path in a <code>tar</code> file, you must use the <code>P</code> option. Be aware that this may overwrite important files and might cause errors on your system.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The <code>tar</code> program can also manage compression and decompression of archives on the fly. <code>tar</code> does so by calling one of the compression tools discussed earlier in this section. It is as simple as adding the option appropriate to the compression algorithm. The most commonly used ones are <code>j</code>, <code>J</code>, and <code>z</code> for <code>bzip2</code>, <code>xz</code>, and <code>gzip</code>, respectively. Below are examples using the aforementioned algorithms:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/linux_essentials-3.1/compression</strong>
+$ <strong>ls</strong>
+bigfile   bigfile3  bigfile-gz1.gz  bigfile-xz1.xz  hosts.gz
+bigfile2  bigfile4  bigfile-gz9.gz  bigfile-xz9.xz
+$ <strong>tar -czf gzip.tar.gz bigfile bigfile2 bigfile3</strong>
+$ <strong>tar -cjf bzip2.tar.bz2 bigfile bigfile2 bigfile3</strong>
+$ <strong>tar -cJf xz.tar.xz bigfile bigfile2 bigfile3</strong>
+$ <strong>ls -l | grep tar</strong>
+-rw-r--r-- 1 emma emma  450202 Jun 27 05:56 bzip2.tar.bz2
+-rw-r--r-- 1 emma emma  548656 Jun 27 05:55 gzip.tar.gz
+-rw-r--r-- 1 emma emma  147068 Jun 27 05:56 xz.tar.xz</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Notice how in the example the <code>.tar</code> files have different sizes. This shows that they were successfully compressed. If you create compressed <code>.tar</code> archives, you should always add a second file extension denoting the algorithm you used. They are <code>.xz</code>, <code>.bz</code>, and <code>.gz</code> for <code>xz</code>, <code>bzip2</code>, and <code>gzip</code>, respectively. Sometimes shortened extensions such as <code>.tgz</code> are used.</p>
+</div>
+<div class="paragraph">
+<p>It is possible to add files to already existing uncompressed tar archives. Use the <code>u</code> option to do this. If you attempt to add to a compressed archive, you will get an error.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/linux_essentials-3.1/compression</strong>
+$ <strong>ls</strong>
+bigfile   bigfile3  bigfile-gz1.gz  bigfile-xz1.xz  bzip2.tar.bz2  hosts.gz
+bigfile2  bigfile4  bigfile-gz9.gz  bigfile-xz9.xz  gzip.tar.gz    xz.tar.xz
+$ <strong>tar cf plain.tar bigfile bigfile2 bigfile3</strong>
+$ <strong>tar tf plain.tar</strong>
+bigfile
+bigfile2
+bigfile3
+$ <strong>tar uf plain.tar bigfile4</strong>
+$ <strong>tar tf plain.tar</strong>
+bigfile
+bigfile2
+bigfile3
+bigfile4
+$ <strong>tar uzf gzip.tar.gz bigfile4</strong>
+tar: Cannot update compressed archives
+Try 'tar --help' or 'tar --usage' for more information.</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_managing_zip_files">Managing ZIP files</h3>
+<div class="paragraph">
+<p>Windows machines often don&#8217;t have applications to handle tar balls or many of the compression tools commonly found on Linux systems. If you need to interact with Windows systems, you can use ZIP files. A ZIP file is an archive file similar to a compressed <code>tar</code> file.</p>
+</div>
+<div class="paragraph">
+<p>The <code>zip</code> and <code>unzip</code> programs can be used to work with ZIP files on Linux systems. The example below should be all you need to get started using them. First we create a set of files:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>cd ~/linux_essentials-3.1</strong>
+$ <strong>mkdir zip</strong>
+$ <strong>cd zip/</strong>
+$ <strong>mkdir dir</strong>
+$ <strong>touch dir/file1 dir/file2</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now we use <code>zip</code> to pack these files into a ZIP file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>zip -r zipfile.zip dir</strong>
+  adding: dir/ (stored 0%)
+  adding: dir/file1 (stored 0%)
+  adding: dir/file2 (stored 0%)
+$ <strong>rm -rf dir</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Finally, we unpack the ZIP file again:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>ls</strong>
+zipfile.zip
+$ <strong>unzip zipfile.zip</strong>
+Archive:  zipfile.zip
+   creating: dir/
+ extracting: dir/file1
+ extracting: dir/file2
+$ <strong>find</strong>
+.
+./zipfile.zip
+./dir
+./dir/file1
+./dir/file2</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>When adding directories to ZIP files, the <code>-r</code> option causes <code>zip</code> to include a directory&#8217;s contents. Without it, you would have an empty directory in the ZIP file.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.1_01-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>According to the extensions, which of the following tools were used to create these files?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Filename</th>
+<th class="tableblock halign-left valign-top"><code>tar</code></th>
+<th class="tableblock halign-left valign-top"><code>gzip</code></th>
+<th class="tableblock halign-left valign-top"><code>bzip2</code></th>
+<th class="tableblock halign-left valign-top"><code>xz</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>archive.tar</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>archive.tgz</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>archive.tar.xz</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>According to the extensions, which of these files are archives and which are compressed?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Filename</th>
+<th class="tableblock halign-left valign-top">Archive</th>
+<th class="tableblock halign-left valign-top">Compressed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>file.tar</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>file.tar.bz2</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>file.zip</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>file.xz</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>How would you add a file to a <code>gzip</code> compressed <code>tar</code> file?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which <code>tar</code> option instructs <code>tar</code> to include the leading <code>/</code> in absolute paths?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Does <code>zip</code> support different compression levels?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.1_01-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When extracting files, does <code>tar</code> support globs in the file list?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>How can you make sure a decompressed file is identical to the file before it was compressed?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What happens if you try to extract a file from a <code>tar</code> archive that already exists on your filesystem?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>How would you extract the file <code>archive.tgz</code> without using the <code>tar</code> <code>z</code> option?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.1_01-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Linux systems have several compression and archiving tools available. This lesson covered the most common ones. The most common archiving tool is <code>tar</code>. If interacting with Windows systems is necessary, <code>zip</code> and <code>unzip</code> can create and extract ZIP files.</p>
+</div>
+<div class="paragraph">
+<p>The <code>tar</code> command has a few options that are worth memorizing. They are <code>x</code> for extract, <code>c</code> for create, <code>t</code> for view contents, and <code>u</code> to add or replace files. The <code>v</code> option lists the files which are processed by <code>tar</code> while creating or extracting an archive.</p>
+</div>
+<div class="paragraph">
+<p>The typical Linux distribution&#8217;s repository has many compression tools. The most common are <code>gzip</code>, <code>bzip2</code>, and <code>xz</code>. Compression algorithms often support different levels that allow you to optimize for speed or file size. Files can be decompressed with <code>gunzip</code>, <code>bunzip2</code>, and <code>unxz</code>.</p>
+</div>
+<div class="paragraph">
+<p>Compression tools commonly have programs that behave like common text file tools, with the difference being they work on compressed files. A few of them are <code>zcat</code>, <code>bzcat</code>, and <code>xzcat</code>. Compression tools typically ship with programs with the functionality of <code>grep</code>, <code>more</code>, <code>less</code>, <code>diff</code>, and  <code>cmp</code>.</p>
+</div>
+<div class="paragraph">
+<p>Commands used in the exercises:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>bunzip2</code></dt>
+<dd>
+<p>Decompress a <code>bzip2</code> compressed file.</p>
+</dd>
+<dt class="hdlist1"><code>bzcat</code></dt>
+<dd>
+<p>Output the contents of a <code>bzip</code> compressed file.</p>
+</dd>
+<dt class="hdlist1"><code>bzip2</code></dt>
+<dd>
+<p>Compress files using the <code>bzip2</code> algorithm and format.</p>
+</dd>
+<dt class="hdlist1"><code>gunzip</code></dt>
+<dd>
+<p>Decompress a <code>gzip</code> compressed file.</p>
+</dd>
+<dt class="hdlist1"><code>gzip</code></dt>
+<dd>
+<p>Compress files using the <code>gzip</code> algorithm and format.</p>
+</dd>
+<dt class="hdlist1"><code>tar</code></dt>
+<dd>
+<p>Create, update, list and extract <code>tar</code> archives.</p>
+</dd>
+<dt class="hdlist1"><code>unxz</code></dt>
+<dd>
+<p>Decompress a <code>xz</code> compressed file.</p>
+</dd>
+<dt class="hdlist1"><code>unzip</code></dt>
+<dd>
+<p>Decompress and extract content from a ZIP file.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p><code>xz</code>
+Compress files using the <code>xz</code> algorithm and format.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>zcat</code></dt>
+<dd>
+<p>Output the contents of a <code>gzip</code> compressed file.</p>
+</dd>
+<dt class="hdlist1"><code>zip</code></dt>
+<dd>
+<p>Create and compress ZIP archives.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.1_01-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>According to the extensions, which of the following tools were used to create these files?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Filename</th>
+<th class="tableblock halign-left valign-top"><code>tar</code></th>
+<th class="tableblock halign-left valign-top"><code>gzip</code></th>
+<th class="tableblock halign-left valign-top"><code>bzip2</code></th>
+<th class="tableblock halign-left valign-top"><code>xz</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>archive.tar</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>archive.tgz</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>archive.tar.xz</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>According to the extensions, which of these files are archives and which are compressed?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Filename</th>
+<th class="tableblock halign-left valign-top">Archive</th>
+<th class="tableblock halign-left valign-top">Compressed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>file.tar</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>file.tar.bz2</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>file.zip</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>file.xz</code></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>How would you add a file to a <code>gzip</code> compressed <code>tar</code> file?</p>
+<div class="paragraph">
+<p>You would decompress the file with <code>gunzip</code>, add the file with <code>tar uf</code>, and then compress it with <code>gzip</code></p>
+</div>
+</li>
+<li>
+<p>Which <code>tar</code> option instructs <code>tar</code> to include the leading <code>/</code> in absolute paths?</p>
+<div class="paragraph">
+<p>The <code>-P</code> option. From the man page:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>-P, --absolute-names
+        Don't strip leading slashes from file names when creating  archives</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Does <code>zip</code> support different compression levels?</p>
+<div class="paragraph">
+<p>Yes. You would use <code>-#</code>, replacing <code>#</code> with a number from 0-9. From the man page:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>-#
+(-0, -1, -2, -3, -4, -5, -6, -7, -8, -9)
+       Regulate the speed of compression using the specified  digit  #,
+       where  -0  indicates  no compression (store all files), -1 indi‐
+       cates the fastest compression speed (less  compression)  and  -9
+       indicates  the  slowest  compression speed (optimal compression,
+       ignores the suffix list). The default compression level is -6.
+
+       Though still being worked, the intention is  this  setting  will
+       control  compression  speed  for  all compression methods.  Cur‐
+       rently only deflation is controlled.</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.3.1_01-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When extracting files, does <code>tar</code> support globs in the file list?</p>
+<div class="paragraph">
+<p>Yes, you would use the <code>--wildcards</code> option. <code>--wildcards</code> must be placed right after the <code>tar</code> file when using the no dash style of options. For example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>tar xf tarfile.tar --wildcards dir/file</strong>*
+$ <strong>tar --wildcards -xf tarfile.tar dir/file</strong>*</pre>
+</div>
+</div>
+</li>
+<li>
+<p>How can you make sure a decompressed file is identical to the file before it was compressed?</p>
+<div class="paragraph">
+<p>You don&#8217;t need to do anything with the tools covered in this lesson. All three of them include checksums in their file format that is verified when they are decompressed.</p>
+</div>
+</li>
+<li>
+<p>What happens if you try to extract a file from a <code>tar</code> archive that already exists on your filesystem?</p>
+<div class="paragraph">
+<p>The file on your filesystem is overwritten with the version that is in the <code>tar</code> file.</p>
+</div>
+</li>
+<li>
+<p>How would you extract the file <code>archive.tgz</code> without using the <code>tar</code> <code>z</code> option?</p>
+<div class="paragraph">
+<p>You would decompress it with <code>gunzip</code> first.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ <strong>gunzip archive.tgz</strong>
+$ <strong>tar xf archive.tar</strong></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+    
+    <aside class="lesson__teaser teaser">
+      <div class="container teaser__container">
+        <h2 class="label">Next Lesson</h2>
+        <p class="headline teaser__headline">3.2 Searching and Extracting Data from Files (3.2 Lesson 1)</p>
+
+        <div class="button-group">
+            <a href="../../3.2/3.2_01/index.html" class="button -primary">Read next lesson</a>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>

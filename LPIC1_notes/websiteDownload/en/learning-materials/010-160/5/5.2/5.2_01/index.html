@@ -1,0 +1,1821 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WMC4KTP');</script>
+  
+
+
+
+  <meta charset="utf-8"/>
+  <title>5.2 Lesson 1</title>
+
+  <link rel="stylesheet" href="../../../../../../scss/styles.min.css">
+
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="https://learning.lpi.org/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://learning.lpi.org/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://learning.lpi.org/favicon-16x16.png">
+  <link rel="manifest" href="https://learning.lpi.org/site.webmanifest">
+  <link rel="mask-icon" href="https://learning.lpi.org/safari-pinned-tab.svg" color="#fbc000">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+
+
+
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMC4KTP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+
+
+  
+
+<header class="header">
+  <span class="header__nav -clone"></span>
+
+  <a href="https://learning.lpi.org/" class="header__logo-link">
+    <img class="header__logo" src="../../../../../../lpi-learning-logo.svg" alt="Linux Professional Institute Learning Logo.">
+  </a>
+
+  <nav class="header__nav nav">
+    <a href="index.html#content" class="nav__skip">Skip to main content</a>
+
+    <button class="nav__button" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav__menus">
+      <ul class="nav__menu">
+        
+          <li class="nav__item
+              
+              
+              ">
+
+
+            
+              <a href="https://learning.lpi.org/en/" class="nav__link">Home</a>
+            
+
+
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              -is-active
+              ">
+
+
+            
+              <button class="nav__link" type="button">Learning Materials</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/all-materials/" class="nav__link
+                      ">All Resources</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/learning-materials/" class="nav__link
+                      ">LPI Learning Materials</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/learning-materials/become-contributor/" class="nav__link
+                      ">Become a Contributor</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">Publishing Partners</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/lpp-partners/" class="nav__link
+                      ">Publishing Partners</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/lpi-publishing-partner/become-lpp/" class="nav__link
+                      ">Become a Publishing Partner</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+          <li class="nav__item
+              -has-submenu
+              
+              ">
+
+
+            
+              <button class="nav__link" type="button">About</button>
+            
+
+
+            
+              <ul class="nav__menu -submenu">
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/about/" class="nav__link
+                      ">About</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/faq/" class="nav__link
+                      ">FAQ</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/lm-contributors/" class="nav__link
+                      ">Contributors</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/roadmap/" class="nav__link
+                      ">Roadmap</a>
+                  </li>
+                
+                  <li class="nav__item
+                      ">
+                    <a href="https://learning.lpi.org/en/about/contact/" class="nav__link
+                      ">Contact</a>
+                  </li>
+                
+              </ul>
+            
+          </li>
+        
+      </ul>
+
+      <ul class="nav__menu -secondary">
+        <li class="nav__item -lang-select">
+        
+<select name="language-picker" id="lang-select" class="lang-select" title='Language' aria-label='Language'>
+  
+    <option value="es"
+      >Español</option>
+  
+    <option value="hu"
+      >Magyar</option>
+  
+    <option value="pl"
+      >Polski</option>
+  
+    <option value="de"
+      >Deutsch</option>
+  
+    <option value="en"
+      selected>English</option>
+  
+    <option value="it"
+      >Italiano</option>
+  
+    <option value="fr"
+      >Français</option>
+  
+    <option value="pt"
+      >Português</option>
+  
+    <option value="ja"
+      >日本語</option>
+  
+</select>
+
+
+        </li>
+        <li class="nav__item -external">
+        <a href="https://lpi.org/" class="nav__link" target="_blank" rel="noreferrer noopener">LPI.org</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+  <table class="print-header">
+    <tr class="print-header__body">
+      <td class="print-header__cell">5.2 Lesson 1</td>
+      <td class="print-header__cell -pagenumber"></td>
+    </tr>
+  </table>
+
+  <table class="print">
+    <thead><tr><td class="print__cell">
+      <div class="print__space -header"></div>
+    </td></tr></thead>
+    <tbody><tr><td class="print__cell">
+      <main id="content">
+
+
+
+
+<div class="lesson page-content">
+  <div class="lesson__hierarchy page-content__hierarchy">
+    <nav class="hierarchy">
+  
+
+  <div class="hierarchy__container">
+     
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 1: The Linux Community and a Career in Open Source
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.1/index.html" class="hierarchy__link">1.1 Linux Evolution and Popular Operating Systems</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.1/1.1_01/index.html" class="hierarchy__link">1.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.2/index.html" class="hierarchy__link">1.2 Major Open Source Applications</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.2/1.2_01/index.html" class="hierarchy__link">1.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.3/index.html" class="hierarchy__link">1.3 Open Source Software and Licensing</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.3/1.3_01/index.html" class="hierarchy__link">1.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../1/1.4/index.html" class="hierarchy__link">1.4 ICT Skills and Working in Linux</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../1/1.4/1.4_01/index.html" class="hierarchy__link">1.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 2: Finding Your Way on a Linux System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.1/index.html" class="hierarchy__link">2.1 Command Line Basics</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_01/index.html" class="hierarchy__link">2.1 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.1/2.1_02/index.html" class="hierarchy__link">2.1 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.2/index.html" class="hierarchy__link">2.2 Using the Command Line to Get Help</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.2/2.2_01/index.html" class="hierarchy__link">2.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.3/index.html" class="hierarchy__link">2.3 Using Directories and Listing Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_01/index.html" class="hierarchy__link">2.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.3/2.3_02/index.html" class="hierarchy__link">2.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../2/2.4/index.html" class="hierarchy__link">2.4 Creating, Moving and Deleting Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../2/2.4/2.4_01/index.html" class="hierarchy__link">2.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 3: The Power of the Command Line
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.1/index.html" class="hierarchy__link">3.1 Archiving Files on the Command Line</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.1/3.1_01/index.html" class="hierarchy__link">3.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.2/index.html" class="hierarchy__link">3.2 Searching and Extracting Data from Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_01/index.html" class="hierarchy__link">3.2 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.2/3.2_02/index.html" class="hierarchy__link">3.2 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../3/3.3/index.html" class="hierarchy__link">3.3 Turning Commands into a Script</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_01/index.html" class="hierarchy__link">3.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../3/3.3/3.3_02/index.html" class="hierarchy__link">3.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section">
+        <dt class="hierarchy__heading">Topic 4: The Linux Operating System
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.1/index.html" class="hierarchy__link">4.1 Choosing an Operating System</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.1/4.1_01/index.html" class="hierarchy__link">4.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.2/index.html" class="hierarchy__link">4.2 Understanding Computer Hardware</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.2/4.2_01/index.html" class="hierarchy__link">4.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.3/index.html" class="hierarchy__link">4.3 Where Data is Stored</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_01/index.html" class="hierarchy__link">4.3 Lesson 1</a>
+            </li>
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.3/4.3_02/index.html" class="hierarchy__link">4.3 Lesson 2</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../../4/4.4/index.html" class="hierarchy__link">4.4 Your Computer on the Network</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../../4/4.4/4.4_01/index.html" class="hierarchy__link">4.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+      <dl class="hierarchy__section -is-active">
+        <dt class="hierarchy__heading">Topic 5: Security and File Permissions
+          <button class="hierarchy__toggle-button" aria-hidden="true">
+            <span class="hierarchy__toggle-button__icon"></span>
+          </button>
+        </dt>
+
+        
+        <dd class="hierarchy__item">
+          <a href="../../5.1/index.html" class="hierarchy__link">5.1 Basic Security and Identifying User Types</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../5.1/5.1_01/index.html" class="hierarchy__link">5.1 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../index.html" class="hierarchy__link">5.2 Creating Users and Groups</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="index.html" class="hierarchy__link">5.2 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../5.3/index.html" class="hierarchy__link">5.3 Managing File Permissions and Ownership</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../5.3/5.3_01/index.html" class="hierarchy__link">5.3 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+        <dd class="hierarchy__item">
+          <a href="../../5.4/index.html" class="hierarchy__link">5.4 Special Directories and Files</a>
+
+          <ul class="hierarchy__section -sub">
+            
+            <li class="hierarchy__item">
+              <a href="../../5.4/5.4_01/index.html" class="hierarchy__link">5.4 Lesson 1</a>
+            </li>
+            
+          </ul>
+        </dd>
+        
+      </dl>
+      
+  </div>
+</nav>
+
+  </div>
+
+
+
+  <div class="lesson__container page-content__container">
+    <div class="container">
+      <nav class="lesson__breadcrumb breadcrumb">
+        <ol class="breadcrumb__list">
+          
+          <li class="breadcrumb__item">
+            <a href="../../index.html" class="breadcrumb__link">Topic 5: Security and File Permissions</a>
+          </li>
+          
+          
+          <li class="breadcrumb__item">
+            <a href="../index.html" class="breadcrumb__link">5.2 Creating Users and Groups</a>
+          </li>
+          
+          <li class="breadcrumb__item">
+            <a href="index.html" class="breadcrumb__link">5.2 Lesson 1</a>
+          </li>
+        </ol>
+      </nav>
+
+      
+      <section class="lesson__content">
+        
+          <h1>5.2 Lesson 1</h1>
+          <div id="preamble">
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch fronttable">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Certificate:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux Essentials</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Version:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Topic:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5 Security and File Permissions</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Objective:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.2 Creating Users and Groups</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">Lesson:</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 of 1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.2_01-IN">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Managing users and groups on a Linux machine is one of the key aspects of system administration. In fact, Linux is a multi-user operating system in which multiple users can use the same machine at the same time.</p>
+</div>
+<div class="paragraph">
+<p>Information about users and groups is stored in four files within the <code>/etc/</code> directory tree:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>/etc/passwd</code></dt>
+<dd>
+<p>a file of seven colon-delimited fields containing basic information about users</p>
+</dd>
+<dt class="hdlist1"><code>/etc/group</code></dt>
+<dd>
+<p>a file of four colon-delimited fields containing basic information about groups</p>
+</dd>
+<dt class="hdlist1"><code>/etc/shadow</code></dt>
+<dd>
+<p>a file of nine colon-delimited fields containing encrypted user passwords</p>
+</dd>
+<dt class="hdlist1"><code>/etc/gshadow</code></dt>
+<dd>
+<p>a file of four colon-delimited fields file containing encrypted group passwords</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>All of these files are updated by a suite of command-line tools for user and group management, which we&#8217;ll discuss later in this lesson. They can also be managed by graphical applications, specific to each Linux distribution, which provide simpler and more immediate management interfaces.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Even though the files are plain text, do not edit them directly. Always use the tools provided with your distribution for this purpose.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_the_file_etcpasswd">The File <code>/etc/passwd</code></h3>
+<div class="paragraph">
+<p><code>/etc/passwd</code> is a world-readable file that contains a list of users, each on a separate line:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>frank:x:1001:1001::/home/frank:/bin/bash</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Each line consists of seven colon-delimited fields:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Username</dt>
+<dd>
+<p>The name used when the user logs into the system.</p>
+</dd>
+<dt class="hdlist1">Password</dt>
+<dd>
+<p>The encrypted password (or an <code>x</code> if shadow passwords are used).</p>
+</dd>
+<dt class="hdlist1">User ID (UID)</dt>
+<dd>
+<p>The ID number assigned to the user in the system.</p>
+</dd>
+<dt class="hdlist1">Group ID (GID)</dt>
+<dd>
+<p>The primary group number of the user in the system.</p>
+</dd>
+<dt class="hdlist1">GECOS</dt>
+<dd>
+<p>An optional comment field, which is used to add extra information about the user (such as the full name). The field can contain multiple comma-separated entries.</p>
+</dd>
+<dt class="hdlist1">Home directory</dt>
+<dd>
+<p>The absolute path of the user&#8217;s home directory.</p>
+</dd>
+<dt class="hdlist1">Shell</dt>
+<dd>
+<p>The absolute path of the program that is automatically launched when the user logs into the system (usually an interactive shell such as <code>/bin/bash</code>).</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_file_etcgroup">The File <code>/etc/group</code></h3>
+<div class="paragraph">
+<p><code>/etc/group</code> is a world-readable file that contains a list of groups, each on a separate line:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>developer:x:1002:</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Each line consists of four colon-delimited fields:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Group Name</dt>
+<dd>
+<p>The name of the group.</p>
+</dd>
+<dt class="hdlist1">Group Password</dt>
+<dd>
+<p>The encrypted password of the group (or an <code>x</code> if shadow passwords are used).</p>
+</dd>
+<dt class="hdlist1">Group ID (GID)</dt>
+<dd>
+<p>The ID number assigned to the group in the system.</p>
+</dd>
+<dt class="hdlist1">Member list</dt>
+<dd>
+<p>A comma-delimited list of users belonging to the group, except those for whom this is the primary group.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_file_etcshadow">The File <code>/etc/shadow</code></h3>
+<div class="paragraph">
+<p><code>/etc/shadow</code> is a file readable only by root and users with root privileges and contains the encrypted passwords of the users, each on a separate line:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>frank:$6$i9gjM4Md4MuelZCd$7jJa8Cd2bbADFH4dwtfvTvJLOYCCCBf/.jYbK1IMYx7Wh4fErXcc2xQVU2N1gb97yIYaiqH.jjJammzof2Jfr/:18029:0:99999:7:::</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Each line consists of nine colon-delimited fields:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Username</dt>
+<dd>
+<p>The name used when user logs into the system.</p>
+</dd>
+<dt class="hdlist1">Encrypted password</dt>
+<dd>
+<p>The encrypted password of the user (if the value is <code>!</code>, the account is locked).</p>
+</dd>
+<dt class="hdlist1">Date of last password change</dt>
+<dd>
+<p>The date of the last password change, as number of days since 01/01/1970. A value of <code>0</code> means that the user must change the password at the next access.</p>
+</dd>
+<dt class="hdlist1">Minimum password age</dt>
+<dd>
+<p>The minimum number of days, after a password change, which must pass before the user will be allowed to change the password again.</p>
+</dd>
+<dt class="hdlist1">Maximum password age</dt>
+<dd>
+<p>The maximum number of days that must pass before a password change is required.</p>
+</dd>
+<dt class="hdlist1">Password warning period</dt>
+<dd>
+<p>The number of days, before the password expires, during which the user is warned that the password must be changed.</p>
+</dd>
+<dt class="hdlist1">Password inactivity period</dt>
+<dd>
+<p>The number of days after a password expires during which the user should update the password. After this period, if the user does not change the password, the account will be disabled.</p>
+</dd>
+<dt class="hdlist1">Account expiration date</dt>
+<dd>
+<p>The date, as number of days since 01/01/1970, in which the user account will be disabled. An empty field means that the user account will never expire.</p>
+</dd>
+<dt class="hdlist1">A reserved field</dt>
+<dd>
+<p>A field that is reserved for future use.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_file_etcgshadow">The File <code>/etc/gshadow</code></h3>
+<div class="paragraph">
+<p><code>/etc/gshadow</code> is a file readable only by root and by users with root privileges that contains encrypted passwords for groups, each on a separate line:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>developer:$6$7QUIhUX1WdO6$H7kOYgsboLkDseFHpk04lwAtweSUQHipoxIgo83QNDxYtYwgmZTCU0qSCuCkErmyR263rvHiLctZVDR7Ya9Ai1::</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Each line consists of four colon-delimited fields:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Group name</dt>
+<dd>
+<p>The name of the group.</p>
+</dd>
+<dt class="hdlist1">Encrypted password</dt>
+<dd>
+<p>The encrypted password for the group (it is used when a user, who is not a member of the group, wants to join the group using the <code>newgrp</code> command&#8201;&#8212;&#8201;if the password starts with <code>!</code>, no one is allowed to access the group with <code>newgrp</code>).</p>
+</dd>
+<dt class="hdlist1">Group administrators</dt>
+<dd>
+<p>A comma-delimited list of the administrators of the group (they can change the password of the group and can add or remove group members with the <code>gpasswd</code> command).</p>
+</dd>
+<dt class="hdlist1">Group members</dt>
+<dd>
+<p>A comma-delimited list of the members of the group.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Now that we&#8217;ve seen where user and group information is stored, let&#8217;s talk about the most important command-line tools to update these files.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_adding_and_deleting_user_accounts">Adding and Deleting User Accounts</h3>
+<div class="paragraph">
+<p>In Linux, you add a new user account with the <code>useradd</code> command, and you delete a user account with the <code>userdel</code> command.</p>
+</div>
+<div class="paragraph">
+<p>If you want to create a new user account named <code>frank</code> with a default setting, you can run the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>useradd frank</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After creating the new user, you can set a password using <code>passwd</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>passwd frank</strong>
+Changing password for user frank.
+New UNIX password:
+Retype new UNIX password:
+passwd: all authentication tokens updated successfully.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Both of these commands require root authority. When you run the <code>useradd</code> command, the user and group information stored in password and group databases are updated for the newly created user account and, if specified, the home directory of the new user is created as well as a group with the same name as the user account.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Remember that you can always use the <code>grep</code> utility to filter the password and group databases, displaying only the entry that refers to a specific user or group. For the above example you can use</p>
+</div>
+<div class="paragraph">
+<p><code>cat /etc/passwd | grep frank</code></p>
+</div>
+<div class="paragraph">
+<p>or</p>
+</div>
+<div class="paragraph">
+<p><code>grep frank /etc/passwd</code></p>
+</div>
+<div class="paragraph">
+<p>to see basic information on the newly created <code>frank</code> account.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The most important options which apply to the <code>useradd</code> command are:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>-c</code></dt>
+<dd>
+<p>Create a new user account with custom comments (for example full name).</p>
+</dd>
+<dt class="hdlist1"><code>-d</code></dt>
+<dd>
+<p>Create a new user account with a custom home directory.</p>
+</dd>
+<dt class="hdlist1"><code>-e</code></dt>
+<dd>
+<p>Create a new user account by setting a specific date on which it will be disabled.</p>
+</dd>
+<dt class="hdlist1"><code>-f</code></dt>
+<dd>
+<p>Create a new user account by setting the number of days after the password expires during which the user should update the password.</p>
+</dd>
+<dt class="hdlist1"><code>-g</code></dt>
+<dd>
+<p>Create a new user account with a specific GID</p>
+</dd>
+<dt class="hdlist1"><code>-G</code></dt>
+<dd>
+<p>Create a new user account by adding it to multiple secondary groups.</p>
+</dd>
+<dt class="hdlist1"><code>-m</code></dt>
+<dd>
+<p>Create a new user account with its home directory.</p>
+</dd>
+<dt class="hdlist1"><code>-M</code></dt>
+<dd>
+<p>Create a new user account without its home directory.</p>
+</dd>
+<dt class="hdlist1"><code>-s</code></dt>
+<dd>
+<p>Create a new user account with a specific login shell.</p>
+</dd>
+<dt class="hdlist1"><code>-u</code></dt>
+<dd>
+<p>Create a new user account with a specific UID.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Once the new user account is created, you can use the <code>id</code> and <code>groups</code> commands to find out its UID, GID and the groups to which it belongs.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>id frank</strong>
+uid=1000(frank) gid=1000(frank) groups=1000(frank)
+# <strong>groups frank</strong>
+frank : frank</pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Remember to check and eventually edit the <code>/etc/login.defs</code> file, which defines the configuration parameters that control the creation of users and groups. For example, you can set the range of UIDs and GIDs that can be assigned to new user and group accounts, specify that you don&#8217;t need to use the <code>-m</code> option to create the new user&#8217;s home directory and if the system should automatically create a new group for each new user.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If you want to delete a user account, you can use the <code>userdel</code> command. In particular, this command updates the information stored in the account databases, deleting all entries referring to the specified user. The <code>-r</code> option also removes the user’s home directory and all of its contents, along with the user’s mail spool. Other files, located elsewhere, must be searched for and deleted manually.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>userdel -r frank</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As before, you need root authority to delete user accounts.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_skeleton_directory">The Skeleton Directory</h3>
+<div class="paragraph">
+<p>When you add a new user account, even creating its home directory, the newly created home directory is populated with files and folders that are copied from the skeleton directory (by default <code>/etc/skel</code>). The idea behind this is simple: a system administrator wants to add new users having the same files and directories in their home. Therefore, if you want to customize the files and folders that are created automatically in the home directory of the new user accounts, you must add these new files and folders to the skeleton directory.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Note that the profile files that are usually found in the skeleton directory are hidden files. Therefore, if you want to list all the files and folders in the skeleton directory, which will be copied to the home dir of the newly created users, you must use the <code>ls -Al</code> command.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_adding_and_deleting_groups">Adding and Deleting Groups</h3>
+<div class="paragraph">
+<p>As for group management, you can add or delete groups using the <code>groupadd</code> and <code>groupdel</code> commands.</p>
+</div>
+<div class="paragraph">
+<p>If you want to create a new group named <code>developer</code>, you can run the following command as root:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>groupadd -g 1090 developer</strong></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>-g</code> option of this command creates a group with a specific GID.</p>
+</div>
+<div class="paragraph">
+<p>If you want to delete the <code>developer</code> group, you can run the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>groupdel developer</strong></pre>
+</div>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Remember that when you add a new user account, the primary group and the secondary groups to which it belongs must exist before launching the <code>useradd</code> command. Also, you cannot delete a group if it is the primary group of a user account.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_passwd_command">The <code>passwd</code> Command</h3>
+<div class="paragraph">
+<p>This command is primarily used to change a user&#8217;s password. Any user can change their password, but only root can change any user&#8217;s password.</p>
+</div>
+<div class="paragraph">
+<p>Depending on the <code>passwd</code> option used, you can control specific aspects of password aging:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>-d</code></dt>
+<dd>
+<p>Delete the password of a user account (thus disabling the user).</p>
+</dd>
+<dt class="hdlist1"><code>-e</code></dt>
+<dd>
+<p>Force the user account to change the password.</p>
+</dd>
+<dt class="hdlist1"><code>-l</code></dt>
+<dd>
+<p>Lock the user account (the encrypted password is prefixed with an exclamation mark).</p>
+</dd>
+<dt class="hdlist1"><code>-u</code></dt>
+<dd>
+<p>Unlock the user account (it removes the exclamation mark).</p>
+</dd>
+<dt class="hdlist1"><code>-S</code></dt>
+<dd>
+<p>Output information about the password status for a specific account.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>These options are available only for root. To see the full list of options, refer to the man pages.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.2_01-GE">Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>For each of the following entries, indicate the file to which it refers:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>developer:x:1010:frank,grace,dave</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>root:x:0:0:root:/root:/bin/bash</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>henry:$1$.AbCdEfGh123456789A1b2C3d4.:18015:20:90:5:30::</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>henry:x:1000:1000:User Henry:/home/henry:/bin/bash</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>staff:!:dave:carol,emma</code></p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Observe the following output to answer the next seven questions:</p>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>cat /etc/passwd | tail -3</strong>
+dave:x:1050:1050:User Dave:/home/dave:/bin/bash
+carol:x:1051:1015:User Carol:/home/carol:/bin/sh
+henry:x:1052:1005:User Henry:/home/henry:/bin/tcsh
+# <strong>cat /etc/group | tail -3</strong>
+web_admin:x:1005:frank,emma
+web_developer:x:1010:grace,kevin,christian
+dave:x:1050:
+# <strong>cat /etc/shadow | tail -3</strong>
+dave:$6$AbCdEfGh123456789A1b2C3D4e5F6G7h8i9:0:20:90:7:30::
+carol:$6$q1w2e3r4t5y6u7i8AbcDeFgHiLmNoPqRsTu:18015:0:60:7:::
+henry:!$6$123456789aBcDeFgHa1B2c3d4E5f6g7H8I9:18015:0:20:5:::
+# <strong>cat /etc/gshadow | tail -3</strong>
+web_admin:!:frank:frank,emma
+web_developer:!:kevin:grace,kevin,christian
+dave:!::</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>What is the User ID (UID) and Group ID (GID) of <code>carol</code>?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What shell is set for <code>dave</code> and <code>henry</code>?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What is the name of the primary group of <code>henry</code>?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>What are the members of the <code>web_developer</code> group? Which of these are group administrators?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which user cannot log into the system?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Which user should change the password the next time he will log into the system?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>How many days must pass before a password change is required for <code>carol</code>?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.2_01-EE">Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Working as root, run the <code>useradd -m dave</code> command to add a new user account. What operations does this command perform? Assume that <code>CREATE_HOME</code> and <code>USERGROUPS_ENAB</code> in <code>/etc/login.defs</code> are set to yes.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Now that you have created the <code>dave</code> account, can this user login to the system?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Identify the User ID (UID) and Group ID (GID) of <code>dave</code> and all members of the <code>dave</code> group.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Create the <code>sys_admin</code>, <code>web_admin</code> and <code>db_admin</code> groups and identify their Group IDs (GIDs).</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Add a new user account named <code>carol</code> with UID 1035 and set <code>sys_admin</code> as its primary group and <code>web_admin</code> and <code>db_admin</code> as its secondary groups.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Delete the <code>dave</code> and <code>carol</code> user accounts and the <code>sys_admin</code>, <code>web_admin</code> and <code>db_admin</code> groups that you have previously created.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Run the <code>ls -l /etc/passwd /etc/group /etc/shadow /etc/gshadow</code> command and describe the output that it gives you in terms of file permissions. Which of these four files are shadowed for security reasons? Assume your system uses shadow passwords.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Run the <code>ls -l /usr/bin/passwd</code> command. Which special bit is set and what is its meaning?</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.2_01-SU">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this lesson, you learned:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The fundamentals of user and group management in Linux</p>
+</li>
+<li>
+<p>Manage user and group information stored in password and group databases</p>
+</li>
+<li>
+<p>Maintain the skeleton directory</p>
+</li>
+<li>
+<p>Add and remove user accounts</p>
+</li>
+<li>
+<p>Add and remove group accounts</p>
+</li>
+<li>
+<p>Change the password of user accounts</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The following commands were discussed in this lesson:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><code>useradd</code></dt>
+<dd>
+<p>Create a new user account.</p>
+</dd>
+<dt class="hdlist1"><code>groupadd</code></dt>
+<dd>
+<p>Create a new group account.</p>
+</dd>
+<dt class="hdlist1"><code>userdel</code></dt>
+<dd>
+<p>Delete a user account.</p>
+</dd>
+<dt class="hdlist1"><code>groupdel</code></dt>
+<dd>
+<p>Delete a group account.</p>
+</dd>
+<dt class="hdlist1"><code>passwd</code></dt>
+<dd>
+<p>Change the password of user accounts and control all aspects of password aging.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.2_01-AGE">Answers to Guided Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>For each of the following entries, indicate the file to which it refers:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>developer:x:1010:frank,grace,dave</code></p>
+<div class="paragraph">
+<p><code>/etc/group</code></p>
+</div>
+</li>
+<li>
+<p><code>root:x:0:0:root:/root:/bin/bash</code></p>
+<div class="paragraph">
+<p><code>/etc/passwd</code></p>
+</div>
+</li>
+<li>
+<p><code>henry:$1$.AbCdEfGh123456789A1b2C3d4.:18015:20:90:5:30::</code></p>
+<div class="paragraph">
+<p><code>/etc/shadow</code></p>
+</div>
+</li>
+<li>
+<p><code>henry:x:1000:1000:User Henry:/home/henry:/bin/bash</code></p>
+<div class="paragraph">
+<p><code>/etc/passwd</code></p>
+</div>
+</li>
+<li>
+<p><code>staff:!:dave:carol,emma</code></p>
+<div class="paragraph">
+<p><code>/etc/gshadow</code></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Observe the following output to answer the next seven questions:</p>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>cat /etc/passwd | tail -3</strong>
+dave:x:1050:1050:User Dave:/home/dave:/bin/bash
+carol:x:1051:1015:User Carol:/home/carol:/bin/sh
+henry:x:1052:1005:User Henry:/home/henry:/bin/tcsh
+# <strong>cat /etc/group | tail -3</strong>
+web_admin:x:1005:frank,emma
+web_developer:x:1010:grace,kevin,christian
+dave:x:1050:
+# <strong>cat /etc/shadow | tail -3</strong>
+dave:$6$AbCdEfGh123456789A1b2C3D4e5F6G7h8i9:0:20:90:7:30::
+carol:$6$q1w2e3r4t5y6u7i8AbcDeFgHiLmNoPqRsTu:18015:0:60:7:::
+henry:!$6$123456789aBcDeFgHa1B2c3d4E5f6g7H8I9:18015:0:20:5:::
+# <strong>cat /etc/gshadow | tail -3</strong>
+web_admin:!:frank:frank,emma
+web_developer:!:kevin:grace,kevin,christian
+dave:!::</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>What is the User ID (UID) and Group ID (GID) of <code>carol</code>?</p>
+<div class="paragraph">
+<p>The UID is 1051 and the GID is 1015 (the third and fourth fields in <code>/etc/passwd</code>).</p>
+</div>
+</li>
+<li>
+<p>What shell is set for <code>dave</code> and <code>henry</code>?</p>
+<div class="paragraph">
+<p><code>dave</code> uses /bin/bash and <code>henry</code> uses /bin/tcsh (the seventh field in <code>/etc/passwd</code>).</p>
+</div>
+</li>
+<li>
+<p>What is the name of the primary group of <code>henry</code>?</p>
+<div class="paragraph">
+<p>The group name is <code>web_admin</code> (the first field in <code>/etc/group</code>).</p>
+</div>
+</li>
+<li>
+<p>What are the members of the <code>web_developer</code> group? Which of these are group administrators?</p>
+<div class="paragraph">
+<p>The members are <code>grace</code>, <code>kevin</code> and <code>christian</code> (the fourth field in <code>/etc/group</code>), but only <code>kevin</code> is the administrator of the group (the third field in <code>/etc/gshadow</code>).</p>
+</div>
+</li>
+<li>
+<p>Which user cannot log into the system?</p>
+<div class="paragraph">
+<p>The <code>henry</code> user account is locked (it has an exclamation mark in front of the password hashes in <code>/etc/shadow</code>).</p>
+</div>
+</li>
+<li>
+<p>Which user should change the password the next time he will log into the system?</p>
+<div class="paragraph">
+<p>If the third field (Date of Last Password Change) in <code>/etc/shadow</code> is 0, the user should change his password the next time he will log into the system. Therefore, <code>dave</code> must change his password.</p>
+</div>
+</li>
+<li>
+<p>How many days must pass before a password change is required for <code>carol</code>?</p>
+<div class="paragraph">
+<p>60 days (the fifth field in <code>/etc/shadow</code>).</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sec.5.2_01-AEE">Answers to Explorational Exercises</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Working as root, run the <code>useradd -m dave</code> command to add a new user account. What operations does this command perform?
+Assume that <code>CREATE_HOME</code> and <code>USERGROUPS_ENAB</code> in <code>/etc/login.defs</code> are set to yes.</p>
+<div class="paragraph">
+<p>The command adds a new user, named <code>dave</code>, to the list of users in the system. The home directory of <code>dave</code> is created (by default <code>/home/dave</code>) and the files and directories contained in the skeleton directory are copied to the home directory. Finally, new group is created with the same name as the user account.</p>
+</div>
+</li>
+<li>
+<p>Now that you have created the <code>dave</code> account, can this user login to the system?</p>
+<div class="paragraph">
+<p>No, because the <code>dave</code> account is locked (see the exclamation mark in <code>/etc/shadow</code>).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>cat /etc/shadow | grep dave</strong>
+dave:!:18015:0:99999:7:::</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you set a password for <code>dave</code>, the account will be unlocked. You can do this using the <code>passwd</code> command.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>passwd dave</strong>
+Changing password for user dave.
+New UNIX password:
+Retype new UNIX password:
+passwd: all authentication tokens updated successfully.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Identify the User ID (UID) and Group ID (GID) of <code>dave</code> and all members of the <code>dave</code> group.</p>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>cat /etc/passwd | grep dave</strong>
+dave:x:1015:1019::/home/dave:/bin/sh
+# <strong>cat /etc/group | grep 1019</strong>
+dave:x:1019:</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The UID and GID of <code>dave</code> are 1015 and 1019 respectively (the third and fourth fields in <code>/etc/passwd</code>) and the <code>dave</code> group has no members (the fourth field in <code>/etc/group</code> is empty).</p>
+</div>
+</li>
+<li>
+<p>Create the <code>sys_admin</code>, <code>web_admin</code> and <code>db_admin</code> groups and identify their Group IDs (GIDs).</p>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>groupadd sys_admin</strong>
+# <strong>groupadd web_admin</strong>
+# <strong>groupadd db_admin</strong>
+# <strong>cat /etc/group | grep admin</strong>
+sys_admin:x:1020:
+web_admin:x:1021:
+db_admin:x:1022:</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The GIDs for the <code>sys_admin</code>, <code>web_admin</code> and <code>db_admin</code> groups are 1020, 1021 and 1022 respectively.</p>
+</div>
+</li>
+<li>
+<p>Add a new user account named <code>carol</code> with UID 1035 and set <code>sys_admin</code> as its primary group and <code>web_admin</code> and <code>db_admin</code> as its secondary groups.</p>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>useradd -u 1035 -g 1020 -G web_admin,db_admin carol</strong>
+# <strong>id carol</strong>
+uid=1035(carol) gid=1020(sys_admin) groups=1020(sys_admin),1021(web_admin),1022(db_admin)</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Delete the <code>dave</code> and <code>carol</code> user accounts and the <code>sys_admin</code>, <code>web_admin</code> and <code>db_admin</code> groups that you have previously created.</p>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>userdel -r dave</strong>
+# <strong>userdel -r carol</strong>
+# <strong>groupdel sys_admin</strong>
+# <strong>groupdel web_admin</strong>
+# <strong>groupdel db_admin</strong></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Run the <code>ls -l /etc/passwd /etc/group /etc/shadow /etc/gshadow</code> command and describe the output that it gives you in terms of file permissions. Which of these four files are shadowed for security reasons? Assume your system uses shadow passwords.</p>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>ls -l /etc/passwd /etc/group /etc/shadow /etc/gshadow</strong>
+-rw-r--r-- 1 root root    853 mag  1 08:00 /etc/group
+-rw-r----- 1 root shadow 1203 mag  1 08:00 /etc/gshadow
+-rw-r--r-- 1 root root   1354 mag  1 08:00 /etc/passwd
+-rw-r----- 1 root shadow 1563 mag  1 08:00 /etc/shadow</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>/etc/passwd</code> and <code>/etc/group</code> files are world readable and are shadowed for security reasons. When shadow passwords are used, you can see an <code>x</code> in the second field of these files because the encrypted passwords for users and groups are stored in <code>/etc/shadow</code> and <code>/etc/gshadow</code>, which are readable only by root and, in some systems, also by members belonging to the <code>shadow</code> group.</p>
+</div>
+</li>
+<li>
+<p>Run the <code>ls -l /usr/bin/passwd</code> command. Which special bit is set and what is its meaning?</p>
+<div class="listingblock">
+<div class="content">
+<pre># <strong>ls -l /usr/bin/passwd</strong>
+-rwsr-xr-x 1 root root 42096 mag 17  2015 /usr/bin/passwd</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>passwd</code> command has the SUID bit set (the fourth character of this line), which means that the command is executed with the privileges of the file&#8217;s owner (thus root). This is how ordinary users can change their password.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+        
+      </section>
+    </div>
+
+    <aside class="lesson__license smallprint">
+  <div class="container">
+    
+    <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+       This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+  </div>
+</aside>
+
+
+    
+    
+    <aside class="lesson__teaser teaser">
+      <div class="container teaser__container">
+        <h2 class="label">Next Lesson</h2>
+        <p class="headline teaser__headline">5.3 Managing File Permissions and Ownership (5.3 Lesson 1)</p>
+
+        <div class="button-group">
+            <a href="../../5.3/5.3_01/index.html" class="button -primary">Read next lesson</a>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+
+<div class="lesson-progress">
+  <div class="lesson-progress__current"></div>
+</div>
+
+      </main>
+    </td></tr></tbody>
+    <tfoot><tr><td class="print__cell">
+      <div class="print__space -footer"></div>
+    </td></tr></tfoot>
+  </table>
+
+  <table class="print-footer">
+  <tr class="print-footer__body">
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__image">
+    </td>
+    <td class="print-footer__cell -center">
+      <p>© 2020 Linux Professional Insitute Inc. All rights reserved. Visit the Learning Materials website: https://learning.lpi.org<br />
+         This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</p>
+    </td>
+    <td class="print-footer__cell -image">
+      <img src="index.html" alt="" class="print-footer__license">
+    </td>
+  </tr>
+</table>
+
+<footer class="footer">
+  <div class="container footer__container columns">
+    <div class="column">
+      <h2>LPI is a non-profit organization.</h2>
+      <p>Linux Professional Institute (LPI) is the global certification standard and career support organization for open source professionals. With more than 200,000 certification holders, it&#39;s the world’s first and largest vendor-neutral Linux and open source certification body. LPI has certified professionals in over 180 countries, delivers exams in multiple languages, and has hundreds of training partners.</p>
+      <p>Our purpose is to enable economic and creative opportunities for everybody by making open source knowledge and skills certification universally accessible.</p>
+    </div>
+
+    <div class="column">
+      <ul class="footer__social social">
+        <li class="social__item -linkedin">
+          <a class="social__link" href="https://www.linkedin.com/company/35136" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42.3 36" enable-background="new 0 0 42.3 36" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#010202" d="M33.3,0H2.7C1.2,0,0,1.2,0,2.6v30.8C0,34.8,1.2,36,2.7,36h30.7c1.5,0,2.7-1.2,2.7-2.6V2.6
+				C36,1.2,34.8,0,33.3,0z M10.7,30.7H5.3V13.5h5.3V30.7z M8,11.1c-1.7,0-3.1-1.4-3.1-3.1C4.9,6.3,6.3,5,8,5c1.7,0,3.1,1.4,3.1,3.1
+				C11.1,9.8,9.7,11.1,8,11.1z M30.7,30.7h-5.3v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.4v8.5H14V13.5h5.1v2.3h0.1
+				c0.7-1.4,2.5-2.8,5.1-2.8c5.4,0,6.4,3.6,6.4,8.2V30.7z"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#010202" points="37.5,28.5 38.2,28.5 38.2,30.7 38.6,30.7 38.6,28.5 39.3,28.5 39.3,28.1 37.5,28.1 		"/>
+		<polygon fill="#010202" points="41.7,28.1 41,30 40.3,28.1 39.7,28.1 39.7,30.7 40.1,30.7 40.1,28.8 40.9,30.7 41.1,30.7
+			41.9,28.8 41.9,30.7 42.3,30.7 42.3,28.1 		"/>
+	</g>
+</g>
+</svg>
+
+            <span class="social__link__text">LinkedIn</span>
+          </a>
+        </li>
+        <li class="social__item -facebook">
+          <a class="social__link" href="https://www.facebook.com/LPIConnect" target="_blank" rel="noreferrer">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<title>flogo-RGB-HEX-Blk-58</title>
+<path d="M34,0H2C0.9,0,0,0.9,0,2v32c0,1.1,0.9,2,2,2h17.3V22.1h-4.7v-5.4h4.7v-4c0-4.6,2.8-7.2,7-7.2c0,0,0,0,0,0c0,0,0,0,0,0
+	c0.4,0,0.9,0,1.3,0c0.3,0,0.5,0,0.8,0c0.7,0,1.4,0.1,2.1,0.2v4.9v0h-2.9c-0.3,0-0.5,0-0.8,0c-1.6,0.2-1.9,1.2-1.9,2.6v3.5h5.4
+	l-0.7,5.4h0l0,0h-4.7V36H34c1.1,0,2-0.9,2-2V2C36,0.9,35.1,0,34,0z"/>
+</svg>
+
+            <span class="social__link__text">Facebook</span>
+          </a>
+        </li>
+        <li class="social__item -twitter">
+          <a class="social__link" href="https://twitter.com/lpiconnect" target="_blank" rel="noreferrer">
+            <svg version="1.1" id="Logo_FIXED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<path d="M11.3,32.6c13.6,0,21-11.3,21-21c0-0.3,0-0.6,0-1c1.4-1,2.7-2.3,3.7-3.8c-1.3,0.6-2.8,1-4.2,1.2c1.5-0.9,2.7-2.4,3.2-4.1
+	c-1.4,0.9-3,1.5-4.7,1.8c-2.8-3-7.5-3.1-10.5-0.3c-1.9,1.8-2.7,4.5-2.1,7.1C11.8,12.1,6.3,9.3,2.5,4.7c-2,3.4-1,7.7,2.3,9.9
+	c-1.2,0-2.3-0.4-3.4-0.9c0,0,0,0.1,0,0.1c0,3.5,2.5,6.5,5.9,7.2c-1.1,0.3-2.2,0.3-3.3,0.1c1,3,3.7,5.1,6.9,5.1
+	c-2.6,2.1-5.8,3.2-9.2,3.2c-0.6,0-1.2,0-1.8-0.1C3.4,31.5,7.3,32.6,11.3,32.6"/>
+</svg>
+
+            <span class="social__link__text">Twitter</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer__secondary">
+    <ul class="footer__links">
+      <li><a href="https://www.lpi.org/about-lpi/contact-us" class="footer__link" target="_blank" rel="noreferrer">Contact Us</a></li>
+      <li><a href="https://www.lpi.org/privacy-and-cookie-policy" class="footer__link" target="_blank" rel="noreferrer">Privacy and Cookie Policy</a></li>
+    </ul>
+
+    <p><strong>Spot a mistake or want to help improve this page? Please <a href="https://www.lpi.org/about-lpi/contact-us" target="_blank" rel="noreferrer">let us know</a>.</strong></p>
+    <p>© Copyright 1999-2020 The Linux Professional Institute Inc. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  
+  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" type="application/javascript"></script>
+  <script src="../../../../../../js/bundle.js"></script>
+</body>
+</html>
