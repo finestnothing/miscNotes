@@ -25,6 +25,10 @@
   - [Shared Object File Naming Conventions](#shared-object-file-naming-conventions)
     - [Configuration of Shared Library paths](#configuration-of-shared-library-paths)
     - [Searching for dependencies of a particualar executable](#searching-for-dependencies-of-a-particualar-executable)
+  - [102.4 Using Debian Package management](#1024-using-debian-package-management)
+    - [The Debian Package Tool (dpkg)](#the-debian-package-tool-dpkg)
+    - [Dealing with dependencies](#dealing-with-dependencies)
+    - [Removing Packages](#removing-packages)
 
 ## 102.1-Design had disk layout
 
@@ -203,3 +207,19 @@ The `ldconfig` config command takes care of reading the config files, creating a
 ### Searching for dependencies of a particualar executable
 
 Use the `ldd` command followed by the absolute path of the program. For example, `ldd /usr/bin/git` for the dependenvies for git.
+
+## 102.4 Using Debian Package management
+
+### The Debian Package Tool (dpkg)
+
+The `dpkg` tool is used to install, configure, maintain, and remove software packages on a debian-based system. The most basic operation is to install a `.deb` package which can be done with `dkpg -i PACKAGENAME` where `PACKAGENAME` is the .deb file to be installed.
+
+### Dealing with dependencies
+
+`DPKG` Automatically checks if the needed dependencies are installed yet, if not then it will fail to install the program. It is up to the user to install the dependencies.
+
+### Removing Packages
+
+Use the -r paramaeter followed by the package name such as `dpkg -r unrar`
+
+The removal operation also runs a dependency check, and you cannot remove a package until any other program that depends on it is removed. 
