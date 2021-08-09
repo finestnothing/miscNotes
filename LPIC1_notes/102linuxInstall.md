@@ -19,6 +19,12 @@
     - [GRUB 2](#grub-2)
     - [Managing Menu Entries](#managing-menu-entries)
     - [Booting from GRUB 2 shell](#booting-from-grub-2-shell)
+  - [102.3 Linux Installation and Package Management](#1023-linux-installation-and-package-management)
+    - [Introduction](#introduction)
+    - [Concept of shared Libraries](#concept-of-shared-libraries)
+  - [Shared Object File Naming Conventions](#shared-object-file-naming-conventions)
+    - [Configuration of Shared Library paths](#configuration-of-shared-library-paths)
+    - [Searching for dependencies of a particualar executable](#searching-for-dependencies-of-a-particualar-executable)
 
 ## 102.1-Design had disk layout
 
@@ -155,3 +161,45 @@ From there, we need to run the following commands:
 And the system should boot correctly. If not, see booting from Grub Rescue Shell.
 
 Website also goes over GRUB Rescure Shell, Setting up GRUB legacy, and chainloading operating systems.
+
+## 102.3 Linux Installation and Package Management
+
+### Introduction
+
+This lesson will go over shared libraries, also known as shared objects. These are pieces of compiled code that get used by multiple programs.
+
+### Concept of shared Libraries
+
+Static libraries: A static library is merged with the program at link time. A copy of the library code gets embedded into the program and becomes part of it. This makes it so the program has no dependencies on the library at runtime since all the requisite files are already in the attached library. This is an advantage, but comes at the cost of being a far heavier program
+
+Shared(or dynamic) libraries: The linker takes care that the program references libraries, but does not copy any library code into the program. The shared library is then a dependency for the program, but the program is much lighter and you only need one copy of the library instead of a copy embedded in each program.
+
+## Shared Object File Naming Conventions
+
+Made up of three parts:
+
+- Library name (normally prefixed with `lib`)
+- `so` (stands for shared object)
+- Version number of the Library
+
+Example: `libpthread.so.0`
+
+By contrast, static library names are suffixed with an a: `libpthread.a`
+
+Common shared libraries in a linux system:
+
+- `/lib`
+- `/lib32`
+- `/lib64`
+- `/usr/lib`
+- `/usr/local/lib`
+
+### Configuration of Shared Library paths
+
+References in dynamically linked programd are resolved by the dynamic linker (ld.so or ld-linux.so) when the program is run. The dynamic linker searches for libraries in a number of directories, specified in the *library path*. The library path is configured in the `/etc` directory, specifically the `/etc/ld.so.conf` or more commonly in files in the `/etc/ld.so.conf.d` directory. The ld.so.conf file often includes `include` statements for the other files. For example: `include /etc/ld.so.conf.d/*.conf` to include all files.
+
+The `ldconfig` config command takes care of reading the config files, creating a set of symbolic links to help located the individual libraries, and updates the cache file `/etc/ld.so.cache`. Because of this, `ldconfig` has to be run every time config files are added or updated.
+
+### Searching for dependencies of a particualar executable
+
+Use the `ldd` command followed by the absolute path of the program. For example, `ldd /usr/bin/git` for the dependenvies for git.
