@@ -7,6 +7,7 @@
     - [CSc 133 - Object Oriented Computer Graphics Programming](#csc-133---object-oriented-computer-graphics-programming)
     - [CSc 138 - Computer Networking Fundamentals](#csc-138---computer-networking-fundamentals)
     - [CSc 139 - Operating System Principles](#csc-139---operating-system-principles)
+    - [CSc 174 - Advanced Database Management systems](#csc-174---advanced-database-management-systems)
     - [CSc 180 - Intelligent Systems](#csc-180---intelligent-systems)
     - [CSc 190 - Senior Project](#csc-190---senior-project)
     - [CSc 196W - Web Programming](#csc-196w---web-programming)
@@ -26,6 +27,10 @@
 ### CSc 139 - Operating System Principles
 
 [mainNotes](fall2021/CSc139/mainNotes.md)
+
+### CSc 174 - Advanced Database Management systems
+
+[mainNotes](fall2021/CSc174/mainNotes.md)
 
 ### CSc 180 - Intelligent Systems
 
