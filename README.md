@@ -32,6 +32,8 @@
 
 [mainNotes](fall2021/CSc174/mainNotes.md)
 
+[lecture 1](fall2021/CSc174/lecture1.md)
+
 ### CSc 180 - Intelligent Systems
 
 [mainNotes](fall2021/CSc180/mainNotes.md)
