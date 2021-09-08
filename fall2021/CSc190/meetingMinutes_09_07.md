@@ -25,7 +25,7 @@ Important Note: Justin has abandoned us. Chloe was late by almost a minue. Help 
 
 ## Scheduling
 
-Tuesday seems to be the best time overall. 7pm if Justin doesn't have recurring events, if so then alternate weeks 5:40pm/7:00PM.
+Tuesday seems to be the best time overall. 7pm works for everyone so that will be the time we meet on Tuesdays.
 
 At least 3 people free most of the time during the day to meet with clients when needed. Jose said he will be the team lead.
 
