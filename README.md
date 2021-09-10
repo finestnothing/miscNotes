@@ -33,7 +33,7 @@
 
 ### CSc 190 - Senior Project
 
-[mainNotes](fall2021/CSc190/mainNotes.md)
+[Meeting Minutes 09/07](fall2021/CSc190/meetingMinutes_09_07.md)
 
 ### CSc 196W - Web Programming
 
