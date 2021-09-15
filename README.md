@@ -29,11 +29,11 @@
 
 ### CSc 180 - Intelligent Systems
 
-[mainNotes](fall2021/CSc190/meetingMinutesREADME.md)
+[mainNotes](fall2021/CSc180/mainNotes.md)
 
 ### CSc 190 - Senior Project
 
-[Meeting Minutes 09/07](fall2021/CSc190/meetingMinutes_09_07.md)
+[Meeting Minutes](fall2021/CSc190/meetingMinutesREADME.md)
 
 ### CSc 196W - Web Programming
 
