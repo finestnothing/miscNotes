@@ -29,7 +29,7 @@
 
 ### CSc 180 - Intelligent Systems
 
-[mainNotes](fall2021/CSc180/mainNotes.md)
+[mainNotes](fall2021/CSc190/meetingMinutesREADME.md)
 
 ### CSc 190 - Senior Project
 
