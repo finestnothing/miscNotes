@@ -21,7 +21,7 @@
 
 ### CSc 138 - Computer Networking Fundamentals
 
-[mainNotes](fall2021/CSc138/mainNotes.md)
+[README](fall2021/CSc138/README.md)
 
 ### CSc 139 - Operating System Principles
 
