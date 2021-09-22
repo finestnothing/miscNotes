@@ -12,6 +12,7 @@ function moo(){
 window.onload = init;
   function init(){
     document.getElementById("fancyShmancy").addEventListener("change", radioUpdate);
+    document.getElementById("boringBetty").addEventListener("change", radioUpdate);
   }
 })(window, document, undefined);
 
@@ -20,6 +21,7 @@ function radioUpdate() {
     if (radioVal == "fancy") {
         document.getElementById("textInput").style.fontWeight = "bold";
         document.getElementById("textInput").style.color = "blue";
+        document.getElementById("textInput").style.textDecoration = "underline";
     }
     else {
         document.getElementById("textInput").style.fontWeight = "normal";
