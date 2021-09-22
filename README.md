@@ -21,15 +21,16 @@
 
 ### CSc 138 - Computer Networking Fundamentals
 
-[README](fall2021/CSc138/README.md)
+[Lab1](fall2021/CSc138/lab1.md)
+[lab1 packet output](fall2021/CSc138/wireshark_lab1_packetPrint.pdf)
 
 ### CSc 139 - Operating System Principles
 
-[mainNotes](fall2021/CSc139/mainNotes.md)
+[HW01](fall2021/CSc139/hw01.md)
 
 ### CSc 180 - Intelligent Systems
 
-[mainNotes](fall2021/CSc180/mainNotes.md)
+No links yet
 
 ### CSc 190 - Senior Project
 
