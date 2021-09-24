@@ -7,3 +7,5 @@
 [09_15_2021 client meeting](clientMeeting_09_15.md)
 
 [09_21_2021 client meeting](clientMeeting_09_21.md)
+
+[09_23_2021 lab meeting](labMeeting_09_23.md)
