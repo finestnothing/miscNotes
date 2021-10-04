@@ -24,5 +24,5 @@
     2. 128.119.245.12 (page 7, #5)
     3. 178.79.137.164 (page 7, #6)
 17. Downloaded in parallel. HTTP get for second page was sent 0.7 seconds after the first page HTTP get was sent despite it taking several seconds to load in the browser. (page 7, #7)
-
-## Need to finish 18 and 19
+18. 401: Unauthorized (page 8, #1)
+19. Authorization is added, with credentials. (page 9, #1)
