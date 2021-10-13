@@ -15,6 +15,14 @@
    3. An API defines routines for sending and receiving information such as a getWeather() function to retrieve weather information.
 8. What are 5 general key functions and responsibilites of an OS?
 9. OS commands can be purely textual, or completely graphical. Explain pros and cons. Name a sample OS for both types.
+   1. Textual Pro's:
+      1. More flexibility, can chain command together, universal use
+   2. Textual Con's:
+      1. Harder to use and steeper learning curve.
+   3. Graphical Pros:
+      1. Easier to use, can be repeated easily
+   4. Graphical Cons:
+      1. Much less flexibility (stuck with what has been implemented graphically), slower.
 10. What is the meaning of `Information Hiding`? How is this related to OS?
 11. Briefly contrast ages, origins, and uses of MS-DOS, Unix BSD, and Linux.
 12. Write a description of the C++ function `system()`.
