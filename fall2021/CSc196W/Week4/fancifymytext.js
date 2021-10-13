@@ -26,5 +26,6 @@ function radioUpdate() {
     else {
         document.getElementById("textInput").style.fontWeight = "normal";
         document.getElementById("textInput").style.color = "black";
+        document.getElementById("textInput").style.textDecoration = "none";
     }
 };
