@@ -29,7 +29,7 @@
 3. Write a concise description of the C/C++ function `fflush()`.  
    - Takes everything from buffer (output stream only) and throws it. Main purpose is to move to data/console/disk and clear the current output.
 4. Make a concise description of the Unix/Linux OS command `whoami`. Also try `WHOAMI` on windows, describe result.
-   - Returns the username of the current user. Gives a large amount of files when used on windows, normally used on Unix
+   - Returns the username of the current user. Returned alec-pc\alecr
 5. Write a C++ program `system1` that calls the library function `system()`. Issue 3 distinct calls to `system()` with a single argument from: `ls`, `pwd`, and `whoami`. Show source and generated outputs. Describe.
     ```c++
     #include <stdio.h>
@@ -53,6 +53,7 @@
     /home/alec/notesRepo/fall2021/CSc139
     alec
     ```
+    All commands worked as if they were run in terminal where the file was located.
 6. Write the C or C++ program `system2` that reads, when being executed, OS commands via the “command line parameter” C/C++ feature, and then executes them. The command line parameters must be legal Unix/Linux commands. Print the number of commands entered. To prepare, read about `argc`, `argv`, and `envp`. Focus is only argc and argv.
     ```c++
     #include <iostream>
