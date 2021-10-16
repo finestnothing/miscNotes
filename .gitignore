@@ -2,3 +2,4 @@
 **/yelp_dataset/**
 *.tsv
 *.csv
+*.hdf5

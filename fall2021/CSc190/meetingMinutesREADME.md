@@ -15,3 +15,5 @@
 [10_07_2021 lab meeting](labMeeting_10_07.md)
 
 [10_12_2021 client meeting](clientMeeting_10_12.md)
+
+[Traffic Signal Feed Video Notes](trafficSignalFeedVideo_notes.md)
