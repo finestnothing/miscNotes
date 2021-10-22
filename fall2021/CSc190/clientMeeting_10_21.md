@@ -2,6 +2,12 @@
 
 Jose: Reagan, Alan, and Justin are not the droids you are looking for... they aren't even here you dumb stormtrooper.
 
+- [Client Meeting 10-21-2021](#client-meeting-10-21-2021)
+  - [Going over understanding document](#going-over-understanding-document)
+  - [Wants us to meet with Walt Fehr next week](#wants-us-to-meet-with-walt-fehr-next-week)
+  - [For Chloe: Cybersecurity aspect](#for-chloe-cybersecurity-aspect)
+  - [Planning/Future](#planningfuture)
+
 ## Going over understanding document
 
 Wants us to set up an intersection, make ring and barrier diagram and map out the intersection we plan to set up feeds.
