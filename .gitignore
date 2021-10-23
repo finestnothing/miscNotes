@@ -3,3 +3,4 @@
 *.tsv
 *.csv
 *.hdf5
+**/wireshark-traces/**
