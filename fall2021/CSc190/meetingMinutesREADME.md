@@ -19,3 +19,5 @@
 [Traffic Signal Feed Video Notes](trafficSignalFeedVideo_notes.md)
 
 [10_21_2021 Client Meeting](clientMeeting_10_21.md)
+
+[10_26_2021 Client Meeting](clientMeeting_10_26.md)
