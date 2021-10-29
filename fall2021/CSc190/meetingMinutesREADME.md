@@ -21,3 +21,5 @@
 [10_21_2021 Client Meeting](clientMeeting_10_21.md)
 
 [10_26_2021 Client Meeting](clientMeeting_10_26.md)
+
+[10_28_2021 lab meeting](labMeeting_10_28.md)
