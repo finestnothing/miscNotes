@@ -23,13 +23,14 @@ We also will be uploading data directly to a database that is already in use by 
 
 ### Data Set
 
-I plan to use data from [Kaggle's Traffic Light Classification Competition Dataset](https://www.kaggle.com/c/traffic-lights-classification/data) for training the model.
+I plan to use data from [https://hci.iwr.uni-heidelberg.de/content/bosch-small-traffic-lights-dataset](https://hci.iwr.uni-heidelberg.de/content/bosch-small-traffic-lights-dataset) for testing and training the model.
 I will also use video captured by our project for manual testing.
 Several video feeds are already set up for testing and training use, and we have the hardware to capture more if needed.
 
 ### Algorithm Design
 
 The algorithm for this project is most likely to be a CNN for image classification, but this may change since we are using Intel Compute Sticks on Raspberry Pi Zeroes for image capturing and processing.
+I will also compare CNN with and without transfer learning based on models from [https://keras.io/api/applications](https://keras.io/api/applications).
 
 We have been unable to find an existing algorithm for outputting the data that we need, and we need one compatible with our specific hardware to keep it low cost and scalable.
 Most algorithms will identiy a single traffic light, but we need to capture multiple traffic lights in one image, and get the classification of each.

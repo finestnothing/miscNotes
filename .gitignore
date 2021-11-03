@@ -4,3 +4,4 @@
 *.csv
 *.hdf5
 **/wireshark-traces/**
+**/traffic_light_**/**
