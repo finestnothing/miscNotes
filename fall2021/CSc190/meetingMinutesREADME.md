@@ -27,3 +27,5 @@
 [11_02_2021 Client Meeting](clientMeeting_11_02.md)
 
 [11_06_2021 Client Meeting](clientMeeting_11_06.md)
+
+[11_09_2021 Client Meeting](clientMeeting_11_09.md)
