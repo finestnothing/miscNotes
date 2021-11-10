@@ -35,17 +35,19 @@ public class Schedulers {
         hpf.print();
 
         // RR Scheduler
-        int quantum = 3;
-        for(int j = 0; j < quantum; j++){
+        int quantumMax = 3;
+        for(int quantum = 1; quantum <= quantumMax; quantum++) { 
+            for(int j = 0; j < quantum; j++){
 
-            RRScheduler rr = new RRScheduler(quantum,j);
-            for(Job i : jobs) {
-                rr.addJob(i);
+                RRScheduler rr = new RRScheduler(quantum,j);
+                for(Job i : jobs) {
+                    rr.addJob(i);
+                }
+                rr.run();
+                rr.print();
             }
-            rr.run();
-            rr.print();
-        }
 
         input.close();
+        }
     }
 }

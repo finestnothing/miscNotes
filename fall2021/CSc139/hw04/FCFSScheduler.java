@@ -27,7 +27,7 @@ public class FCFSScheduler {
     }
 
     public void print(){
-        System.out.println("HPF Process Execution Order:");
+        System.out.println("FCFS Process Execution Order:");
         // Print out the jobs
         for(Job i:jobs){
             System.out.println(i.toString());

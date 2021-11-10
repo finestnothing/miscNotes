@@ -5,7 +5,7 @@ public class Job implements Comparable<Job>{
     private int time;
     private int priority;
     private int delay = 0;
-    private Job nextSlice = new Job(-1, 0, 0);
+    public Job nextSlice = null;
 
     public Job(int id, int time, int priority) {
         this.id = id;

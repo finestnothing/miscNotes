@@ -3,9 +3,10 @@ package CSc139.hw04;
 public class RRScheduler {
     private Job[] jobs = new Job[0];
     private int timePassed = 0;
-    private int totalWaitTime = 0;
     private int quantum;
     private int overhead;
+    private int numJobs;
+    private int totalTATime = 0;;
 /*
 
 Need to handle RR overhead
@@ -31,6 +32,7 @@ Need to handle RR overhead
     }
     
     public void run(){
+        this.numJobs = jobs.length;
         boolean updated = false;
         do{
             updated = false;
@@ -54,23 +56,23 @@ Need to handle RR overhead
     }
 
     public void print(){
-        System.out.printf("RR Process Execution, quantum = %d, overhead = %d%n", quantum, overhead);
-        // Print out the jobs
-        for(Job i:jobs){
-            System.out.println(i.toString());
-        }
-        for(Job i:jobs){
-            System.out.printf("RR delay for p%d = %d ms%n", i.getId(), i.getDelay());
-            this.totalWaitTime += i.getDelay();
-        }
-        System.out.printf("Preemptive RR schedule, quantum = %d, overhead = %d%n", quantum, overhead);
-
-        // Need to work out time finished for each process id
-
-        // Need initial length by process id
-
-        // Need number of slices by id
+        System.out.printf("Preemptive RR Process Execution, quantum = %d, overhead = %d%n", quantum, overhead);
         
-        System.out.println("<><> end RR <><>");
+        for(int i = 0; i < numJobs; i ++){
+            Job tempJob = jobs[i];
+            int totalTime = tempJob.getTime() + tempJob.getDelay();
+            int totalSlices = 1;
+            while(tempJob.nextSlice != null){
+                tempJob = tempJob.nextSlice;
+                totalTime += tempJob.getTime() + tempJob.getDelay();
+                totalSlices++;
+            }
+            totalTATime = totalTime;
+            System.out.printf("RR TA time for finished p%d = %d, and: %d time slices%n", tempJob.getId(), totalTime, totalSlices);
+        }
+        
+        System.out.printf("RR Throughput with quantum %d, overhead %d is %.5f p/ms%n", quantum, overhead, (double)numJobs/timePassed);
+        System.out.printf("Average RR TA with quantum %d, overhead %d is %.5f%n", quantum, overhead, (double)totalTATime/numJobs);
+        System.out.println("<><> end RR <><>%n");
     }
 }
