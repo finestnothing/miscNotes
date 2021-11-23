@@ -1,0 +1,68 @@
+# Outline of changes for A3
+
+- Draw function for all 4 gameObjects  
+    - All bounding boxes are squares, but each object has a different shape
+    - Flag: filled isosceles triangles
+        - size is length and height of triangles
+        - Also shows the flag number (from drawString())
+    - Foodstations: filled squares
+        - size is length and height of squares
+        - Also shows capacity (from drawString())
+    - Ant: filled circles
+        - size is diameter
+    - spiders: unfilled isocleses triangles
+    - Interface IDrawable:
+        - draw(Graphics g, Point pCmpRelPrnt)
+        - GameObject will implement this
+- mapView will display game contents graphically
+    - When mapView update is invoked, call repaint()
+        - paint() will iterate through all objects and draw their new locations
+- Enforce size of game area
+- automatic ticks rather than 1 at a time  
+    - Using UITimer build in class
+    - Game should implement Runnable (built in interface)
+    - Each tick of UITimer invokes the tick() method
+    - Movement needs to be based on elapsed time (20ms etc)
+        - Experiment to get an fair movement speed
+    - Play/pause button
+        - UITimer starts when schedule() is called
+        - UITimer stops when cancel() is called
+        - To restart, call schedule() again
+        - For toggle, need to determine if UITimer is running
+- Collision Detection
+    - Need interface ICollider
+        - Declares collidesWith(ICollider other)
+        - Declares handleCollision(ICollider other)
+    - When ant moves, check if it is colliding with any other object
+        - If so, call the appropriate collision method in GameWorld
+            - FoodStation: eatFood()
+            - Flag: flagCollision()
+            - Spider: spiderCollision()
+        - Add object to list of of recently collided objects (to be cleared after several ticks)
+            - This is to prevent multiple collisions from happening in a single tick or before ant can move away
+        - All collisions require a sound
+            - Spider: squeak?
+            - Flag: Cheering?
+            - FoodStation: Crunch?
+- Remove the simulate buttons, commands, and keybinds
+    - spider collision
+    - flag collision
+    - foodstation collision
+    - tick()
+- Sound
+    - sound on/off function updates
+    - sounds for collisions (see above)
+    - ambient sound: eye of the tiger?
+- Game Modes
+    - Play and pause
+        - Play: UITimer starts, sounds on, etc. Normal gameplay.
+        - Pause
+            - UITimer stops, sounds off, no movement
+            - Make all objects selectable with an ISelectable interface (see below)
+    - ISelectable Interface
+        - For fixed objects, flags and foodstations
+        - When selected, highlight object with an unfilled matching shape
+        - Only one object can be selected at a time, if clicking outside of selected object, deselect the current shape
+        - Allows user to perform certain actions (empty, fill, activate flag, etc)
+        - When switching back to play, deselect object
+- UML diagram
