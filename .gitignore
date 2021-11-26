@@ -5,3 +5,4 @@
 *.hdf5
 **/wireshark-traces/**
 **/traffic_light_**/**
+**/rgb/**
