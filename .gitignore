@@ -1,8 +1,8 @@
 **/.ipynb_checkpoints/**
 **/yelp_dataset/**
-*.tsv
-*.csv
-*.hdf5
+**/CSc180/**/*.tsv
+**/CSc180/**/*.csv
+**/CSc180/**/*.hdf5
 **/wireshark-traces/**
 **/traffic_light_**/**
 **/rgb/**
