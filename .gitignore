@@ -6,3 +6,8 @@
 **/wireshark-traces/**
 **/traffic_light_**/**
 **/rgb/**
+**/images/**
+**/dataset/**/*.png
+**/dataset/**/*.txt
+**/yolov5/
+*.cache
