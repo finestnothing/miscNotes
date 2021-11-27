@@ -7,7 +7,7 @@
 **/traffic_light_**/**
 **/rgb/**
 **/images/**
-**/dataset/**/*.png
-**/dataset/**/*.txt
+*.png
+*.txt
 **/yolov5/
 *.cache

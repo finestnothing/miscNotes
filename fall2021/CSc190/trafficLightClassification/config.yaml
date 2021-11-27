@@ -1,6 +1,6 @@
-path: ../
-train: imagesSubset/
-val: labels/
+path: dataset/
+train: train/
+val: train/
 
 nc: 13
 
