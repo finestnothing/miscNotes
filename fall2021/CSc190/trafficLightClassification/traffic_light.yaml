@@ -1,0 +1,7 @@
+path: ../dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 13
+names: ['Yellow', 'RedLeft', 'Red', 'GreenLeft', 'Green', 'off', 'GreenRight', 'GreenStraight', 'GreenStraightRight', 'RedRight', 'RedStraight', 'RedStraightLeft', 'GreenStraightLeft']

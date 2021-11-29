@@ -11,3 +11,4 @@
 *.txt
 **/yolov5/
 *.cache
+**/models/**

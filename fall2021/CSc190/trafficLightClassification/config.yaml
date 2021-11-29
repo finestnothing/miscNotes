@@ -1,7 +1,0 @@
-path: dataset/
-train: train/
-val: train/
-
-nc: 13
-
-names: ['Yellow', 'RedLeft', 'Red', 'GreenLeft', 'Green', 'off', 'GreenRight', 'GreenStraight', 'GreenStraightRight', 'RedRight', 'RedStraight', 'RedStraightLeft', 'GreenStraightLeft']
