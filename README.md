@@ -1,5 +1,7 @@
 # Table of Contents
 
+## Author: Alec Resha
+
 [Link to Github Pages View](https://finestnothing.github.io/notesRepo/)
 
 - [Table of Contents](#table-of-contents)
