@@ -3,7 +3,5 @@ train: train/images
 val: val/images
 test: test/images
 
-nc: 13
-names: ['Yellow', 'RedLeft', 'Red', 'GreenLeft', 'Green', 
-'off', 'GreenRight', 'GreenStraight', 'GreenStraightRight', 
-'RedRight', 'RedStraight', 'RedStraightLeft', 'GreenStraightLeft']
+nc: 14
+names: ['Green', 'GreenLeft', 'GreenStraight', 'GreenRight', 'GreenStraightRight', 'GreenStraightLeft', 'Red', 'RedLeft', 'RedStraight', 'RedRight', 'RedStraightLeft', 'Yellow', 'YellowLeft', 'off']
