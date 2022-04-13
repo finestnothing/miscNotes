@@ -12,3 +12,5 @@
 **/yolov5/
 *.cache
 **/models/**
+*.csv
+**/data/**
